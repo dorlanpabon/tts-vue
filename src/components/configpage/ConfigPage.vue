@@ -25,7 +25,7 @@
             @click="openFolderSelector"
           >
             <template #append>
-              <el-button type="primary" @click="savePathConfig">确认</el-button>
+              <el-button type="primary" @click="savePathConfig">{{ t('configPage.confirm') }}</el-button>
             </template>
           </el-input>
         </el-form-item>
@@ -247,7 +247,7 @@ const openFolderSelector = async () => {
 
 const successMessage = () => {
   ElMessage({
-    message: "保存成功，请点击“刷新配置”立即应用。",
+    message: t('configPage.saveApplied'),
     type: "success",
     duration: 2000,
   });
@@ -259,7 +259,7 @@ const handleDelete = (index: any, row: any) => {
   ttsStore.genFormConfig();
 
   ElMessage({
-    message: "删除成功，请点击“刷新配置”立即应用。",
+    message: t('configPage.deleteSuccess'),
     type: "success",
     duration: 2000,
   });
@@ -276,7 +276,7 @@ const openLogs = () => {
 const openLogFolder = () => {
   ipcRenderer.send("openLogFolder");
   ElMessage({
-    message: "正在打开日志文件夹，请手动清理！",
+    message: t('configPage.openLogFolderHint'),
     type: "error",
     duration: 10000,
   });

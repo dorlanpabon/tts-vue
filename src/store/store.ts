@@ -4,6 +4,8 @@ import { defineStore } from "pinia";
 import { getTTSData, getDataGPT } from "./play";
 import { ElMessage, ElMessageBox } from "element-plus";
 import { h } from "vue";
+import i18n from "@/assets/i18n/i18n";
+const { t } = i18n.global;
 const fs = require("fs");
 const path = require("path");
 const Store = require("electron-store");
@@ -23,6 +25,20 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const store = new Store();
+
+// Mapea errores tecnicos de TTS a mensajes localizados para la UI.
+// Cubre 429 (cuota gratuita agotada, verificado: Retry-After ~24h) y
+// 403 (endpoint gratuito denegando, issue #201 del repo original).
+function ttsErrorMessage(err: any, fallbackKey = "messages.convertFailed"): string {
+  const s = String((err && (err as any).message) || err);
+  if (s.includes("TTS_RATE_LIMITED") || /status code 429/.test(s)) {
+    return t("messages.rateLimited");
+  }
+  if (s.includes("TTS_ACCESS_DENIED") || /status code 403/.test(s)) {
+    return t("messages.accessDenied");
+  }
+  return `${t(fallbackKey)}\n${s}`;
+}
 // 定义并导出容器，第一个参数是容器id，必须唯一，用来将所有的容器
 // 挂载到根容器上
 export const useTtsStore = defineStore("ttsStore", {
@@ -33,13 +49,13 @@ export const useTtsStore = defineStore("ttsStore", {
         inputValue: "¡Hola pues! ¿Cómo estás?\nProbando la mejor voz de Colombia.",
         ssmlValue: "¡Hola pues! ¿Cómo estás?\nProbando la mejor voz de Colombia.",
       },
-      formConfig: store.get("FormConfig.默认"),
+      formConfig: store.get("FormConfig.Colombia") || store.get("FormConfig.默认"),
       page: {
         asideIndex: "1",
         tabIndex: "1",
       },
       tableData: <any>[], // 文件列表的数据
-      currConfigName: "默认", // 当前配置的名字
+      currConfigName: "Colombia", // 当前配置的名字
       config: {
         language: store.get("language"),
         formConfigJson: store.get("FormConfig"),
@@ -180,7 +196,7 @@ export const useTtsStore = defineStore("ttsStore", {
           this.setSSMLValue();
           console.log(res);
           ElMessage({
-            message: "Response Success!",
+            message: t("messages.gptSuccess"),
             type: "success",
             duration: 2000,
           });
@@ -189,7 +205,7 @@ export const useTtsStore = defineStore("ttsStore", {
         .catch((err: any) => {
           console.error(err);
           ElMessage({
-            message: "转换失败\n" + String(err),
+            message: ttsErrorMessage(err, "messages.gptFailed"),
             type: "error",
             duration: 3000,
           });
@@ -272,7 +288,7 @@ export const useTtsStore = defineStore("ttsStore", {
               ipcRenderer.send("log.error", error);
               this.isLoading = false;
               ElMessage({
-                message: "网络异常！\n" + String(error),
+                message: ttsErrorMessage(error, "messages.networkError"),
                 type: "error",
                 duration: 3000,
               });
@@ -314,7 +330,7 @@ export const useTtsStore = defineStore("ttsStore", {
               this.isLoading = false;
               console.error(err);
               ElMessage({
-                message: "转换失败\n" + String(err),
+                message: ttsErrorMessage(err),
                 type: "error",
                 duration: 2000,
               });
@@ -323,8 +339,8 @@ export const useTtsStore = defineStore("ttsStore", {
         if (resFlag) {
           ElMessage({
             message: this.config.autoplay
-              ? "成功，正在试听~"
-              : "成功，请手动播放。",
+              ? t("messages.successPlaying")
+              : t("messages.successManual"),
             type: "success",
             duration: 2000,
           });
@@ -414,7 +430,7 @@ export const useTtsStore = defineStore("ttsStore", {
                     ipcRenderer.send("log.error", error);
                     this.isLoading = false;
                     ElMessage({
-                      message: "转换失败\n" + String(error),
+                      message: ttsErrorMessage(error),
                       type: "error",
                       duration: 3000,
                     });
@@ -429,7 +445,7 @@ export const useTtsStore = defineStore("ttsStore", {
                 this.setDoneStatus(item.filePath);
                 if (resFlag) {
                   ElMessage({
-                    message: "成功，正在写入" + filePath,
+                    message: t("messages.writeSuccess") + filePath,
                     type: "success",
                     duration: 2000,
                   });
@@ -453,7 +469,7 @@ export const useTtsStore = defineStore("ttsStore", {
                     fs.writeFileSync(filePath, mp3buffer);
                     this.setDoneStatus(item.filePath);
                     ElMessage({
-                      message: "成功，正在写入" + filePath,
+                      message: t("messages.writeSuccess") + filePath,
                       type: "success",
                       duration: 2000,
                     });
@@ -463,7 +479,7 @@ export const useTtsStore = defineStore("ttsStore", {
                     this.isLoading = false;
                     console.error(err);
                     ElMessage({
-                      message: "转换失败\n" + String(err),
+                      message: ttsErrorMessage(err),
                       type: "error",
                       duration: 3000,
                     });
@@ -488,7 +504,7 @@ export const useTtsStore = defineStore("ttsStore", {
         ElMessage({
           dangerouslyUseHTMLString: true,
           message: h("p", null, [
-            h("span", null, "下载完成："),
+            h("span", null, t("messages.downloadDone")),
             h(
               "span",
               {
@@ -502,7 +518,7 @@ export const useTtsStore = defineStore("ttsStore", {
           type: "success",
           duration: 4000,
         });
-        ipcRenderer.send("log.info", `下载完成:${filePath}`);
+        ipcRenderer.send("log.info", `${t("messages.downloadDone")}${filePath}`);
       }
       else {
         // 将 this.currMp3Buffer 转换为可读流
@@ -516,13 +532,13 @@ export const useTtsStore = defineStore("ttsStore", {
           .audioChannels(2) // 示例：设置音频通道数为2
           .audioFrequency(44100) // 示例：设置音频采样率为44100Hz
           .on('end', () => {
-            console.log('转码完成！音频已保存为文件:', filePath);
+            console.log('Transcode done, saved to:', filePath);
             ipcRenderer.send("showItemInFolder", filePath);
 
             ElMessage({
               dangerouslyUseHTMLString: true,
               message: h("p", null, [
-                h("span", null, "下载完成："),
+                h("span", null, t("messages.downloadDone")),
                 h(
                   "span",
                   {
@@ -539,12 +555,12 @@ export const useTtsStore = defineStore("ttsStore", {
 
           })
           .on('error', (err: any) => {
-            console.error('转码出错:', err);
+            console.error('Transcode error:', err);
 
             ElMessage({
               dangerouslyUseHTMLString: true,
               message: h("p", null, [
-                h("span", null, "转码失败！！！：" + err)
+                h("span", null, t("messages.transcodeFailed") + err)
               ]),
               type: "error",
               duration: 10000,
@@ -589,11 +605,11 @@ export const useTtsStore = defineStore("ttsStore", {
     showDisclaimers() {
       if (!this.config.disclaimers) {
         ElMessageBox.confirm(
-          "该软件以及代码仅为个人学习测试使用，请在下载后24小时内删除，不得用于商业用途，否则后果自负。任何违规使用造成的法律后果与本人无关。该软件也永远不会收费，如果您使用该软件前支付了额外费用，或付费获得源码以及成品软件，那么你一定被骗了！",
-          "注意！",
+          t("disclaimer.text"),
+          t("disclaimer.title"),
           {
-            confirmButtonText: "我已确认，不再弹出",
-            cancelButtonText: "取消",
+            confirmButtonText: t("disclaimer.confirm"),
+            cancelButtonText: t("disclaimer.cancel"),
             type: "warning"
           }
         ).then(() => {

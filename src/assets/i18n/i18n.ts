@@ -56,6 +56,9 @@ const messages = {
       remove: 'Remove',
       openAIKey: 'OpenAI Key',
       gptModel: 'Model GPT',
+      saveApplied: 'Saved. Click “Refresh Configuration” to apply immediately.',
+      deleteSuccess: 'Deleted. Click “Refresh Configuration” to apply.',
+      openLogFolderHint: 'Opening the log folder, please clean it manually!',
       // Otras traducciones...
     },
     donate: {
@@ -69,6 +72,12 @@ const messages = {
       buyDrinkTitle: 'Buy the author a drink ☕️',
       alipayPayment: 'Use Alipay for payment',
       hoverForWechat: 'Move the mouse away for WeChat payment',
+    },
+    disclaimer: {
+      title: 'Attention!',
+      text: 'This software and code are for personal learning and testing only. Please delete them within 24 hours after downloading and do not use them commercially, otherwise you bear the consequences. The author is not liable for any legal consequences of misuse. This software will never charge fees: if you paid to get it, you were scammed!',
+      confirm: "I confirm, don't show again",
+      cancel: 'Cancel',
     },
 
     footer: {
@@ -178,7 +187,18 @@ const messages = {
       saveConfig: "Save Configuration",
       saveConfigPrompt: "Please enter a name for the configuration",
       invalidInput: "Invalid input",
-      waitMessage: "Please wait..."
+      waitMessage: "Please wait...",
+      rateLimited: "Free API rate limit reached (429). The trial quota resets in ~24h. Use your own Azure Speech key or try again later.",
+      accessDenied: "Access denied (403). The free endpoint is blocking requests right now. Use your own Azure Speech key or try again later.",
+      convertFailed: "Conversion failed",
+      networkError: "Network error",
+      successPlaying: "Done, playing preview...",
+      successManual: "Done, press play manually.",
+      writeSuccess: "Done, writing ",
+      downloadDone: "Download complete:",
+      transcodeFailed: "Transcoding failed: ",
+      gptSuccess: "Response received!",
+      gptFailed: "GPT request failed"
     },
     buttons: {
       confirm: "OK",
@@ -391,6 +411,12 @@ const messages = {
       alipayPayment: 'Usa Alipay para el pago',
       hoverForWechat: 'Aleja el ratón para usar WeChat para el pago',
     },
+    disclaimer: {
+      title: '¡Atención!',
+      text: 'Este software y su código son solo para aprendizaje y pruebas personales. Elimínalos dentro de las 24 horas tras descargarlos y no los uses con fines comerciales, de lo contrario asumes las consecuencias. El autor no se responsabiliza por usos indebidos. Este software nunca será de pago: ¡si pagaste por obtenerlo, te estafaron!',
+      confirm: 'Confirmo, no mostrar de nuevo',
+      cancel: 'Cancelar',
+    },
     configPage: {
       downloadPath: 'Ruta de Descarga',
       retryCount: 'Número de Intentos',
@@ -422,6 +448,9 @@ const messages = {
       remove: 'Eliminar',
       openAIKey: 'OpenAI key',
       gptModel: 'Modelo GPT',
+      saveApplied: 'Guardado. Pulsa «Refrescar configuración» para aplicar.',
+      deleteSuccess: 'Eliminado. Pulsa «Refrescar configuración» para aplicar.',
+      openLogFolderHint: 'Abriendo la carpeta de registros, ¡límpiala manualmente!',
       // Otras traducciones...
     },
     footer: {
@@ -531,7 +560,18 @@ const messages = {
       saveConfig: "Guardar Configuración",
       saveConfigPrompt: "Ingrese un nombre para la configuración",
       invalidInput: "Entrada inválida",
-      waitMessage: "Por favor espere..."
+      waitMessage: "Por favor espere...",
+      rateLimited: "Límite de la API gratuita alcanzado (429). El cupo se renueva en ~24 h. Usa tu propia clave de Azure Speech o intenta más tarde.",
+      accessDenied: "Acceso denegado (403). El endpoint gratuito está bloqueando las peticiones ahora. Usa tu propia clave de Azure Speech o intenta más tarde.",
+      convertFailed: "Falló la conversión",
+      networkError: "Error de red",
+      successPlaying: "Listo, reproduciendo...",
+      successManual: "Listo, pulsa reproducir.",
+      writeSuccess: "Listo, escribiendo ",
+      downloadDone: "Descarga completa:",
+      transcodeFailed: "Falló la transcodificación: ",
+      gptSuccess: "¡Respuesta recibida!",
+      gptFailed: "Falló la petición a GPT"
     },
     buttons: {
       confirm: "OK",
@@ -763,6 +803,9 @@ const messages = {
       remove: '删除',
       openAIKey: '打开AIKey',
       gptModel: '模型GPT',
+      saveApplied: '保存成功，请点击“刷新配置”立即应用。',
+      deleteSuccess: '删除成功，请点击“刷新配置”立即应用。',
+      openLogFolderHint: '正在打开日志文件夹，请手动清理！',
       // Otras traducciones...
     },
     donate: {
@@ -776,6 +819,12 @@ const messages = {
       buyDrinkTitle: '请作者喝杯饮料 ☕️',
       alipayPayment: '使用支付宝支付',
       hoverForWechat: '移开鼠标使用微信支付',
+    },
+    disclaimer: {
+      title: '注意！',
+      text: '该软件以及代码仅为个人学习测试使用，请在下载后24小时内删除，不得用于商业用途，否则后果自负。任何违规使用造成的法律后果与本人无关。该软件也永远不会收费，如果您使用该软件前支付了额外费用，或付费获得源码以及成品软件，那么你一定被骗了！',
+      confirm: '我已确认，不再弹出',
+      cancel: '取消',
     },
     footer: {
       downloadAudio: 'Download Audio',
@@ -884,7 +933,18 @@ const messages = {
       saveConfig: "保存配置",
       saveConfigPrompt: "请输入配置名称",
       invalidInput: "输入无效",
-      waitMessage: "请稍候..."
+      waitMessage: "请稍候...",
+      rateLimited: "免费接口限流 (429)，约24小时后恢复。请使用自己的 Azure Speech 密钥或稍后再试。",
+      accessDenied: "访问被拒绝 (403)，免费接口当前不可用。请使用自己的 Azure Speech 密钥或稍后再试。",
+      convertFailed: "转换失败",
+      networkError: "网络异常",
+      successPlaying: "成功，正在试听~",
+      successManual: "成功，请手动播放。",
+      writeSuccess: "成功，正在写入",
+      downloadDone: "下载完成：",
+      transcodeFailed: "转码失败：",
+      gptSuccess: "Response Success!",
+      gptFailed: "GPT 请求失败"
     },
     buttons: {
       confirm: "确认",

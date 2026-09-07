@@ -74,16 +74,24 @@ async function retrySpeechInvocation(SSML: string, retryCount: number, delay: nu
   let retry = 0;
   while (retry < retryCount) {
     try {
-      console.log("语音调用尝试:", retry + 1);
+      console.log("Speech attempt:", retry + 1);
       const result = await ipcRenderer.invoke("speech", SSML);
       return result; // 执行成功，返回结果
     } catch (error) {
+      // 429 (cuota gratuita agotada) y 403 (acceso denegado) no se recuperan
+      // reintentando: se falla rapido con un codigo que la UI traduce.
+      if (/status code 429/.test(String(error))) {
+        throw new Error(`TTS_RATE_LIMITED: ${String(error)}`);
+      }
+      if (/status code 403/.test(String(error))) {
+        throw new Error(`TTS_ACCESS_DENIED: ${String(error)}`);
+      }
       console.error("Speech invocation failed:", error);
       await sleep(delay); // 暂停一段时间后再重试
     }
     retry++;
   }
-  throw new Error(`${retryCount} 次重试后仍转换失败。`); // 重试次数用尽，抛出异常
+  throw new Error(`TTS_CONVERT_FAILED after ${retryCount} retries.`); // 重试次数用尽，抛出异常
 }
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));

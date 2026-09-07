@@ -26,7 +26,7 @@ export default async function initStore() {
   // que es lo mas cercano disponible en Azure/Edge Speech.
   // Referencia: SecondaryLocales y LocaleDescription "es-CO" en src/global/voices.ts
   // (Salome id 6f1346c4 / Gonzalo id b53bcfc5). Nada de es-MX aqui a proposito.
-  store.set("FormConfig.默认", {
+  store.set("FormConfig.Colombia", {
     languageSelect: "es-CO",
     // Salome: mejor voz colombiana disponible (femenina, Neural).
     // Si prefieres voz masculina, cambia a "es-CO-GonzaloNeural".
@@ -37,6 +37,15 @@ export default async function initStore() {
     pitch: 1.0,
     api: 1,
   });
+  // Migracion: elimina la plantilla vieja en chino ("默认") para que el
+  // desplegable ya no muestre caracteres sin traducir.
+  try {
+    if (store.has("FormConfig.默认")) {
+      store.delete("FormConfig.默认");
+    }
+  } catch (e) {
+    // ignora si electron-store no soporta delete en esta version
+  }
 
   if (!store.has("language")) {
     store.set("language", "es");
