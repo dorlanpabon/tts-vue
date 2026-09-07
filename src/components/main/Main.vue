@@ -44,15 +44,6 @@
         <el-button type="primary" :loading="gptLoading" @click="sendToChatGPT"><el-icon><ChatLineSquare /></el-icon></el-button>
       </div>
     </el-dialog>
-      <!-- <template #footer>
-        <span class="dialog-footer">
-          <el-button @click="dialogVisible = false">Cancel</el-button>
-          <el-button type="primary" @click="dialogVisible = false">
-            Confirm
-          </el-button>
-        </span>
-      </template> -->
-    </el-dialog>
 
     <div class="input-area" v-show="page.asideIndex == '2'">
       <el-table
