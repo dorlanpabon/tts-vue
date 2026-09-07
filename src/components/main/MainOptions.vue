@@ -15,15 +15,6 @@
             />
         </el-select>
       </el-form-item>
-      <el-form-item :label="t('messages.quotaHelpToggle')">
-        <el-switch
-          v-model="config.quotaHelp"
-          :active-text="t('configPage.yes')"
-          :inactive-text="t('configPage.no')"
-          inline-prompt
-          @change="quotaHelpChange"
-        />
-      </el-form-item>
       <el-form-item :label="t('options.language')">
         <el-select-v2
           class="languageSelect"
@@ -203,10 +194,6 @@ const apiChange = (res:number) => {
 
 const audition = (value: string) => {
   ttsStore.audition(value);
-};
-
-const quotaHelpChange = () => {
-  ttsStore.setQuotaHelp();
 };
 
 watch(formConfig.value, (newValue) => {

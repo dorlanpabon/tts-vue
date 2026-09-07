@@ -2,6 +2,7 @@
 
 import { defineStore } from "pinia";
 import { getTTSData, getDataGPT } from "./play";
+import { AI_PROVIDER_BASE_URLS } from "@/types/prompGPT";
 import { ElMessage, ElMessageBox } from "element-plus";
 import { h } from "vue";
 import i18n from "@/assets/i18n/i18n";
@@ -98,7 +99,8 @@ export const useTtsStore = defineStore("ttsStore", {
         retryInterval: store.get("retryInterval"),
         openAIKey: store.get("openAIKey"),
         gptModel: store.get("gptModel"),
-        quotaHelp: store.get("quotaHelp", true),
+        aiProvider: store.get("aiProvider"),
+        aiBaseUrl: store.get("aiBaseUrl"),
       },
       isLoading: false,
       currMp3Buffer: Buffer.alloc(0),
@@ -177,8 +179,16 @@ export const useTtsStore = defineStore("ttsStore", {
     setGPTModel() {
       store.set("gptModel", this.config.gptModel);
     },
-    setQuotaHelp() {
-      store.set("quotaHelp", this.config.quotaHelp);
+    setAiProvider() {
+      store.set("aiProvider", this.config.aiProvider);
+      // Al cambiar de proveedor (no personalizado) se autocompleta su URL base.
+      if (this.config.aiProvider !== "custom") {
+        this.config.aiBaseUrl = AI_PROVIDER_BASE_URLS[this.config.aiProvider] || "";
+        store.set("aiBaseUrl", this.config.aiBaseUrl);
+      }
+    },
+    setAiBaseUrl() {
+      store.set("aiBaseUrl", this.config.aiBaseUrl);
     },
     setServiceRegion() {
       store.set("serviceRegion", this.config.serviceRegion);
@@ -209,11 +219,17 @@ export const useTtsStore = defineStore("ttsStore", {
       );
     },
     async startChatGPT(promptGPT: string) {
+      // URL base efectiva: la personalizada, o la del proveedor, u OpenAI.
+      const baseURL =
+        this.config.aiBaseUrl ||
+        AI_PROVIDER_BASE_URLS[this.config.aiProvider] ||
+        AI_PROVIDER_BASE_URLS.openai;
       await getDataGPT(
         {
           promptGPT: promptGPT,
           key: this.config.openAIKey,
           model: this.config.gptModel,
+          baseURL: baseURL,
           retryCount: this.config.retryCount,
           retryInterval: this.config.retryInterval,
         }
@@ -621,10 +637,10 @@ export const useTtsStore = defineStore("ttsStore", {
     showItemInFolder(filePath: string) {
       ipcRenderer.send("showItemInFolder", filePath);
     },
-    // Muestra el dialogo de ayuda de cuota (con guia de Azure) si el fallo
-    // es por 429/403 y la ayuda esta activada; si no, toast localizado.
+    // Muestra siempre el dialogo de ayuda de cuota (con guia de Azure) si el fallo
+    // es por 429/403; si no, toast localizado.
     showQuotaHelpOrMessage(err: any, fallbackKey = "messages.convertFailed") {
-      if (isQuotaError(err) && this.config.quotaHelp) {
+      if (isQuotaError(err)) {
         ElMessageBox.confirm(
           t("messages.quotaHelpText"),
           t("messages.quotaHelpTitle"),

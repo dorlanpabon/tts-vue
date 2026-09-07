@@ -98,7 +98,7 @@ function sleep(ms: number) {
 }
 // promptGPT 
 async function getDataGPT(options: PromptGPT) {
-  let { promptGPT, model, key, retryCount, retryInterval=1 } = options;
+  let { promptGPT, model, key, baseURL, retryCount, retryInterval=1 } = options;
   // 判断retryCount是否为0或者null，如果是则不重试
   if (!retryCount) {
     retryCount = 1;
@@ -106,7 +106,7 @@ async function getDataGPT(options: PromptGPT) {
   if (!retryInterval) {
     retryInterval = 1;
   }
-  const result = await ipcRenderer.invoke("promptGPT", promptGPT, model, key);
+  const result = await ipcRenderer.invoke("promptGPT", promptGPT, model, key, baseURL);
   return result;
 }
 

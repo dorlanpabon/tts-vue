@@ -91,7 +91,28 @@ export default async function initStore() {
   if (!store.has("retryInterval")) {
     store.set("retryInterval", 3);
   }
-  if (!store.has("quotaHelp")) {
-    store.set("quotaHelp", true);
+  // Proveedor IA: respeta a usuarios con clave OpenAI; nuevos van a OpenRouter (gratis).
+  if (!store.has("aiProvider")) {
+    store.set("aiProvider", store.get("openAIKey") ? "openai" : "openrouter");
+  }
+  if (!store.has("aiBaseUrl")) {
+    store.set("aiBaseUrl", "");
+  }
+  // Modelo por defecto: gratis de OpenRouter para nuevos, o gpt-4o-mini en OpenAI.
+  if (!store.has("gptModel")) {
+    store.set(
+      "gptModel",
+      store.get("aiProvider") === "openrouter"
+        ? "google/gemma-4-31b-it:free"
+        : "gpt-4o-mini"
+    );
+  }
+  // Limpieza: la ayuda de cuota ahora se muestra siempre (sin interruptor).
+  try {
+    if (store.has("quotaHelp")) {
+      store.delete("quotaHelp");
+    }
+  } catch (e) {
+    // ignora si electron-store no soporta delete en esta version
   }
 }

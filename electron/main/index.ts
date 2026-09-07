@@ -189,8 +189,8 @@ ipcMain.handle("azureApi", async (event, ssml, key, region) => {
   return res;
 });
 //  const result = await ipcRenderer.invoke("promptGPT", promptGPT, model, key);
-ipcMain.handle("promptGPT", async (event, promptGPT, model, key) => {
-  const res = gptApi(promptGPT, model, key);
+ipcMain.handle("promptGPT", async (event, promptGPT, model, key, baseURL) => {
+  const res = gptApi(promptGPT, model, key, baseURL);
   return res;
 });
 

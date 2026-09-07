@@ -66,6 +66,30 @@
               :placeholder="t('configPage.serviceRegionPlaceHolder')"
               />
         </el-form-item>
+        <el-form-item :label="t('configPage.aiProvider')">
+          <el-select
+            v-model="config.aiProvider"
+            size="small"
+            class="input-path"
+            @change="setAIProvider"
+          >
+            <el-option
+              v-for="prov in aiProviders"
+              :key="prov.value"
+              :label="prov.label"
+              :value="prov.value"
+            ></el-option>
+          </el-select>
+        </el-form-item>
+        <el-form-item :label="t('configPage.aiBaseUrl')">
+          <el-input
+            v-model="config.aiBaseUrl"
+            size="small"
+            class="input-path"
+            :placeholder="aiBaseUrlPlaceholder"
+            @change="setAIBaseUrl"
+            />
+        </el-form-item>
         <el-form-item :label="t('configPage.openAIKey')">
             <el-input
               v-model="config.openAIKey"
@@ -79,14 +103,23 @@
             v-model="config.gptModel"
             size="small"
             class="input-path"
+            filterable
+            allow-create
+            default-first-option
             @change="setGPTModel"
           >
-            <el-option
-              v-for="model in gptModels"
-              :key="model.value"
-              :label="model.label"
-              :value="model.value"
-            ></el-option>
+            <el-option-group
+              v-for="group in gptModelGroups"
+              :key="group.label"
+              :label="group.label"
+            >
+              <el-option
+                v-for="model in group.items"
+                :key="model.value"
+                :label="model.label"
+                :value="model.value"
+              ></el-option>
+            </el-option-group>
           </el-select>
         </el-form-item>
         <el-form-item :label="t('configPage.autoplay')">
@@ -202,6 +235,8 @@ import { storeToRefs } from "pinia";
 import Donate from "./Donate.vue";
 import { useI18n } from 'vue-i18n';
 import i18n from "@/assets/i18n/i18n";
+import { AI_PROVIDER_BASE_URLS } from "@/types/prompGPT";
+import { computed } from "vue";
 const { t } = useI18n();  
 
 const { ipcRenderer, shell } = require("electron");
@@ -221,13 +256,43 @@ const languages = [
   { label: '中文', value: 'zh' },
 ];
 
-const gptModels = [
-  { label: 'GPT-3.5 Turbo', value: 'gpt-3.5-turbo'},
-  { label: 'GPT-3.5 Turbo 16k', value: 'gpt-3.5-turbo-16k'},
-  { label: 'GPT-3.5 Turbo Instruct', value: 'gpt-3.5-turbo-instruct'},
-  { label: 'GPT 4 8k', value: 'gpt-4'},
-  { label: 'GPT 4 32k', value: 'gpt-4-32k'},
-  // Agrega más modelos según sea necesario
+const aiProviders = [
+  { label: 'OpenAI', value: 'openai' },
+  { label: 'OpenRouter', value: 'openrouter' },
+  { label: t('configPage.aiCustom'), value: 'custom' },
+];
+
+// Placeholder de la URL base: la del proveedor elegido.
+const aiBaseUrlPlaceholder = computed(() => {
+  return AI_PROVIDER_BASE_URLS[config.value.aiProvider] || AI_PROVIDER_BASE_URLS.openai;
+});
+
+// Modelos OpenAI vigentes + gratuitos de OpenRouter (verificados $0/$0 vía API).
+// El desplegable permite crear/escribir otros (rotan los :free).
+const gptModelGroups = [
+  {
+    label: 'OpenRouter (gratis)',
+    items: [
+      { label: 'Gemma 4 31B (gratis)', value: 'google/gemma-4-31b-it:free'},
+      { label: 'Nemotron 3 Super (gratis)', value: 'nvidia/nemotron-3-super-120b-a12b:free'},
+      { label: 'Nemotron 3 Ultra (gratis)', value: 'nvidia/nemotron-3-ultra-550b-a55b:free'},
+      { label: 'Nemotron 3.5 Lightning (gratis)', value: 'nvidia/nemotron-3.5-lightning:free'},
+      { label: 'MiniMax M3 (gratis)', value: 'minimax/minimax-m3:free'},
+      { label: 'MiniMax M2.7 (gratis)', value: 'minimax/minimax-m2.7:free'},
+      { label: 'Inkling (gratis)', value: 'thinkingmachines/inkling:free'},
+      { label: 'Inkling Small (gratis)', value: 'thinkingmachines/inkling-small:free'},
+    ],
+  },
+  {
+    label: 'OpenAI',
+    items: [
+      { label: 'GPT-4o mini', value: 'gpt-4o-mini'},
+      { label: 'GPT-4o', value: 'gpt-4o'},
+      { label: 'GPT-4.1 mini', value: 'gpt-4.1-mini'},
+      { label: 'GPT-4.1', value: 'gpt-4.1'},
+    ],
+  },
+  // Agrega más modelos según sea necesario (o escríbelos directamente: permite crear)
 ];
 
 const saveLanguageConfig = () => {
@@ -319,6 +384,16 @@ const setServiceRegion = () => {
 
 const setOpenAIKey = () => {
   ttsStore.setOpenAIKey();
+  successMessage();
+};
+
+const setAIProvider = () => {
+  ttsStore.setAiProvider();
+  successMessage();
+};
+
+const setAIBaseUrl = () => {
+  ttsStore.setAiBaseUrl();
   successMessage();
 };
 
