@@ -198,7 +198,11 @@ const messages = {
       downloadDone: "Download complete:",
       transcodeFailed: "Transcoding failed: ",
       gptSuccess: "Response received!",
-      gptFailed: "GPT request failed"
+      gptFailed: "GPT request failed",
+      quotaHelpToggle: "Quota help (Azure guide)",
+      quotaHelpTitle: "Free quota exhausted",
+      quotaHelpText: "Microsoft's free API is rate-limited (429/403, resets every ~24h) and Edge refuses the connection. The reliable path is your own Azure Speech key (free F0 tier: 500,000 chars/month). Create it for free, paste it in Settings → SpeechKey + ServiceRegion and switch Interface to Azure Speech API.",
+      openAzureGuide: "Open Azure guide"
     },
     buttons: {
       confirm: "OK",
@@ -571,7 +575,11 @@ const messages = {
       downloadDone: "Descarga completa:",
       transcodeFailed: "Falló la transcodificación: ",
       gptSuccess: "¡Respuesta recibida!",
-      gptFailed: "Falló la petición a GPT"
+      gptFailed: "Falló la petición a GPT",
+      quotaHelpToggle: "Ayuda de cuota (guía Azure)",
+      quotaHelpTitle: "Cuota gratuita agotada",
+      quotaHelpText: "La API gratuita de Microsoft está limitada (429/403, se renueva cada ~24 h) y Edge rechaza la conexión. La vía fiable es tu propia clave de Azure Speech (nivel gratuito F0: 500.000 caracteres/mes). Créala gratis, pégala en Ajustes → SpeechKey + ServiceRegion y cambia la Interfaz a Azure Speech API.",
+      openAzureGuide: "Abrir guía de Azure"
     },
     buttons: {
       confirm: "OK",
@@ -944,7 +952,11 @@ const messages = {
       downloadDone: "下载完成：",
       transcodeFailed: "转码失败：",
       gptSuccess: "Response Success!",
-      gptFailed: "GPT 请求失败"
+      gptFailed: "GPT 请求失败",
+      quotaHelpToggle: "配额帮助（Azure指南）",
+      quotaHelpTitle: "免费配额已用完",
+      quotaHelpText: "微软免费接口限流（429/403，约24小时恢复），Edge 连接被拒绝。可靠方案是使用自己的 Azure Speech 密钥（免费 F0：每月50万字符）。免费创建后填入设置 → SpeechKey + ServiceRegion，并将接口切换为 Azure Speech API。",
+      openAzureGuide: "打开 Azure 指南"
     },
     buttons: {
       confirm: "确认",

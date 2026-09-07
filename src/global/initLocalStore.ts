@@ -91,4 +91,7 @@ export default async function initStore() {
   if (!store.has("retryInterval")) {
     store.set("retryInterval", 3);
   }
+  if (!store.has("quotaHelp")) {
+    store.set("quotaHelp", true);
+  }
 }

@@ -9,7 +9,7 @@ const { t } = i18n.global;
 const fs = require("fs");
 const path = require("path");
 const Store = require("electron-store");
-const { ipcRenderer } = require("electron");
+const { ipcRenderer, shell } = require("electron");
 const ffmpeg = require("fluent-ffmpeg");
 const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const { Readable } = require('stream');
@@ -38,6 +38,29 @@ function ttsErrorMessage(err: any, fallbackKey = "messages.convertFailed"): stri
     return t("messages.accessDenied");
   }
   return `${t(fallbackKey)}\n${s}`;
+}
+
+// true si el fallo es por cuota/acceso denegado en los endpoints gratuitos.
+function isQuotaError(err: any): boolean {
+  const s = String((err && (err as any).message) || err);
+  return (
+    s.includes("TTS_RATE_LIMITED") ||
+    s.includes("TTS_ACCESS_DENIED") ||
+    /status code 429/.test(s) ||
+    /status code 403/.test(s)
+  );
+}
+
+// Guia oficial de inicio rapido de Text-to-Speech, en el idioma de la UI.
+function azureGuideUrl(): string {
+  const loc = String((i18n.global.locale as any).value || "es");
+  if (loc.startsWith("zh")) {
+    return "https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/get-started-text-to-speech";
+  }
+  if (loc.startsWith("es")) {
+    return "https://learn.microsoft.com/es-es/azure/ai-services/speech-service/get-started-text-to-speech";
+  }
+  return "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/get-started-text-to-speech";
 }
 // 定义并导出容器，第一个参数是容器id，必须唯一，用来将所有的容器
 // 挂载到根容器上
@@ -75,6 +98,7 @@ export const useTtsStore = defineStore("ttsStore", {
         retryInterval: store.get("retryInterval"),
         openAIKey: store.get("openAIKey"),
         gptModel: store.get("gptModel"),
+        quotaHelp: store.get("quotaHelp", true),
       },
       isLoading: false,
       currMp3Buffer: Buffer.alloc(0),
@@ -152,6 +176,9 @@ export const useTtsStore = defineStore("ttsStore", {
     },
     setGPTModel() {
       store.set("gptModel", this.config.gptModel);
+    },
+    setQuotaHelp() {
+      store.set("quotaHelp", this.config.quotaHelp);
     },
     setServiceRegion() {
       store.set("serviceRegion", this.config.serviceRegion);
@@ -287,11 +314,7 @@ export const useTtsStore = defineStore("ttsStore", {
               console.error(error);
               ipcRenderer.send("log.error", error);
               this.isLoading = false;
-              ElMessage({
-                message: ttsErrorMessage(error, "messages.networkError"),
-                type: "error",
-                duration: 3000,
-              });
+              this.showQuotaHelpOrMessage(error, "messages.networkError");
               if (this.currMp3Buffer.length > 0) {
                 const svlob = new Blob([this.currMp3Buffer]);
                 this.currMp3Url = URL.createObjectURL(svlob);
@@ -329,11 +352,7 @@ export const useTtsStore = defineStore("ttsStore", {
               resFlag = false;
               this.isLoading = false;
               console.error(err);
-              ElMessage({
-                message: ttsErrorMessage(err),
-                type: "error",
-                duration: 2000,
-              });
+              this.showQuotaHelpOrMessage(err);
             });
         }
         if (resFlag) {
@@ -601,6 +620,29 @@ export const useTtsStore = defineStore("ttsStore", {
     },
     showItemInFolder(filePath: string) {
       ipcRenderer.send("showItemInFolder", filePath);
+    },
+    // Muestra el dialogo de ayuda de cuota (con guia de Azure) si el fallo
+    // es por 429/403 y la ayuda esta activada; si no, toast localizado.
+    showQuotaHelpOrMessage(err: any, fallbackKey = "messages.convertFailed") {
+      if (isQuotaError(err) && this.config.quotaHelp) {
+        ElMessageBox.confirm(
+          t("messages.quotaHelpText"),
+          t("messages.quotaHelpTitle"),
+          {
+            confirmButtonText: t("messages.openAzureGuide"),
+            cancelButtonText: t("buttons.cancel"),
+            type: "warning",
+          }
+        ).then(() => {
+          shell.openExternal(azureGuideUrl());
+        }).catch(() => {});
+      } else {
+        ElMessage({
+          message: ttsErrorMessage(err, fallbackKey),
+          type: "error",
+          duration: 4000,
+        });
+      }
     },
     showDisclaimers() {
       if (!this.config.disclaimers) {
