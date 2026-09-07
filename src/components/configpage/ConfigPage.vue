@@ -98,6 +98,7 @@
               @change="setOpenAIKey"
               />
         </el-form-item>
+        <div class="ai-hint" @click="openOpenRouterKeys">{{ t('configPage.aiKeyHint') }}</div>
         <el-form-item :label="t('configPage.gptModel')">
           <el-select
             v-model="config.gptModel"
@@ -397,6 +398,10 @@ const setAIBaseUrl = () => {
   successMessage();
 };
 
+const openOpenRouterKeys = () => {
+  shell.openExternal("https://openrouter.ai/keys");
+};
+
 const setGPTModel = () => {
   ttsStore.setGPTModel();
   successMessage();
@@ -473,6 +478,16 @@ const setRetryInterval = () => {
 .el-form-item {
   width: 37vw;
   margin-bottom: 8px;
+}
+.ai-hint {
+  width: 37vw;
+  margin: -4px 0 8px 0;
+  font-size: 12px;
+  color: #409eff;
+  cursor: pointer;
+}
+.ai-hint:hover {
+  text-decoration: underline;
 }
 .btns {
   width: 100%;

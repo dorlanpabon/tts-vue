@@ -34,12 +34,16 @@
       </span>
     </el-dialog> -->
   
-    <el-dialog v-model="dialogVisible" :title="t('main.titleGenerateTextGPT')" width="30%" draggable style="padding: 0px !important;">
-      <span>{{ t('main.descriptionGenerateTextGPT') }}</span>
-      <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 10px;">
-        <el-input v-model="modalInput" :placeholder="t('main.placeholderGPT')"></el-input>
-        <el-button type="primary" @click="sendToChatGPT"><el-icon><ChatLineSquare /></el-icon></el-button>
+    <el-dialog v-model="dialogVisible" :title="t('main.titleGenerateTextGPT')" width="440px" draggable style="padding: 0px !important;">
+      <div style="padding: 0 10px;">
+        <el-tag type="info" size="small">{{ config.aiProvider }} · {{ config.gptModel }}</el-tag>
       </div>
+      <span>{{ t('main.descriptionGenerateTextGPT') }}</span>
+      <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 10px; gap: 8px;">
+        <el-input v-model="modalInput" :placeholder="t('main.placeholderGPT')" @keyup.enter="sendToChatGPT"></el-input>
+        <el-button type="primary" :loading="gptLoading" @click="sendToChatGPT"><el-icon><ChatLineSquare /></el-icon></el-button>
+      </div>
+    </el-dialog>
       <!-- <template #footer>
         <span class="dialog-footer">
           <el-button @click="dialogVisible = false">Cancel</el-button>
@@ -173,13 +177,21 @@ watch(
 
 const showModal = ref(false);
 const modalInput = ref('');
+const gptLoading = ref(false);
 
 const sendToChatGPT = async () => {
-  if (!modalInput.value) return;
+  if (!modalInput.value || gptLoading.value) return;
   // const response = await chatGPTFunction(modalInput.value); // Reemplaza 'chatGPTFunction' con la función real
   // inputs.value.inputValue = response; // Asumiendo que 'inputs.value.inputValue' es tu textarea principal
   showModal.value = false;
-  store.startChatGPT(modalInput.value);
+  gptLoading.value = true;
+  try {
+    await store.startChatGPT(modalInput.value);
+    modalInput.value = '';
+    dialogVisible.value = false;
+  } finally {
+    gptLoading.value = false;
+  }
 };
 
 const dialogVisible = ref(false)

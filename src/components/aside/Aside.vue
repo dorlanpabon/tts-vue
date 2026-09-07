@@ -37,7 +37,6 @@ const ttsStore = useTtsStore();
 const { page, config } = storeToRefs(ttsStore);
 
 const menuChange = (index: number) => {
-  if (index === 4) return;
   page.value.asideIndex = index.toString();
 };
 </script>

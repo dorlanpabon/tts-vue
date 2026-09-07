@@ -36,6 +36,17 @@ body {
   background-color: #f2f3f5;
   border-radius: 10px;
   border:1px solid gray;
+  /* Evita seleccionar texto de la interfaz por accidente (botones, menús) */
+  -webkit-user-select: none;
+  user-select: none;
+}
+/* ...pero permite seleccionar/copiar en campos de texto y tablas */
+.app input,
+.app textarea,
+.app .el-table,
+.app .el-select-dropdown {
+  -webkit-user-select: text;
+  user-select: text;
 }
 .el-header {
   border: 0 !important;
