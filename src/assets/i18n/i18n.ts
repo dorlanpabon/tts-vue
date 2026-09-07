@@ -20,6 +20,7 @@ const messages = {
       confirm: 'OK',
       downloadLinks: 'Download Links',
       password: 'Password: em1n',
+      goToView: 'Go to view',
     },
     bilibtn: {
       goToBilibili: 'Go to Bilibili',
@@ -166,6 +167,22 @@ const messages = {
       inputWarning: "Please enter text content.",
       emptyListWarning: "The list is empty.",
       waitMessage: "Please wait..."
+    },
+    messages: {
+      edgeApiWarning: "The Edge interface does not support automatic slicing and the maximum text length is unknown. Please preprocess text manually as needed.",
+      configureAzure: "Please configure Azure's Speech service key and region first.",
+      saveSuccess: "Configuration saved successfully.",
+      cancelSave: "Save cancelled.",
+      inputWarning: "Please enter text content.",
+      emptyListWarning: "The list is empty.",
+      saveConfig: "Save Configuration",
+      saveConfigPrompt: "Please enter a name for the configuration",
+      invalidInput: "Invalid input",
+      waitMessage: "Please wait..."
+    },
+    buttons: {
+      confirm: "OK",
+      cancel: "Cancel"
     },
     lang: {
       AF_ZA: "Afrikaans (South Africa)",
@@ -357,6 +374,7 @@ const messages = {
       confirm: 'OK',
       downloadLinks: 'Enlaces de Descarga',
       password: 'Contraseña: em1n',
+      goToView: 'Ir a ver',
     },
     bilibtn: {
       goToBilibili: 'Ir a Bilibili',
@@ -501,6 +519,23 @@ const messages = {
       cancelSave: "Guardado cancelado.",
       inputWarning: "Por favor, introduzca el contenido del texto.",
       emptyListWarning: "La lista está vacía.",
+      waitMessage: "Por favor espere...",
+    },
+    messages: {
+      edgeApiWarning: "La interfaz de Edge no admite el corte automático y la longitud máxima del texto es desconocida. Por favor, procese manualmente el texto según sea necesario.",
+      configureAzure: "Por favor, configure primero la clave y la región del servicio de voz de Azure.",
+      saveSuccess: "Configuración guardada con éxito.",
+      cancelSave: "Guardado cancelado.",
+      inputWarning: "Por favor, introduzca el contenido del texto.",
+      emptyListWarning: "La lista está vacía.",
+      saveConfig: "Guardar Configuración",
+      saveConfigPrompt: "Ingrese un nombre para la configuración",
+      invalidInput: "Entrada inválida",
+      waitMessage: "Por favor espere..."
+    },
+    buttons: {
+      confirm: "OK",
+      cancel: "Cancelar"
     },
     lang: {
       AF_ZA: "Afrikáans (Sudáfrica)",
@@ -692,6 +727,7 @@ const messages = {
       confirm: '确定',
       downloadLinks: '下载链接',
       password: '密码：em1n',
+      goToView: '前往查看',
     },
     bilibtn: {
       goToBilibili: '前往三连',
@@ -796,6 +832,7 @@ const messages = {
       titleGenerateTextGPT: "生成文本GPT",
       descriptionGenerateTextGPT: "使用GPT-3或GPT-4，世界上最强大的AI模型，生成文本。",
       placeholderGPT: "请输入提示文本",
+      action: "操作",
       textTab: "文本",
       ssmlTab: "SSML",
       placeholder: "请输入",
@@ -836,6 +873,22 @@ const messages = {
       inputWarning: "请输入文字内容。",
       emptyListWarning: "列表内容为空。",
       waitMessage: "请稍候..."
+    },
+    messages: {
+      edgeApiWarning: "Edge接口不支持自动切片，最长支持文本长度未知。请根据自身需求手动预处理文本。",
+      configureAzure: "请先配置Azure的Speech服务密钥和区域。",
+      saveSuccess: "保存成功。",
+      cancelSave: "取消保存。",
+      inputWarning: "请输入文字内容。",
+      emptyListWarning: "列表内容为空。",
+      saveConfig: "保存配置",
+      saveConfigPrompt: "请输入配置名称",
+      invalidInput: "输入无效",
+      waitMessage: "请稍候..."
+    },
+    buttons: {
+      confirm: "确认",
+      cancel: "取消"
     },
     lang: {
       AF_ZA: "南非荷兰语(南非)",
@@ -1015,7 +1068,7 @@ const messages = {
 
 const i18n = createI18n({
   legacy: false, // Usa la Composition API
-  locale: 'en', // Idioma por defecto
+  locale: 'es', // Idioma por defecto: espanol (Colombia)
   fallbackLocale: 'en', // Idioma de reserva
   messages,
 });

@@ -18,16 +18,36 @@ export default async function initStore() {
     }
   }
 
+  // Voz por defecto: Colombia es-CO.
+  // Microsoft solo ofrece 2 voces neurales para es-CO (48 kHz, GA):
+  // - es-CO-SalomeNeural (femenina): la mas natural y clara, default recomendado.
+  // - es-CO-GonzaloNeural (masculina): alternativa masculina.
+  // No existe variante "paisa": ambas usan acento colombiano neutro (estandar Bogota),
+  // que es lo mas cercano disponible en Azure/Edge Speech.
+  // Referencia: SecondaryLocales y LocaleDescription "es-CO" en src/global/voices.ts
+  // (Salome id 6f1346c4 / Gonzalo id b53bcfc5). Nada de es-MX aqui a proposito.
   store.set("FormConfig.默认", {
-    languageSelect: "es-MX",
-    //Dalia
-    voiceSelect: "es-MX-DaliaNeural",
-    voiceStyleSelect: "Default",
-    role: "",
+    languageSelect: "es-CO",
+    // Salome: mejor voz colombiana disponible (femenina, Neural).
+    // Si prefieres voz masculina, cambia a "es-CO-GonzaloNeural".
+    voiceSelect: "es-CO-SalomeNeural",
+    voiceStyleSelect: "",
+    role: "Default",
     speed: 1.0,
     pitch: 1.0,
     api: 1,
   });
+
+  if (!store.has("language")) {
+    store.set("language", "es");
+  }
+  // Sincroniza el idioma UI antes de generar textos dependientes de i18n,
+  // para que la primera ejecucion ya arranque en espanol.
+  try {
+    (i18n.global.locale as any).value = store.get("language");
+  } catch (e) {
+    // i18n legacy fallback: ignora si no hay .value
+  }
   
   if (!store.has("savePath")) {
     store.set("savePath", ipcRenderer.sendSync("getDesktopPath"));
@@ -37,9 +57,6 @@ export default async function initStore() {
       "audition",
       t("initialLocalStore.audition")
     );
-  }
-  if (!store.has("language")) {
-    store.set("language", "en");
   }
   if (!store.has("autoplay")) {
     store.set("autoplay", true);

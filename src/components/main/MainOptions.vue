@@ -197,14 +197,27 @@ const audition = (value: string) => {
 };
 
 watch(formConfig.value, (newValue) => {
-  inputs.value.ssmlValue = `<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+  const langParts = (newValue.voiceSelect || "").split("-");
+  const ssmlLang =
+    langParts.length >= 2 ? `${langParts[0]}-${langParts[1]}` : "es-CO";
+  const hasStyle =
+    newValue.voiceStyleSelect &&
+    newValue.voiceStyleSelect !== "" &&
+    newValue.voiceStyleSelect !== "General" &&
+    newValue.voiceStyleSelect !== "Default";
+  const hasRole =
+    newValue.role &&
+    newValue.role !== "" &&
+    newValue.role !== "Default" &&
+    newValue.role !== "General";
+  inputs.value.ssmlValue = `<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
         <voice name="${newValue.voiceSelect}">
             <mstts:express-as  ${
-              newValue.voiceStyleSelect != ""
+              hasStyle
                 ? 'style="' + newValue.voiceStyleSelect + '"'
                 : ""
             } ${
-    newValue.role != "" ? 'role="' + newValue.role + '"' : ""
+    hasRole ? 'role="' + newValue.role + '"' : ""
   }>
                 <prosody rate="${(
                   (newValue.speed - 1) *
@@ -335,7 +348,7 @@ const startBtn = () => {
   }
   if (isLoading.value) {
     ElMessage({
-      message: "请稍候。。。",
+      message: t('options.waitMessage'),
       type: "warning",
       duration: 2000,
     });

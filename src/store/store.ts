@@ -30,8 +30,8 @@ export const useTtsStore = defineStore("ttsStore", {
   state: () => {
     return {
       inputs: {
-        inputValue: "你好啊\n今天天气怎么样?",
-        ssmlValue: "你好啊\n今天天气怎么样?",
+        inputValue: "¡Hola pues! ¿Cómo estás?\nProbando la mejor voz de Colombia.",
+        ssmlValue: "¡Hola pues! ¿Cómo estás?\nProbando la mejor voz de Colombia.",
       },
       formConfig: store.get("FormConfig.默认"),
       page: {
@@ -85,11 +85,20 @@ export const useTtsStore = defineStore("ttsStore", {
       const role = this.formConfig.role;
       const rate = (this.formConfig.speed - 1) * 100;
       const pitch = (this.formConfig.pitch - 1) * 50;
+      // xml:lang dinamico segun la voz (ej. es-CO-SalomeNeural -> es-CO).
+      // Antes estaba fijo en en-US y degradaba el acento colombiano.
+      const langParts = (voice || "").split("-");
+      const ssmlLang =
+        langParts.length >= 2 ? `${langParts[0]}-${langParts[1]}` : "es-CO";
+      const hasStyle =
+        express && express !== "" && express !== "General" && express !== "Default";
+      const hasRole =
+        role && role !== "" && role !== "Default" && role !== "General";
 
-      this.inputs.ssmlValue = `<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+      this.inputs.ssmlValue = `<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
         <voice name="${voice}">
-            <mstts:express-as  ${express != "General" ? 'style="' + express + '"' : ""
-        } ${role != "Default" ? 'role="' + role + '"' : ""}>
+            <mstts:express-as  ${hasStyle ? 'style="' + express + '"' : ""
+        } ${hasRole ? 'role="' + role + '"' : ""}>
                 <prosody rate="${rate}%" pitch="${pitch}%">
                 ${text}
                 </prosody>

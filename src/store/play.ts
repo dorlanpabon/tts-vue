@@ -22,12 +22,19 @@ async function getTTSData(
     retryInterval = 1;
   }
   let SSML = "";
+  // xml:lang dinamico segun la voz (ej. es-CO-SalomeNeural -> es-CO).
+  const langParts = (voice || "").split("-");
+  const ssmlLang =
+    langParts.length >= 2 ? `${langParts[0]}-${langParts[1]}` : "es-CO";
+  const hasStyle =
+    express && express !== "" && express !== "General" && express !== "Default";
+  const hasRole = role && role !== "" && role !== "Default" && role !== "General";
   if (inps.activeIndex == "1" && (api == 1 || api == 3)) {
     SSML = `
-    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
         <voice name="${voice}">
-            <mstts:express-as  ${express != "" ? 'style="' + express + '"' : ""
-      } ${role != "" ? 'role="' + role + '"' : ""}>
+            <mstts:express-as  ${hasStyle ? 'style="' + express + '"' : ""
+      } ${hasRole ? 'role="' + role + '"' : ""}>
                 <prosody rate="${rate}%" pitch="${pitch}%">
                 ${inps.inputValue}
                 </prosody>
@@ -38,7 +45,7 @@ async function getTTSData(
   }
   else if (inps.activeIndex == "1" && api == 2) {
     SSML = `
-    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
         <voice name="${voice}">
             <prosody rate="${rate}%" pitch="${pitch}%">
             ${inps.inputValue}
