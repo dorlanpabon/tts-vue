@@ -33,6 +33,15 @@ export const ROOT_PATH = {
   public: join(__dirname, app.isPackaged ? "../.." : "../../../public"),
 };
 
+// Perfil estable: conserva la configuracion de todas las versiones
+// (el nombre de producto cambio y Electron mueve userData con el).
+// Debe llamarse antes de que la app este lista.
+try {
+  app.setPath("userData", join(app.getPath("appData"), "tts-vue"));
+} catch (e) {
+  // si falla, se usa el userData por defecto
+}
+
 let win: BrowserWindow | null = null;
 // Here, you can also use other preload
 const preload = join(__dirname, "../preload/index.js");
