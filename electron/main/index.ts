@@ -48,7 +48,7 @@ async function createWindow() {
     height: 650,
 
     title: "Main window",
-    icon: join(ROOT_PATH.public, "favicon.ico"),
+    icon: join(ROOT_PATH.public, "icon.ico"),
     // useContentSize: true,
     frame: false,
     // maximizable: false,
