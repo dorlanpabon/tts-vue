@@ -59,6 +59,15 @@ function gptErrorMessage(err: any): string {
   if (/(^|[^0-9])401([^0-9]|$)/.test(s) || /unauthorized|authentication/i.test(s)) {
     return t("messages.gptBadKey");
   }
+  if (/provider returned error|overloaded|capacity|no endpoints/i.test(s) || /(^|[^0-9])5[0-9]{2}([^0-9]|$)/.test(s) || /(^|[^0-9])404([^0-9]|$)/.test(s)) {
+    return t("messages.gptProviderDown");
+  }
+  if (/(^|[^0-9])429([^0-9]|$)/.test(s) || /rate.?limit/i.test(s)) {
+    return t("messages.gptRateLimited");
+  }
+  if (/(^|[^0-9])402([^0-9]|$)/.test(s) || /payment|credits|insufficient/i.test(s)) {
+    return t("messages.gptNoCredits");
+  }
   return `${t("messages.gptFailed")}\n${cleanGptError(err)}`;
 }
 
