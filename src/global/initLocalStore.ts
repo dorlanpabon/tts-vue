@@ -79,8 +79,9 @@ export default async function initStore() {
   if (!store.has("speechKey")) {
     store.set("speechKey", "");
   }
-  if (!store.has("serviceRegion")) {
-    store.set("serviceRegion", "");
+  if (!store.has("serviceRegion") || !store.get("serviceRegion")) {
+    // eastus: menor latencia desde Colombia y con todas las voces neurales.
+    store.set("serviceRegion", "eastus");
   }
   if (!store.has("disclaimers")) {
     store.set("disclaimers", false);

@@ -6,6 +6,7 @@ import { AI_PROVIDER_BASE_URLS } from "@/types/prompGPT";
 import { ElMessage, ElMessageBox } from "element-plus";
 import { h } from "vue";
 import i18n from "@/assets/i18n/i18n";
+import { classifyTtsError, errText, isQuotaError } from "@/global/ttsErrors";
 const { t } = i18n.global;
 const fs = require("fs");
 const path = require("path");
@@ -28,41 +29,21 @@ if (process.env.NODE_ENV === 'development') {
 const store = new Store();
 
 // Mapea errores tecnicos de TTS a mensajes localizados para la UI.
-// Cubre 429 (cuota gratuita agotada, verificado: Retry-After ~24h) y
-// 403 (endpoint gratuito denegando, issue #201 del repo original).
+// 429 = cuota gratuita agotada (verificado: Retry-After ~24h).
+// 403 = endpoint gratuito denegando (issue #201 del repo original).
+// azureFailed = fallo del fallback/conexion Azure (revisar clave y region).
 function ttsErrorMessage(err: any, fallbackKey = "messages.convertFailed"): string {
-  if (isQuotaError429(err)) {
+  const kind = classifyTtsError(err);
+  if (kind === "rateLimited") {
     return t("messages.rateLimited");
   }
-  if (isQuotaError403(err)) {
+  if (kind === "accessDenied") {
     return t("messages.accessDenied");
   }
-  const s = String((err && (err as any).message) || err);
-  return `${t(fallbackKey)}\n${s}`;
-}
-
-// true si el fallo es por cuota (429) en los endpoints gratuitos.
-function isQuotaError429(err: any): boolean {
-  const s = String((err && (err as any).message) || err);
-  return (
-    s.includes("TTS_RATE_LIMITED") ||
-    /toomanyrequests/i.test(s) ||
-    /(^|[^0-9])429([^0-9]|$)/.test(s)
-  );
-}
-
-// true si el fallo es por acceso denegado (403) en los endpoints gratuitos.
-function isQuotaError403(err: any): boolean {
-  const s = String((err && (err as any).message) || err);
-  return (
-    s.includes("TTS_ACCESS_DENIED") ||
-    /(^|[^0-9])403([^0-9]|$)/.test(s)
-  );
-}
-
-// true si el fallo es por cuota/acceso denegado en los endpoints gratuitos.
-function isQuotaError(err: any): boolean {
-  return isQuotaError429(err) || isQuotaError403(err);
+  if (kind === "azureFailed") {
+    return `${t("messages.azureAuthError")}\n${errText(err).slice(0, 300)}`;
+  }
+  return `${t(fallbackKey)}\n${errText(err).slice(0, 300)}`;
 }
 
 // Limpia prefijos tecnicos de errores IPC/SDK para mostrarlos en la UI.
@@ -74,7 +55,7 @@ function cleanGptError(err: any): string {
 
 // Mensaje localizado para fallos de IA (sin texto tecnico crudo).
 function gptErrorMessage(err: any): string {
-  const s = String((err && (err as any).message) || err);
+  const s = errText(err);
   if (/(^|[^0-9])401([^0-9]|$)/.test(s) || /unauthorized|authentication/i.test(s)) {
     return t("messages.gptBadKey");
   }
@@ -311,7 +292,7 @@ export const useTtsStore = defineStore("ttsStore", {
         };
         if (
           this.page.tabIndex == "1" &&
-          this.formConfig.api == 1 &&
+          Number(this.formConfig.api) === 1 &&
           this.inputs.inputValue.length > 400
         ) {
           const delimiters = ["，", "。", "？", ",", ".", "?", "\n"];
@@ -447,7 +428,7 @@ export const useTtsStore = defineStore("ttsStore", {
               inps.inputValue = datastr;
               let buffer = Buffer.alloc(0);
 
-              if (datastr.length > 400 && this.formConfig.api == 1) {
+              if (datastr.length > 400 && Number(this.formConfig.api) === 1) {
                 const delimiters = "，。？,.? ".split("");
                 const maxSize = 300;
                 ipcRenderer.send("log.info", "字数过多，正在对文本切片。。。");

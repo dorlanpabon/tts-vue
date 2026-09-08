@@ -5,6 +5,7 @@
         <el-select
           v-model="formConfig.api"
           :placeholder="t('options.selectApi')"
+          :disabled="apiDisable"
           @change="apiChange"
           >
           <el-option
@@ -272,16 +273,20 @@ const saveConfig = () => {
     });
 };
 
-// 如果SSML标签页的话锁定
+// 如果SSML标签页的话锁定 (solo se bloquea el select, nunca se toca api:
+// asignar boolean rompia el desplegable mostrando "true").
 let apiDisable = ref(false);
 watch(page.value, (newValue) => {
   if (newValue.tabIndex === '2') {
     apiDisable.value = true;
-    formConfig.value.api = true;
   } else {
     apiDisable.value = false;
   }
 });
+
+// Divide "a,b,c" en lista sin vacios (las voces sin estilos/roles traen "").
+const splitList = (s: any): string[] =>
+  (s || "").split(",").filter((v: string) => v !== "");
 
 const strToArr = (str: string) => {
   if (str) {
@@ -297,7 +302,7 @@ const voiceSelectList = ref(
 const languageSelectChange = (value: string) => {
   formConfig.value.voiceSelect = "";
   formConfig.value.voiceStyleSelect = "";
-  formConfig.value.role = "";
+  formConfig.value.role = "Default";
   voiceSelectList.value = oc.findVoicesByLocaleName(value);
 };
 
@@ -306,11 +311,11 @@ const defaultVoice = voiceSelectList.value.find(
 )
 
 // const voiceStyleSelectListInit = strToArr(defaultVoice?.VoiceStyleNameDefinitions);
-const voiceStyleSelectListInit = defaultVoice?.VoiceStyleNames.split(",");
+const voiceStyleSelectListInit = defaultVoice ? splitList(defaultVoice.VoiceStyleNames) : [];
 const voiceStyleSelectList: any = ref(voiceStyleSelectListInit);
 
 // const rolePlayListInit = strToArr(defaultVoice?.VoiceRoleNameDefinitions);
-const rolePlayListInit = defaultVoice?.VoiceRoleNames.split(",");
+const rolePlayListInit = defaultVoice ? splitList(defaultVoice.VoiceRoleNames) : [];
 const rolePlayList: any = ref(rolePlayListInit);
 
 const voiceSelectChange = (value: string) => {
@@ -319,11 +324,11 @@ const voiceSelectChange = (value: string) => {
     (item: any) => item.ShortName == formConfig.value.voiceSelect
   );
   // voiceStyleSelectList.value = strToArr(voice?.VoiceStyleNameDefinitions);
-  voiceStyleSelectList.value = voice?.VoiceStyleNames.split(",");
+  voiceStyleSelectList.value = voice ? splitList(voice.VoiceStyleNames) : [];
   // rolePlayList.value = strToArr(voice?.VoiceRoleNameDefinitions);
-  rolePlayList.value = voice?.VoiceRoleNames.split(",");
+  rolePlayList.value = voice ? splitList(voice.VoiceRoleNames) : [];
   formConfig.value.voiceStyleSelect = voiceStyleSelectList.value.length > 0 ? voiceStyleSelectList.value[0] : "";
-  formConfig.value.role = rolePlayList.value.length > 0 ? rolePlayList.value[0] : "";
+  formConfig.value.role = rolePlayList.value.length > 0 ? rolePlayList.value[0] : "Default";
 };
 const configChange = (val: string) => {
   formConfig.value = config.value.formConfigJson[val];

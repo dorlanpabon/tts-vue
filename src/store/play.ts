@@ -1,5 +1,6 @@
 import { ipcRenderer } from "electron";
 import { PromptGPT } from "@/types/prompGPT";
+import { errText, isQuotaError } from "@/global/ttsErrors";
 
 async function getTTSData(
   inps: any,
@@ -29,7 +30,9 @@ async function getTTSData(
   const hasStyle =
     express && express !== "" && express !== "General" && express !== "Default";
   const hasRole = role && role !== "" && role !== "Default" && role !== "General";
-  if (inps.activeIndex == "1" && (api == 1 || api == 3)) {
+  // Normaliza: configs viejas pudieron persistir api como boolean.
+  const apiNum = Number(api);
+  if (inps.activeIndex == "1" && (apiNum === 1 || apiNum === 3)) {
     SSML = `
     <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
         <voice name="${voice}">
@@ -43,7 +46,7 @@ async function getTTSData(
     </speak>
     `;
   }
-  else if (inps.activeIndex == "1" && api == 2) {
+  else if (inps.activeIndex == "1" && apiNum === 2) {
     SSML = `
     <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
         <voice name="${voice}">
@@ -59,15 +62,48 @@ async function getTTSData(
   }
   ipcRenderer.send("log.info", SSML);
   console.log(SSML);
-  if (api == 1) {
-    const result = await retrySpeechInvocation(SSML, retryCount, retryInterval * 1000);
-    return result;
-  } else if (api == 2) {
-    const result = await ipcRenderer.invoke("edgeApi", SSML);
-    return result;
+  // Red de seguridad: si el primario gratuito falla por cuota y hay
+  // credenciales Azure, se reintenta UNA vez contra Azure (sin recursion).
+  const hasAzureBackup =
+    apiNum !== 3 &&
+    key != null &&
+    key !== "" &&
+    region != null &&
+    region !== "";
+  const azureFallback = async (primaryError: any) => {
+    ipcRenderer.send(
+      "log.info",
+      `Primary TTS API failed (${errText(primaryError).slice(0, 120)}), trying Azure fallback...`
+    );
+    try {
+      return await ipcRenderer.invoke("azureApi", SSML, key, region);
+    } catch (azureError) {
+      throw new Error(`TTS_AZURE_FAILED: ${errText(azureError)}`);
+    }
+  };
+  if (apiNum === 1) {
+    try {
+      const result = await retrySpeechInvocation(SSML, retryCount, retryInterval * 1000);
+      return result;
+    } catch (error) {
+      if (hasAzureBackup && isQuotaError(error)) return azureFallback(error);
+      throw error;
+    }
+  } else if (apiNum === 2) {
+    try {
+      const result = await ipcRenderer.invoke("edgeApi", SSML);
+      return result;
+    } catch (error) {
+      if (hasAzureBackup && isQuotaError(error)) return azureFallback(error);
+      throw error;
+    }
   } else {
-    const result = await ipcRenderer.invoke("azureApi", SSML, key, region);
-    return result;
+    try {
+      const result = await ipcRenderer.invoke("azureApi", SSML, key, region);
+      return result;
+    } catch (azureError) {
+      throw new Error(`TTS_AZURE_FAILED: ${errText(azureError)}`);
+    }
   }
 }
 async function retrySpeechInvocation(SSML: string, retryCount: number, delay: number) {
