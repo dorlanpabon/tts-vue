@@ -31,25 +31,38 @@ const store = new Store();
 // Cubre 429 (cuota gratuita agotada, verificado: Retry-After ~24h) y
 // 403 (endpoint gratuito denegando, issue #201 del repo original).
 function ttsErrorMessage(err: any, fallbackKey = "messages.convertFailed"): string {
-  const s = String((err && (err as any).message) || err);
-  if (s.includes("TTS_RATE_LIMITED") || /status code 429/.test(s)) {
+  if (isQuotaError429(err)) {
     return t("messages.rateLimited");
   }
-  if (s.includes("TTS_ACCESS_DENIED") || /status code 403/.test(s)) {
+  if (isQuotaError403(err)) {
     return t("messages.accessDenied");
   }
+  const s = String((err && (err as any).message) || err);
   return `${t(fallbackKey)}\n${s}`;
+}
+
+// true si el fallo es por cuota (429) en los endpoints gratuitos.
+function isQuotaError429(err: any): boolean {
+  const s = String((err && (err as any).message) || err);
+  return (
+    s.includes("TTS_RATE_LIMITED") ||
+    /toomanyrequests/i.test(s) ||
+    /(^|[^0-9])429([^0-9]|$)/.test(s)
+  );
+}
+
+// true si el fallo es por acceso denegado (403) en los endpoints gratuitos.
+function isQuotaError403(err: any): boolean {
+  const s = String((err && (err as any).message) || err);
+  return (
+    s.includes("TTS_ACCESS_DENIED") ||
+    /(^|[^0-9])403([^0-9]|$)/.test(s)
+  );
 }
 
 // true si el fallo es por cuota/acceso denegado en los endpoints gratuitos.
 function isQuotaError(err: any): boolean {
-  const s = String((err && (err as any).message) || err);
-  return (
-    s.includes("TTS_RATE_LIMITED") ||
-    s.includes("TTS_ACCESS_DENIED") ||
-    /status code 429/.test(s) ||
-    /status code 403/.test(s)
-  );
+  return isQuotaError429(err) || isQuotaError403(err);
 }
 
 // Guia oficial de inicio rapido de Text-to-Speech, en el idioma de la UI.
@@ -103,6 +116,7 @@ export const useTtsStore = defineStore("ttsStore", {
         aiBaseUrl: store.get("aiBaseUrl"),
       },
       isLoading: false,
+      quotaDialogOpen: false,
       currMp3Buffer: Buffer.alloc(0),
       currMp3Url: "",
       audioPlayer: null,
@@ -464,11 +478,7 @@ export const useTtsStore = defineStore("ttsStore", {
                     resFlag = false;
                     ipcRenderer.send("log.error", error);
                     this.isLoading = false;
-                    ElMessage({
-                      message: ttsErrorMessage(error),
-                      type: "error",
-                      duration: 3000,
-                    });
+                    this.showQuotaHelpOrMessage(error);
                     if (buffer.length > 0) {
                       fs.writeFileSync(filePath, buffer);
                       this.setDoneStatus(item.filePath);
@@ -513,11 +523,7 @@ export const useTtsStore = defineStore("ttsStore", {
                   .catch((err) => {
                     this.isLoading = false;
                     console.error(err);
-                    ElMessage({
-                      message: ttsErrorMessage(err),
-                      type: "error",
-                      duration: 3000,
-                    });
+                    this.showQuotaHelpOrMessage(err);
                   });
               }
             }
@@ -631,16 +637,18 @@ export const useTtsStore = defineStore("ttsStore", {
           sound.play();
         })
         .catch((err: any) => {
-          console.log(err);
+          this.showQuotaHelpOrMessage(err);
         });
     },
     showItemInFolder(filePath: string) {
       ipcRenderer.send("showItemInFolder", filePath);
     },
-    // Muestra siempre el dialogo de ayuda de cuota (con guia de Azure) si el fallo
-    // es por 429/403; si no, toast localizado.
+    // Modal de ayuda de cuota (con guia de Azure): aparece SIEMPRE que el
+    // fallo es por 429/403. Sin interruptor. Evita duplicados en lote.
     showQuotaHelpOrMessage(err: any, fallbackKey = "messages.convertFailed") {
       if (isQuotaError(err)) {
+        if (this.quotaDialogOpen) return;
+        this.quotaDialogOpen = true;
         ElMessageBox.confirm(
           t("messages.quotaHelpText"),
           t("messages.quotaHelpTitle"),
@@ -650,8 +658,11 @@ export const useTtsStore = defineStore("ttsStore", {
             type: "warning",
           }
         ).then(() => {
+          this.quotaDialogOpen = false;
           shell.openExternal(azureGuideUrl());
-        }).catch(() => {});
+        }).catch(() => {
+          this.quotaDialogOpen = false;
+        });
       } else {
         ElMessage({
           message: ttsErrorMessage(err, fallbackKey),

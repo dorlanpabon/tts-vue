@@ -78,13 +78,14 @@ async function retrySpeechInvocation(SSML: string, retryCount: number, delay: nu
       const result = await ipcRenderer.invoke("speech", SSML);
       return result; // 执行成功，返回结果
     } catch (error) {
+      const s = String(error);
       // 429 (cuota gratuita agotada) y 403 (acceso denegado) no se recuperan
       // reintentando: se falla rapido con un codigo que la UI traduce.
-      if (/status code 429/.test(String(error))) {
-        throw new Error(`TTS_RATE_LIMITED: ${String(error)}`);
+      if (s.includes("TTS_RATE_LIMITED") || /toomanyrequests/i.test(s) || /(^|[^0-9])429([^0-9]|$)/.test(s)) {
+        throw new Error(`TTS_RATE_LIMITED: ${s}`);
       }
-      if (/status code 403/.test(String(error))) {
-        throw new Error(`TTS_ACCESS_DENIED: ${String(error)}`);
+      if (s.includes("TTS_ACCESS_DENIED") || /(^|[^0-9])403([^0-9]|$)/.test(s)) {
+        throw new Error(`TTS_ACCESS_DENIED: ${s}`);
       }
       console.error("Speech invocation failed:", error);
       await sleep(delay); // 暂停一段时间后再重试
