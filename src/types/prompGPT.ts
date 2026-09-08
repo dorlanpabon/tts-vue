@@ -13,6 +13,7 @@ interface PromptGPT {
 export const AI_PROVIDER_BASE_URLS: Record<string, string> = {
     openai: "https://api.openai.com/v1",
     openrouter: "https://openrouter.ai/api/v1",
+    zen: "https://opencode.ai/zen/v1",
     custom: "",
 };
 

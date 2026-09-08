@@ -260,6 +260,7 @@ const languages = [
 const aiProviders = [
   { label: 'OpenAI', value: 'openai' },
   { label: 'OpenRouter', value: 'openrouter' },
+  { label: 'OpenCode Zen', value: 'zen' },
   { label: t('configPage.aiCustom'), value: 'custom' },
 ];
 
@@ -271,6 +272,15 @@ const aiBaseUrlPlaceholder = computed(() => {
 // Modelos OpenAI vigentes + gratuitos de OpenRouter (verificados $0/$0 vía API).
 // El desplegable permite crear/escribir otros (rotan los :free).
 const gptModelGroups = [
+  {
+    label: 'OpenCode Zen (gratis)',
+    items: [
+      { label: 'MiMo V2.5 (gratis)', value: 'mimo-v2.5-free'},
+      { label: 'Ling 3.0 Flash Fin (gratis)', value: 'ling-3.0-flash-fin-free'},
+      { label: 'Nemotron 3 Ultra (gratis)', value: 'nemotron-3-ultra-free'},
+      { label: 'Nemotron 3.5 Lightning (gratis)', value: 'nemotron-3.5-lightning-free'},
+    ],
+  },
   {
     label: 'OpenRouter (gratis)',
     items: [
