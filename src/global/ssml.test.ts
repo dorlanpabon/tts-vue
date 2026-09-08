@@ -14,6 +14,11 @@ describe("ssmlLocale", () => {
   it("extrae en-US de en-US-JennyNeural", () => {
     expect(ssmlLocale("en-US-JennyNeural")).toBe("en-US");
   });
+  it("ignora el sufijo HD con dos puntos (Dalia DragonHD -> es-MX)", () => {
+    expect(ssmlLocale("es-MX-Dalia:DragonHDLatestNeural")).toBe("es-MX");
+    expect(ssmlLocale("es-ES-Ximena:DragonHDLatestNeural")).toBe("es-ES");
+    expect(ssmlLocale("es-MX-Alejo:MAI-Voice-2-Flash")).toBe("es-MX");
+  });
   it("usa es-CO por defecto con voz vacia", () => {
     expect(ssmlLocale("")).toBe("es-CO");
     expect(ssmlLocale(null)).toBe("es-CO");
