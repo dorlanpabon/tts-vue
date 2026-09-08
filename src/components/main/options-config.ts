@@ -2,7 +2,7 @@
 // import { useI18n } from 'vue-i18n';
 import i18n from '@/assets/i18n/i18n';
 import { voices } from './../../global/voices';
-import { hdLocales } from './../../global/voiceKind';
+import { hdLocales, mergeVoiceLists } from './../../global/voiceKind';
 const { t } = i18n.global;
 // const { t } = useI18n();  
 // let lang = {
@@ -178,25 +178,33 @@ let lang = t('lang');
 console.log(lang);
 
 let msVoicesList;
-if (localStorage.getItem("msVoicesList") !== null) {
-  msVoicesList = JSON.parse(localStorage.getItem("msVoicesList") || "[]");
-} else {
+try {
+  const raw = localStorage.getItem("msVoicesList");
+  // Union con el fallback: ni cache vieja, ni lista rotada, ni offline
+  // pueden dejar fuera voces (incluidas todas las HD).
+  msVoicesList = mergeVoiceLists(raw ? JSON.parse(raw) : [], voices);
+  if (msVoicesList.length === 0) msVoicesList = voices;
+} catch (e) {
+  // Cache corrupta: fallback local.
   msVoicesList = voices;
 }
 
-const voicesList = msVoicesList.map((item: any) => {
-  item.properties.locale = item.locale;
-  // ZH_CN_SHANDONG有BUG很奇怪
-  // if (lang.hasOwnProperty(item.locale.toUpperCase().replace("-", "_").replace("-", "_"))) {
-  //   item.properties.localeZH =
-  //     lang[item.locale.toUpperCase().replace("-", "_").replace("-", "_")];
-  // } else {
-  //   item.properties.localeZH = item.locale
-  // }
-  item.properties.localeZH = t('lang.' + item.locale.toUpperCase().replace("-", "_").replace("-", "_"));
+const voicesList = msVoicesList
+  .filter((item: any) => item && typeof item === "object" && item.locale)
+  .map((item: any) => {
+    item.properties = item.properties || {};
+    item.properties.locale = item.locale;
+    // ZH_CN_SHANDONG有BUG很奇怪
+    // if (lang.hasOwnProperty(item.locale.toUpperCase().replace("-", "_").replace("-", "_"))) {
+    //   item.properties.localeZH =
+    //     lang[item.locale.toUpperCase().replace("-", "_").replace("-", "_")];
+    // } else {
+    //   item.properties.localeZH = item.locale
+    // }
+    item.properties.localeZH = t('lang.' + item.locale.toUpperCase().replace("-", "_").replace("-", "_"));
 
-  return item.properties;
-});
+    return item.properties;
+  });
 
 const list = voicesList
   .map((item: any) => {

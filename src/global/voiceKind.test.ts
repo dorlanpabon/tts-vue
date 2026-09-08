@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { hdLocales, isHdVoice } from "./voiceKind";
+import { hdLocales, isHdVoice, mergeVoiceLists } from "./voiceKind";
 
 describe("isHdVoice", () => {
   it("detecta DragonHD/Omni/Flash y MAI-Voice", () => {
@@ -43,5 +43,30 @@ describe("hdLocales", () => {
   it("lista vacia o sin HD devuelve vacio", () => {
     expect(hdLocales([])).toEqual([]);
     expect(hdLocales([{ locale: "es-CO", ShortName: "x" }])).toEqual([]);
+  });
+});
+
+describe("mergeVoiceLists", () => {
+  const live = [
+    { shortName: "es-CO-SalomeNeural", locale: "es-CO", properties: { ShortName: "es-CO-SalomeNeural" } },
+    { shortName: "es-MX-Dalia:DragonHDLatestNeural", locale: "es-MX", properties: { ShortName: "es-MX-Dalia:DragonHDLatestNeural" } },
+  ];
+  const fallback = [
+    { shortName: "es-CO-SalomeNeural", locale: "es-CO", properties: { ShortName: "es-CO-SalomeNeural" } },
+    { shortName: "es-ES-Ximena:DragonHDLatestNeural", locale: "es-ES", properties: { ShortName: "es-ES-Ximena:DragonHDLatestNeural" } },
+  ];
+  it("lo vivo manda y el fallback rellena sin duplicar", () => {
+    const merged = mergeVoiceLists(live, fallback);
+    const names = merged.map((v) => v.shortName);
+    expect(names).toEqual([
+      "es-CO-SalomeNeural",
+      "es-MX-Dalia:DragonHDLatestNeural",
+      "es-ES-Ximena:DragonHDLatestNeural",
+    ]);
+  });
+  it("cache corrupta o vacia cae al fallback", () => {
+    expect(mergeVoiceLists(null as any, fallback).length).toBe(2);
+    expect(mergeVoiceLists([] as any, fallback).length).toBe(2);
+    expect(mergeVoiceLists("basura" as any, fallback).length).toBe(2);
   });
 });

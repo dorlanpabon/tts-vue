@@ -20,3 +20,26 @@ export function hdLocales(voices: Array<{ locale: any; ShortName: any }>): strin
   }
   return out;
 }
+
+export interface VoiceEntry {
+  shortName?: string;
+  locale?: string;
+  [key: string]: any;
+}
+
+// Union por shortName: lo vivo manda, el fallback rellena lo que falte
+// (cache vieja, lista rotada u offline). Nunca duplica.
+export function mergeVoiceLists(primary: any, fallback: any): VoiceEntry[] {
+  const out: VoiceEntry[] = [];
+  const seen = new Set<string>();
+  for (const source of [primary, fallback]) {
+    if (!Array.isArray(source)) continue;
+    for (const v of source) {
+      const sn = String((v && (v.shortName || (v.properties && v.properties.ShortName))) || "");
+      if (sn === "" || seen.has(sn)) continue;
+      seen.add(sn);
+      out.push(v);
+    }
+  }
+  return out;
+}
