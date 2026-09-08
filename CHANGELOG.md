@@ -1,5 +1,12 @@
 # CHANGELOG del fork (dorlanpabon/tts-vue)
 
+## v1.9.15-es-co12
+- Plan calidad: Electron 19→44 LTS, icono propio, NSIS + portable,
+  auto-updater al fork, SSML único testeado, init sin pisar ni carreras,
+  lote secuencial, backoff+jitter+Retry-After, claves cifradas,
+  semáforo de APIs, historial, F9, modo oscuro, guía ES local,
+  README/CHANGELOG ES, CI con 23 tests.
+
 ## v1.9.15-es-co11
 - Proveedor OpenCode Zen + sus 4 modelos gratis con fallback.
 
