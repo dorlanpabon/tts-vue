@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isHdVoice } from "./voiceKind";
+import { hdLocales, isHdVoice } from "./voiceKind";
 
 describe("isHdVoice", () => {
   it("detecta DragonHD/Omni/Flash y MAI-Voice", () => {
@@ -25,5 +25,23 @@ describe("isHdVoice", () => {
     ]) {
       expect(isHdVoice(v)).toBe(false);
     }
+  });
+});
+
+describe("hdLocales", () => {
+  const list = [
+    { locale: "es-CO", ShortName: "es-CO-SalomeNeural" },
+    { locale: "es-MX", ShortName: "es-MX-DaliaNeural" },
+    { locale: "es-MX", ShortName: "es-MX-Dalia:DragonHDLatestNeural" },
+    { locale: "es-ES", ShortName: "es-ES-Ximena:DragonHDLatestNeural" },
+    { locale: "", ShortName: "es-MX-Jorge:DragonHDLatestNeural" },
+    { locale: "en-US", ShortName: "" },
+  ];
+  it("solo locales con HD, sin duplicados y en orden", () => {
+    expect(hdLocales(list)).toEqual(["es-MX", "es-ES"]);
+  });
+  it("lista vacia o sin HD devuelve vacio", () => {
+    expect(hdLocales([])).toEqual([]);
+    expect(hdLocales([{ locale: "es-CO", ShortName: "x" }])).toEqual([]);
   });
 });

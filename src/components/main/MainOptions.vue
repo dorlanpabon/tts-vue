@@ -31,7 +31,7 @@
           v-model="formConfig.languageSelect"
           :placeholder="t('options.selectLanguage')"
           filterable
-          :options="oc.languageSelect"
+          :options="voiceFilter === 'hd' ? oc.hdLanguageSelect : oc.languageSelect"
           @change="languageSelectChange"
         >
         </el-select-v2>
@@ -290,12 +290,21 @@ const languageSelectChange = (value: string) => {
   applyHdFilter(value);
 };
 
-// Filtro "Solo HD" (Dragon* y MAI-Voice-*). Al activarlo con una voz no-HD,
-// salta a la primera HD disponible del idioma.
+// Filtro superior (Todas/HD). Con HD activo solo existen idiomas con HD:
+// si el actual no tiene, salta a es-MX (espanol HD) o al primero. Sin adivinanzas.
 const voiceFilter = ref("all");
 const applyHdFilter = (locale?: string) => {
-  const all = oc.findVoicesByLocaleName(locale || formConfig.value.languageSelect);
   const onlyHd = voiceFilter.value === "hd";
+  if (onlyHd) {
+    const locales = oc.hdLanguageSelect.map((l: any) => l.value);
+    const current = locale || formConfig.value.languageSelect;
+    formConfig.value.languageSelect = locales.includes(current)
+      ? current
+      : locales.includes("es-MX")
+        ? "es-MX"
+        : locales[0] || "";
+  }
+  const all = oc.findVoicesByLocaleName(formConfig.value.languageSelect);
   voiceSelectList.value = onlyHd
     ? all.filter((v: any) => isHdVoice(v.ShortName))
     : all;

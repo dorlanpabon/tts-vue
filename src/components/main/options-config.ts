@@ -2,6 +2,7 @@
 // import { useI18n } from 'vue-i18n';
 import i18n from '@/assets/i18n/i18n';
 import { voices } from './../../global/voices';
+import { hdLocales } from './../../global/voiceKind';
 const { t } = i18n.global;
 // const { t } = useI18n();  
 // let lang = {
@@ -211,6 +212,12 @@ const languageSelect = list.filter(
   (item: any) => !tempMap.has(item.value) && tempMap.set(item.value, 1)
 );
 
+// Solo idiomas que tienen al menos una voz HD (para el filtro superior).
+const hdLocaleSet = new Set(hdLocales(voicesList));
+const hdLanguageSelect = languageSelect.filter((item: any) =>
+  hdLocaleSet.has(item.value)
+);
+
 const findVoicesByLocaleName = (localeName: any) => {
   console.log("voicesList", voicesList);
   const voices = voicesList.filter((item: any) => item.locale == localeName);
@@ -236,6 +243,7 @@ const apiSelect = [
 export const optionsConfig = {
   voicesList,
   languageSelect,
+  hdLanguageSelect,
   findVoicesByLocaleName,
   apiSelect,
 };
