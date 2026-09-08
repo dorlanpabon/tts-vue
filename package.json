@@ -1,9 +1,10 @@
 {
   "name": "tts-vue",
   "version": "1.9.15",
+  "productName": "TTS Vue Colombia",
   "main": "dist/electron/main/index.js",
-  "description": "🎤 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建。",
-  "author": "沫離Loker <loker80@qq.com>",
+  "description": "Herramienta de síntesis de voz de Microsoft (TTS) con voces de Colombia, español por defecto y modelos IA gratis. Electron + Vue + ElementPlus + Vite.",
+  "author": "dorlanpabon (fork de LokerL/tts-vue)",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -40,6 +41,7 @@
     "axios": "0.27.2",
     "electron-log": "4.4.8",
     "electron-store": "8.0.2",
+    "electron-updater": "^6.8.9",
     "element-plus": "2.2.9",
     "fluent-ffmpeg": "2.1.2",
     "microsoft-cognitiveservices-speech-sdk": "1.30.1",

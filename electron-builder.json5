@@ -17,9 +17,16 @@
     ]
   },
   "win": {
+    "icon": "public/favicon.ico",
     "target": [
       {
         "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      },
+      {
+        "target": "portable",
         "arch": [
           "x64"
         ]
@@ -32,5 +39,13 @@
     "perMachine": false,
     "allowToChangeInstallationDirectory": true,
     "deleteAppDataOnUninstall": false
+  },
+  "portable": {
+    "artifactName": "${productName}-${version}-portable.${ext}"
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "dorlanpabon",
+    "repo": "tts-vue"
   }
 }

@@ -6,6 +6,7 @@ import edgeApi from "../utils/edge-api";
 import azureApi from "../utils/azure-api";
 import logger from "../utils/log";
 import { gptApi } from "../utils/gpt-api";
+import { autoUpdater } from "electron-updater";
 
 // Disable GPU Acceleration for Windows 7
 //if (release().startsWith("6.1")) app.disableHardwareAcceleration();
@@ -86,6 +87,25 @@ async function createWindow() {
 }
 
 app.whenReady().then(createWindow);
+
+app.whenReady().then(() => {
+  if (!app.isPackaged) return;
+  autoUpdater.autoDownload = false;
+  autoUpdater.autoInstallOnAppQuit = true;
+  autoUpdater.on("update-available", (info) => {
+    logger.info(`Update available: ${info.version}`);
+    win?.webContents.send("update-available", info.version);
+  });
+  autoUpdater.on("update-not-available", () => {
+    logger.info("App is up to date (autoUpdater).");
+  });
+  autoUpdater.on("error", (err) => {
+    logger.error(`autoUpdater error: ${err}`);
+  });
+  autoUpdater.checkForUpdates().catch((err) => {
+    logger.error(`autoUpdater check failed: ${err}`);
+  });
+});
 
 app.on("window-all-closed", () => {
   win = null;

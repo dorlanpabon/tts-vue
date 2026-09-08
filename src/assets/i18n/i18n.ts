@@ -231,6 +231,8 @@ const messages = {
       gptRateLimited: "Free request limit reached. Wait a few minutes or try another “gratis” model.",
       gptNoCredits: "No credits for paid models. Use a “gratis” one ($0).",
       azureAuthError: "Azure rejected the request: check SpeechKey and ServiceRegion.",
+      batchDone: "Batch complete: {done} file(s).",
+      batchPartial: "Batch: {done} ok, {failed} failed.",
       quotaHelpTitle: "Free quota exhausted",
       quotaHelpText: "Microsoft's free API is rate-limited (429/403, resets every ~24h) and Edge refuses the connection. The reliable path is your own Azure Speech key (free F0 tier: 500,000 chars/month). Create it for free, paste it in Settings → SpeechKey + ServiceRegion and switch Interface to Azure Speech API.",
       openAzureGuide: "Open Azure guide"
@@ -639,6 +641,8 @@ const messages = {
       gptRateLimited: "Límite de peticiones gratuitas alcanzado. Espera unos minutos o prueba otro modelo «gratis».",
       gptNoCredits: "Sin créditos para modelos de pago. Usa uno «gratis» (cuestan $0).",
       azureAuthError: "Azure rechazó la petición: revisa SpeechKey y ServiceRegion.",
+      batchDone: "Lote completo: {done} archivo(s).",
+      batchPartial: "Lote: {done} ok, {failed} con error.",
       quotaHelpTitle: "Cuota gratuita agotada",
       quotaHelpText: "La API gratuita de Microsoft está limitada (429/403, se renueva cada ~24 h) y Edge rechaza la conexión. La vía fiable es tu propia clave de Azure Speech (nivel gratuito F0: 500.000 caracteres/mes). Créala gratis, pégala en Ajustes → SpeechKey + ServiceRegion y cambia la Interfaz a Azure Speech API.",
       openAzureGuide: "Abrir guía de Azure"
@@ -1047,6 +1051,8 @@ const messages = {
       gptRateLimited: "已达到免费请求限制。请等待几分钟或尝试另一个“gratis”模型。",
       gptNoCredits: "付费模型没有额度。请使用“gratis”模型（$0）。",
       azureAuthError: "Azure 拒绝了请求：请检查 SpeechKey 和 ServiceRegion。",
+      batchDone: "批量完成：{done} 个文件。",
+      batchPartial: "批量：{done} 成功，{failed} 失败。",
       quotaHelpTitle: "免费配额已用完",
       quotaHelpText: "微软免费接口限流（429/403，约24小时恢复），Edge 连接被拒绝。可靠方案是使用自己的 Azure Speech 密钥（免费 F0：每月50万字符）。免费创建后填入设置 → SpeechKey + ServiceRegion，并将接口切换为 Azure Speech API。",
       openAzureGuide: "打开 Azure 指南"

@@ -1,5 +1,6 @@
 import { ipcRenderer } from "electron";
 import { PromptGPT } from "@/types/prompGPT";
+import { buildSsml, buildSsmlEdge } from "@/global/ssml";
 import { errText, isQuotaError } from "@/global/ttsErrors";
 
 async function getTTSData(
@@ -23,39 +24,25 @@ async function getTTSData(
     retryInterval = 1;
   }
   let SSML = "";
-  // xml:lang dinamico segun la voz (ej. es-CO-SalomeNeural -> es-CO).
-  const langParts = (voice || "").split("-");
-  const ssmlLang =
-    langParts.length >= 2 ? `${langParts[0]}-${langParts[1]}` : "es-CO";
-  const hasStyle =
-    express && express !== "" && express !== "General" && express !== "Default";
-  const hasRole = role && role !== "" && role !== "Default" && role !== "General";
-  // Normaliza: configs viejas pudieron persistir api como boolean.
+  // SSML centralizado (ver src/global/ssml.ts). Normaliza api boolean legacy.
   const apiNum = Number(api);
   if (inps.activeIndex == "1" && (apiNum === 1 || apiNum === 3)) {
-    SSML = `
-    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
-        <voice name="${voice}">
-            <mstts:express-as  ${hasStyle ? 'style="' + express + '"' : ""
-      } ${hasRole ? 'role="' + role + '"' : ""}>
-                <prosody rate="${rate}%" pitch="${pitch}%">
-                ${inps.inputValue}
-                </prosody>
-            </mstts:express-as>
-        </voice>
-    </speak>
-    `;
+    SSML = buildSsml({
+      voice,
+      style: express,
+      role,
+      rate,
+      pitch,
+      text: inps.inputValue,
+    });
   }
   else if (inps.activeIndex == "1" && apiNum === 2) {
-    SSML = `
-    <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
-        <voice name="${voice}">
-            <prosody rate="${rate}%" pitch="${pitch}%">
-            ${inps.inputValue}
-            </prosody>
-        </voice>
-    </speak>
-    `;
+    SSML = buildSsmlEdge({
+      voice,
+      rate,
+      pitch,
+      text: inps.inputValue,
+    });
   }
   else {
     SSML = inps.inputValue;
@@ -108,6 +95,7 @@ async function getTTSData(
 }
 async function retrySpeechInvocation(SSML: string, retryCount: number, delay: number) {
   let retry = 0;
+  let wait = delay;
   while (retry < retryCount) {
     try {
       console.log("Speech attempt:", retry + 1);
@@ -123,8 +111,13 @@ async function retrySpeechInvocation(SSML: string, retryCount: number, delay: nu
       if (s.includes("TTS_ACCESS_DENIED") || /(^|[^0-9])403([^0-9]|$)/.test(s)) {
         throw new Error(`TTS_ACCESS_DENIED: ${s}`);
       }
-      console.error("Speech invocation failed:", error);
-      await sleep(delay); // 暂停一段时间后再重试
+      // Transitorios: backoff exponencial con jitter, respetando Retry-After.
+      const retryAfter = parseRetryAfterMs(error);
+      const jitter = Math.floor(Math.random() * 1000);
+      const sleepMs = Math.min((retryAfter ?? wait) + jitter, 60000);
+      console.error(`Speech invocation failed (retry ${retry + 1}, waiting ${sleepMs}ms):`, error);
+      await sleep(sleepMs); // 暂停一段时间后再重试
+      wait = Math.min(wait * 2, 30000);
     }
     retry++;
   }
@@ -132,6 +125,22 @@ async function retrySpeechInvocation(SSML: string, retryCount: number, delay: nu
 }
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+// Extrae Retry-After (segundos o fecha HTTP) si el backend lo envia.
+// Los errores cruzan IPC serializados: se lee defensivamente.
+function parseRetryAfterMs(error: any): number | null {
+  try {
+    const headers = error && (error as any).response && (error as any).response.headers;
+    const raw = headers && headers["retry-after"];
+    if (raw == null || raw === "") return null;
+    const secs = Number(raw);
+    if (Number.isFinite(secs) && secs >= 0) return secs * 1000;
+    const at = Date.parse(String(raw));
+    if (!Number.isNaN(at)) return Math.max(0, at - Date.now());
+  } catch (e) {
+    // ignora cabeceras malformadas
+  }
+  return null;
 }
 // promptGPT 
 async function getDataGPT(options: PromptGPT) {

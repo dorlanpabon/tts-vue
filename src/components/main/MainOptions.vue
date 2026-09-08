@@ -146,6 +146,7 @@
 import { ref, reactive, watch } from "vue";
 import { optionsConfig as oc } from "./options-config";
 import { getStyleDes, getRoleDes } from "./emoji-config";
+import { buildSsml } from "@/global/ssml";
 import Loading from "./Loading.vue";
 import { ElMessage, ElMessageBox, arrowMiddleware } from "element-plus";
 import { useTtsStore } from "@/store/store";
@@ -198,41 +199,14 @@ const audition = (value: string) => {
 };
 
 watch(formConfig.value, (newValue) => {
-  const langParts = (newValue.voiceSelect || "").split("-");
-  const ssmlLang =
-    langParts.length >= 2 ? `${langParts[0]}-${langParts[1]}` : "es-CO";
-  const hasStyle =
-    newValue.voiceStyleSelect &&
-    newValue.voiceStyleSelect !== "" &&
-    newValue.voiceStyleSelect !== "General" &&
-    newValue.voiceStyleSelect !== "Default";
-  const hasRole =
-    newValue.role &&
-    newValue.role !== "" &&
-    newValue.role !== "Default" &&
-    newValue.role !== "General";
-  inputs.value.ssmlValue = `<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
-        <voice name="${newValue.voiceSelect}">
-            <mstts:express-as  ${
-              hasStyle
-                ? 'style="' + newValue.voiceStyleSelect + '"'
-                : ""
-            } ${
-    hasRole ? 'role="' + newValue.role + '"' : ""
-  }>
-                <prosody rate="${(
-                  (newValue.speed - 1) *
-                  100
-                ).toFixed()}%" pitch="${(
-    (newValue.pitch - 1) *
-    50
-  ).toFixed()}%">
-                ${inputs.value.inputValue}
-                </prosody>
-            </mstts:express-as>
-        </voice>
-    </speak>
-    `;
+  inputs.value.ssmlValue = buildSsml({
+    voice: newValue.voiceSelect,
+    style: newValue.voiceStyleSelect,
+    role: newValue.role,
+    rate: Number(((newValue.speed - 1) * 100).toFixed()),
+    pitch: Number(((newValue.pitch - 1) * 50).toFixed()),
+    text: inputs.value.inputValue,
+  });
 });
 
 const saveConfig = () => {

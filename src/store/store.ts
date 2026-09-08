@@ -6,6 +6,7 @@ import { AI_PROVIDER_BASE_URLS } from "@/types/prompGPT";
 import { ElMessage, ElMessageBox } from "element-plus";
 import { h } from "vue";
 import i18n from "@/assets/i18n/i18n";
+import { buildSsml } from "@/global/ssml";
 import { classifyTtsError, errText, isQuotaError } from "@/global/ttsErrors";
 const { t } = i18n.global;
 const fs = require("fs");
@@ -27,6 +28,18 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const store = new Store();
+
+// Plantilla segura si el disco aun no tiene ninguna (primer arranque).
+// Mismos valores que initLocalStore crea.
+const DEFAULT_FORM_CONFIG = {
+  languageSelect: "es-CO",
+  voiceSelect: "es-CO-SalomeNeural",
+  voiceStyleSelect: "",
+  role: "Default",
+  speed: 1.0,
+  pitch: 1.0,
+  api: 1,
+};
 
 // Mapea errores tecnicos de TTS a mensajes localizados para la UI.
 // 429 = cuota gratuita agotada (verificado: Retry-After ~24h).
@@ -71,6 +84,33 @@ function gptErrorMessage(err: any): string {
   return `${t("messages.gptFailed")}\n${cleanGptError(err)}`;
 }
 
+// Parte texto largo en trozos (logica original del modo lote).
+function splitTextList(text: string): string[] {
+  const delimiters = "，。？,.? ".split("");
+  const maxSize = 300;
+  const handler = text.split("").reduce(
+    (obj: any, char: any, index: any) => {
+      obj.buffer.push(char);
+      if (delimiters.indexOf(char) >= 0) obj.end = index;
+      if (obj.buffer.length === maxSize) {
+        obj.res.push(
+          obj.buffer.splice(0, obj.end + 1 - obj.offset).join("")
+        );
+        obj.offset += obj.res[obj.res.length - 1].length;
+      }
+      return obj;
+    },
+    {
+      buffer: [],
+      end: 0,
+      offset: 0,
+      res: [],
+    }
+  );
+  handler.res.push(handler.buffer.join(""));
+  return handler.res;
+}
+
 // Guia oficial de inicio rapido de Text-to-Speech, en el idioma de la UI.
 export function azureGuideUrl(): string {
   const loc = String((i18n.global.locale as any).value || "es");
@@ -92,7 +132,10 @@ export const useTtsStore = defineStore("ttsStore", {
         inputValue: "¡Hola pues! ¿Cómo estás?\nProbando la mejor voz de Colombia.",
         ssmlValue: "¡Hola pues! ¿Cómo estás?\nProbando la mejor voz de Colombia.",
       },
-      formConfig: store.get("FormConfig.Colombia") || store.get("FormConfig.默认"),
+      formConfig:
+        store.get("FormConfig.Colombia") ||
+        store.get("FormConfig.默认") ||
+        DEFAULT_FORM_CONFIG,
       page: {
         asideIndex: "1",
         tabIndex: "1",
@@ -142,32 +185,14 @@ export const useTtsStore = defineStore("ttsStore", {
     },
     setSSMLValue(text = "") {
       if (text === "") text = this.inputs.inputValue;
-      const voice = this.formConfig.voiceSelect;
-      const express = this.formConfig.voiceStyleSelect;
-      const role = this.formConfig.role;
-      const rate = (this.formConfig.speed - 1) * 100;
-      const pitch = (this.formConfig.pitch - 1) * 50;
-      // xml:lang dinamico segun la voz (ej. es-CO-SalomeNeural -> es-CO).
-      // Antes estaba fijo en en-US y degradaba el acento colombiano.
-      const langParts = (voice || "").split("-");
-      const ssmlLang =
-        langParts.length >= 2 ? `${langParts[0]}-${langParts[1]}` : "es-CO";
-      const hasStyle =
-        express && express !== "" && express !== "General" && express !== "Default";
-      const hasRole =
-        role && role !== "" && role !== "Default" && role !== "General";
-
-      this.inputs.ssmlValue = `<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="${ssmlLang}">
-        <voice name="${voice}">
-            <mstts:express-as  ${hasStyle ? 'style="' + express + '"' : ""
-        } ${hasRole ? 'role="' + role + '"' : ""}>
-                <prosody rate="${rate}%" pitch="${pitch}%">
-                ${text}
-                </prosody>
-            </mstts:express-as>
-        </voice>
-    </speak>
-    `;
+      this.inputs.ssmlValue = buildSsml({
+        voice: this.formConfig.voiceSelect,
+        style: this.formConfig.voiceStyleSelect,
+        role: this.formConfig.role,
+        rate: (this.formConfig.speed - 1) * 100,
+        pitch: (this.formConfig.pitch - 1) * 50,
+        text,
+      });
     },
     setSavePath() {
       store.set("savePath", this.config.savePath);
@@ -413,12 +438,13 @@ export const useTtsStore = defineStore("ttsStore", {
 
         ipcRenderer.send("log.info", `转换完成`);
       } else {
-        // this.page.asideIndex == "2" 批量转换
-        this.page.tabIndex == "1";
+        // this.page.asideIndex == "2" 批量转换: secuencial, archivo por archivo.
+        // (antes forEach async disparaba todo en paralelo y perdia errores/estado).
+        this.page.tabIndex = "1";
 
-        // 分割方法
-
-        this.tableData.forEach(async (item: any) => {
+        let doneCount = 0;
+        let failCount = 0;
+        for (const item of this.tableData) {
           const inps = {
             activeIndex: 1, // 值转换普通文本
             inputValue: "",
@@ -428,124 +454,62 @@ export const useTtsStore = defineStore("ttsStore", {
             this.config.savePath,
             item.fileName.split(path.extname(item.fileName))[0] + ".mp3"
           );
-          await fs.readFile(
-            item.filePath,
-            "utf8",
-            async (err: any, datastr: any) => {
-              if (err) console.log(err);
-
-              inps.inputValue = datastr;
-              let buffer = Buffer.alloc(0);
-
-              if (datastr.length > 400 && Number(this.formConfig.api) === 1) {
-                const delimiters = "，。？,.? ".split("");
-                const maxSize = 300;
-                ipcRenderer.send("log.info", "字数过多，正在对文本切片。。。");
-
-                const textHandler = datastr.split("").reduce(
-                  (obj: any, char: any, index: any, arr: any) => {
-                    obj.buffer.push(char);
-                    if (delimiters.indexOf(char) >= 0) obj.end = index;
-                    if (obj.buffer.length === maxSize) {
-                      obj.res.push(
-                        obj.buffer.splice(0, obj.end + 1 - obj.offset).join("")
-                      );
-                      obj.offset += obj.res[obj.res.length - 1].length;
-                    }
-                    return obj;
-                  },
-                  {
-                    buffer: [],
-                    end: 0,
-                    offset: 0,
-                    res: [],
-                  }
-                );
-                textHandler.res.push(textHandler.buffer.join(""));
-                const tasks = textHandler.res;
-                for (let index = 0; index < tasks.length; index++) {
-                  try {
-                    ipcRenderer.send(
-                      "log.info",
-                      `正在执行第${index + 1}次转换。。。`
-                    );
-                    const element = tasks[index];
-                    inps.inputValue = element;
-                    const buffers: any = await getTTSData(
-                      inps,
-                      this.formConfig.voiceSelect,
-                      this.formConfig.voiceStyleSelect,
-                      this.formConfig.role,
-                      (this.formConfig.speed - 1) * 100,
-                      (this.formConfig.pitch - 1) * 50,
-                      this.formConfig.api,
-                      this.config.speechKey,
-                      this.config.serviceRegion,
-                      this.config.retryCount,
-                    );
-                    buffer = Buffer.concat([buffer, buffers]);
-                    ipcRenderer.send(
-                      "log.info",
-                      `第${index + 1}次转换完成，此时Buffer长度为：${buffer.length
-                      }`
-                    );
-                  } catch (error) {
-                    console.error(error);
-                    resFlag = false;
-                    ipcRenderer.send("log.error", error);
-                    this.isLoading = false;
-                    this.showQuotaHelpOrMessage(error);
-                    if (buffer.length > 0) {
-                      fs.writeFileSync(filePath, buffer);
-                      this.setDoneStatus(item.filePath);
-                    }
-                    return;
-                  }
-                }
-                fs.writeFileSync(filePath, buffer);
-                this.setDoneStatus(item.filePath);
-                if (resFlag) {
-                  ElMessage({
-                    message: t("messages.writeSuccess") + filePath,
-                    type: "success",
-                    duration: 2000,
-                  });
-                }
-
-                this.isLoading = false;
-              } else {
-                await getTTSData(
-                  inps,
-                  this.formConfig.voiceSelect,
-                  this.formConfig.voiceStyleSelect,
-                  this.formConfig.role,
-                  (this.formConfig.speed - 1) * 100,
-                  (this.formConfig.pitch - 1) * 50,
-                  this.formConfig.api,
-                  this.config.speechKey,
-                  this.config.serviceRegion,
-                  this.config.retryCount,
-                )
-                  .then((mp3buffer: any) => {
-                    fs.writeFileSync(filePath, mp3buffer);
-                    this.setDoneStatus(item.filePath);
-                    ElMessage({
-                      message: t("messages.writeSuccess") + filePath,
-                      type: "success",
-                      duration: 2000,
-                    });
-                    this.isLoading = false;
-                  })
-                  .catch((err) => {
-                    this.isLoading = false;
-                    console.error(err);
-                    this.showQuotaHelpOrMessage(err);
-                  });
-              }
+          try {
+            const datastr: string = await fs.promises.readFile(item.filePath, "utf8");
+            const tasks =
+              datastr.length > 400 && Number(this.formConfig.api) === 1
+                ? splitTextList(datastr)
+                : [datastr];
+            let buffer = Buffer.alloc(0);
+            for (let index = 0; index < tasks.length; index++) {
+              ipcRenderer.send(
+                "log.info",
+                `lote ${item.fileName}: parte ${index + 1}/${tasks.length}`
+              );
+              inps.inputValue = tasks[index];
+              const buffers: any = await getTTSData(
+                inps,
+                this.formConfig.voiceSelect,
+                this.formConfig.voiceStyleSelect,
+                this.formConfig.role,
+                (this.formConfig.speed - 1) * 100,
+                (this.formConfig.pitch - 1) * 50,
+                this.formConfig.api,
+                this.config.speechKey,
+                this.config.serviceRegion,
+                this.config.retryCount,
+              );
+              buffer = Buffer.concat([buffer, buffers]);
             }
-          );
-        });
-        // this.isLoading = false;
+            fs.writeFileSync(filePath, buffer);
+            this.setDoneStatus(item.filePath);
+            doneCount++;
+          } catch (error) {
+            console.error(error);
+            ipcRenderer.send("log.error", error);
+            failCount++;
+            this.showQuotaHelpOrMessage(error);
+            // Sin cuota no tiene sentido seguir quemando el resto de archivos.
+            if (isQuotaError(error)) break;
+          }
+        }
+        this.isLoading = false;
+        if (failCount === 0 && doneCount > 0) {
+          ElMessage({
+            message: t("messages.batchDone").replace("{done}", String(doneCount)),
+            type: "success",
+            duration: 3000,
+          });
+        } else if (failCount > 0 && doneCount > 0) {
+          ElMessage({
+            message: t("messages.batchPartial")
+              .replace("{done}", String(doneCount))
+              .replace("{failed}", String(failCount)),
+            type: "warning",
+            duration: 4000,
+          });
+        }
+        ipcRenderer.send("log.info", `lote terminado: ${doneCount} ok, ${failCount} fallos`);
       }
     },
     writeFileSync() {

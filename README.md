@@ -1,37 +1,33 @@
-# TTS-Vue
+# TTS Vue Colombia 🇨🇴
 
-🎤 微软语音合成工具，使用 `Electron` + `Vue` + `ElementPlus` + `Vite` 构建.
+Fork en español de [LokerL/tts-vue](https://github.com/LokerL/tts-vue): herramienta de escritorio para convertir texto a voz con las voces neurales de Microsoft.
 
-## 开始使用
+**Lo que cambia este fork:**
+- Interfaz en **español** por defecto + inglés y chino.
+- Voz por defecto **Colombia**: `es-CO-SalomeNeural` (femenina; alternativa masculina `es-CO-GonzaloNeural`).
+- `xml:lang` dinámico según la voz (antes fijo en `en-US`).
+- **Fallback automático a Azure** ante cuota 429/403 si tienes clave configurada.
+- Modal de ayuda paso a paso para crear tu clave gratuita de Azure.
+- Proveedores IA: OpenAI, **OpenRouter** (modelos `:free`), **OpenCode Zen** (modelos `-free`) y URL personalizada (Ollama local).
+- Actualizaciones desde este fork + auto-updater.
 
-- [项目简介](https://loker-page.lgwawork.com/guide/intro.html)
+## Uso rápido
 
-- [安装运行](https://loker-page.lgwawork.com/guide/install.html)
+1. Descarga el instalador de [Releases](https://github.com/dorlanpabon/tts-vue/releases/latest) e instálalo.
+2. Elige idioma `Español (Colombia)` y voz `Salome` (ya vienen por defecto).
+3. Escribe, pulsa **Iniciar conversión** y reproduce o descarga el MP3.
 
-- [功能介绍](https://loker-page.lgwawork.com/guide/features.html)
+> La API gratuita de Microsoft se agota (~24 h de espera). La vía fiable es tu propia clave de **Azure Speech** (nivel F0: 500.000 caracteres/mes gratis): créala con la guía que muestra la app, pégala en Ajustes → SpeechKey + ServiceRegion y cambia la Interfaz a **Azure Speech API**.
 
-- [常见问题](https://loker-page.lgwawork.com/guide/qa.html)
+## Desarrollo
 
-- [更新日志](https://loker-page.lgwawork.com/guide/update.html)
+```bash
+npm install
+npm run dev    # desarrollo
+npm run build  # typecheck + vite + electron-builder
+npx vitest run # tests unitarios
+```
 
-## 注意
+## Licencia
 
-该软件以及代码仅为个人学习测试使用，请在下载后24小时内删除，不得用于商业用途，否则后果自负。任何违规使用造成的法律后果与本人无关。该软件也永远不会收费，如果您使用该软件前支付了额外费用，或付费获得源码或成品软件，那么你一定被骗了！
-
-**搬运请注明出处。禁止诱导他人以加群、私信等方式获取软件的仓库、下载地址和安装包。**
-
-### 意见问题反馈，版本发布企鹅群：
-
-`【tts-vue问题反馈群⑤】439382846`
-
-`【tts-vue问题反馈群④】781659118(满)`
-
-`【tts-vue问题反馈群③】474128303(满)`
-
-`【tts-vue问题反馈群②】702034846(满)`
-
-`【tts-vue问题反馈群①】752801820(满)`
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=LokerL/tts-vue&type=Date)](https://star-history.com/#LokerL/tts-vue&Date)
+MIT. Proyecto original de LokerL — ver [LICENSE](LICENSE). Úsalo para aprendizaje/pruebas según el aviso de la app.

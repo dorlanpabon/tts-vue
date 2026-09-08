@@ -1,4 +1,40 @@
-## 2022-06-04
+# CHANGELOG del fork (dorlanpabon/tts-vue)
+
+## v1.9.15-es-co11
+- Proveedor OpenCode Zen + sus 4 modelos gratis con fallback.
+
+## v1.9.15-es-co10
+- Fallback entre modelos :free si el proveedor falla + errores IA accionables.
+
+## v1.9.15-es-co9
+- Fix "true" en Interfaz, fallback Azure ante cuota, región eastus.
+
+## v1.9.15-es-co8
+- Modal guía Azure paso a paso con hipervínculos.
+
+## v1.9.15-es-co7
+- GPT amable: valida clave, errores 401 limpios, diálogo rediseñado.
+
+## v1.9.15-es-co6
+- Modal de cuota en simple + lote + audición.
+
+## v1.9.15-es-co5
+- Mejoras UI (Documents, Donate, diálogo GPT, hint clave).
+
+## v1.9.15-es-co4
+- Sin switch de cuota + proveedores IA (OpenRouter gratis).
+
+## v1.9.15-es-co3
+- Ayuda de cuota con guía Azure.
+
+## v1.9.15-es-co2
+- Fallo rápido 429/403 en español, traducción del flujo, plantilla Colombia.
+
+## v1.9.15-es-co (base)
+- Voz es-CO-SalomeNeural por defecto, SSML dinámico, UI en español.
+
+---
+
 
 [v2.0.0](https://github.com/electron-vite/electron-vite-vue/pull/156)
 

@@ -24,15 +24,10 @@ const version = pkg.version;
 const getLatestVsersion = async () => {
   let data = {};
   let latestVsersion = await axios
-    .get("https://gitee.com/api/v5/repos/LGW_space/tts-vue/releases/latest")
+    .get("https://api.github.com/repos/dorlanpabon/tts-vue/releases/latest")
     .catch((e: any) => {
       console.log(e);
     });
-  if (typeof latestVsersion == "undefined") {
-    latestVsersion = await axios.get(
-      "https://api.github.com/repos/LokerL/tts-vue/releases/latest"
-    );
-  }
   return {
     latestVsersion: latestVsersion.data,
     // github: latestVsersion_GitHub.data,
@@ -56,7 +51,7 @@ getLatestVsersion().then(({ latestVsersion }) => {
             h(
               "a",
               {
-                href: "https://gitee.com/LGW_space/tts-vue/releases/latest",
+                href: "https://github.com/dorlanpabon/tts-vue/releases/latest",
                 target: "_blank",
                 style: "margin-bottom: 20px;",
               },
@@ -87,27 +82,25 @@ const checkUpdate = async () => {
         <p>${t('version.latestVersion')}<span>${latestVsersion.tag_name}</span></p>
         <p>${t('version.downloadLinks')}:
           <ul style="margin: 0;">
-            <li><a href="https://github.com/LokerL/tts-vue/releases/latest" target="_blank">GitHub</a></li>
-            <li><a href="https://gitee.com/LGW_space/tts-vue/releases/latest" target="_blank">Gitee</a></li>
-            <li><a href="https://wwn.lanzoul.com/b0f3ype9g" target="_blank">lanzou云</a> ${t('version.password')}</li>
+            <li><a href="https://github.com/dorlanpabon/tts-vue/releases/latest" target="_blank">GitHub (fork Colombia)</a></li>
           </ul>
         </p>
         <p style="margin-top:5px;">
             <div>
-      <a href="https://github.com/LokerL/tts-vue/stargazers" target="_blank"
+      <a href="https://github.com/dorlanpabon/tts-vue/stargazers" target="_blank"
         ><img
           alt="GitHub stars"
-          src="https://img.shields.io/github/stars/LokerL/tts-vue?color=success"
+          src="https://img.shields.io/github/stars/dorlanpabon/tts-vue?color=success"
       /></a>
-      <a href="https://github.com/LokerL/tts-vue/network" target="_blank"
+      <a href="https://github.com/dorlanpabon/tts-vue/network" target="_blank"
         ><img
           alt="GitHub forks"
-          src="https://img.shields.io/github/forks/LokerL/tts-vue"
+          src="https://img.shields.io/github/forks/dorlanpabon/tts-vue"
       /></a>
-      <a href="https://github.com/LokerL/tts-vue/issues" target="_blank"
+      <a href="https://github.com/dorlanpabon/tts-vue/issues" target="_blank"
         ><img
           alt="GitHub issues"
-          src="https://img.shields.io/github/issues/LokerL/tts-vue"
+          src="https://img.shields.io/github/issues/dorlanpabon/tts-vue"
       /></a>
     </div>
         </p>

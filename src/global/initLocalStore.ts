@@ -8,15 +8,8 @@ const { ipcRenderer } = require("electron");
 const { t } = i18n.global;
 
 export default async function initStore() {
-  try {
-    const msVoicesList = await ipcRenderer.invoke("voices");
-    localStorage.setItem("msVoicesList", JSON.stringify(msVoicesList));
-  } catch (error) {
-    // 如果网络请求失败并且localStorage的msVoicesList为空
-    if (localStorage.getItem("msVoicesList") == null) {
-      localStorage.setItem("msVoicesList", JSON.stringify(voices));
-    }
-  }
+  // 1) Defaults SINCRONOS primero: el store de Pinia los lee al montar,
+  //    antes de que cualquier await se resuelva. Nada aqui hace await.
 
   // Voz por defecto: Colombia es-CO.
   // Microsoft solo ofrece 2 voces neurales para es-CO (48 kHz, GA):
@@ -24,19 +17,43 @@ export default async function initStore() {
   // - es-CO-GonzaloNeural (masculina): alternativa masculina.
   // No existe variante "paisa": ambas usan acento colombiano neutro (estandar Bogota),
   // que es lo mas cercano disponible en Azure/Edge Speech.
+  // Solo se crea si no existe: jamas se pisan los ajustes del usuario.
   // Referencia: SecondaryLocales y LocaleDescription "es-CO" en src/global/voices.ts
   // (Salome id 6f1346c4 / Gonzalo id b53bcfc5). Nada de es-MX aqui a proposito.
-  store.set("FormConfig.Colombia", {
-    languageSelect: "es-CO",
-    // Salome: mejor voz colombiana disponible (femenina, Neural).
-    // Si prefieres voz masculina, cambia a "es-CO-GonzaloNeural".
-    voiceSelect: "es-CO-SalomeNeural",
-    voiceStyleSelect: "",
-    role: "Default",
-    speed: 1.0,
-    pitch: 1.0,
-    api: 1,
-  });
+  if (!store.has("FormConfig.Colombia")) {
+    store.set("FormConfig.Colombia", {
+      languageSelect: "es-CO",
+      // Salome: mejor voz colombiana disponible (femenina, Neural).
+      // Si prefieres voz masculina, cambia a "es-CO-GonzaloNeural".
+      voiceSelect: "es-CO-SalomeNeural",
+      voiceStyleSelect: "",
+      role: "Default",
+      speed: 1.0,
+      pitch: 1.0,
+      api: 1,
+    });
+  } else {
+    // Sanea plantillas viejas/rotas (ej. api boolean historico) sin borrar nada.
+    try {
+      const saved: any = store.get("FormConfig.Colombia");
+      let fixed = false;
+      if (saved.api !== 1 && saved.api !== 2 && saved.api !== 3) {
+        saved.api = 1;
+        fixed = true;
+      }
+      if (typeof saved.speed !== "number") {
+        saved.speed = 1.0;
+        fixed = true;
+      }
+      if (typeof saved.pitch !== "number") {
+        saved.pitch = 1.0;
+        fixed = true;
+      }
+      if (fixed) store.set("FormConfig.Colombia", saved);
+    } catch (e) {
+      // si la plantilla esta corrupta se deja como esta
+    }
+  }
   // Migracion: elimina la plantilla vieja en chino ("默认") para que el
   // desplegable ya no muestre caracteres sin traducir.
   try {
@@ -115,5 +132,16 @@ export default async function initStore() {
     }
   } catch (e) {
     // ignora si electron-store no soporta delete en esta version
+  }
+
+  // 2) Red al final: es lo unico asincrono y solo alimenta localStorage.
+  try {
+    const msVoicesList = await ipcRenderer.invoke("voices");
+    localStorage.setItem("msVoicesList", JSON.stringify(msVoicesList));
+  } catch (error) {
+    // 如果网络请求失败并且localStorage的msVoicesList为空
+    if (localStorage.getItem("msVoicesList") == null) {
+      localStorage.setItem("msVoicesList", JSON.stringify(voices));
+    }
   }
 }
