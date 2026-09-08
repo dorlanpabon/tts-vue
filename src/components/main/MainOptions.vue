@@ -53,6 +53,11 @@
             </div>
           </el-option>
         </el-select>
+        <div class="hd-row">
+          <span>{{ t('options.hdOnly') }}</span>
+          <el-switch v-model="hdOnly" size="small" @change="() => applyHdFilter()" />
+          <span v-if="hdOnly" class="hd-count">{{ voiceSelectList.length }}</span>
+        </div>
       </el-form-item>
       <el-form-item :label="t('options.speakingStyle')">
         <el-select
@@ -147,6 +152,7 @@ import { ref, reactive, watch } from "vue";
 import { optionsConfig as oc } from "./options-config";
 import { getStyleDes, getRoleDes } from "./emoji-config";
 import { buildSsml } from "@/global/ssml";
+import { isHdVoice } from "@/global/voiceKind";
 import Loading from "./Loading.vue";
 import { ElMessage, ElMessageBox, arrowMiddleware } from "element-plus";
 import { useTtsStore } from "@/store/store";
@@ -277,7 +283,22 @@ const languageSelectChange = (value: string) => {
   formConfig.value.voiceSelect = "";
   formConfig.value.voiceStyleSelect = "";
   formConfig.value.role = "Default";
-  voiceSelectList.value = oc.findVoicesByLocaleName(value);
+  applyHdFilter(value);
+};
+
+// Filtro "Solo HD" (Dragon* y MAI-Voice-*). Al activarlo con una voz no-HD,
+// salta a la primera HD disponible del idioma.
+const hdOnly = ref(false);
+const applyHdFilter = (locale?: string) => {
+  const all = oc.findVoicesByLocaleName(locale || formConfig.value.languageSelect);
+  voiceSelectList.value = hdOnly.value
+    ? all.filter((v: any) => isHdVoice(v.ShortName))
+    : all;
+  if (hdOnly.value && !isHdVoice(formConfig.value.voiceSelect)) {
+    const first = voiceSelectList.value[0];
+    formConfig.value.voiceSelect = first ? first.ShortName : "";
+    voiceSelectChange(formConfig.value.voiceSelect);
+  }
 };
 
 const defaultVoice = voiceSelectList.value.find(
@@ -440,5 +461,16 @@ const startBtn = () => {
   background-color: rgb(0, 238, 255);
   transform: scaleX(1.4) scaleY(1.5);
   opacity: 0;
+}
+.hd-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #606266;
+}
+.hd-count {
+  color: #909399;
 }
 </style>

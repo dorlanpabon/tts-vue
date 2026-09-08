@@ -1,5 +1,5 @@
 export const voices = [
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, SoonBokNeural)",
         "shortName": "ko-KR-SoonBokNeural",
         "locale": "ko-KR",
@@ -39,7 +39,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "abdda02b-9b62-411b-bc39-003fb1d9f2cc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, AIGenerate1Neural)",
         "shortName": "en-US-AIGenerate1Neural",
         "locale": "en-US",
@@ -79,7 +79,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "520f8b71-e1cc-4e80-b9ea-006d2f816864"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, LouisaNeural)",
         "shortName": "de-DE-LouisaNeural",
         "locale": "de-DE",
@@ -119,7 +119,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "526184e4-10ee-403b-b9b7-01085f46c320"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, LeilaNeural)",
         "shortName": "pt-BR-LeilaNeural",
         "locale": "pt-BR",
@@ -159,7 +159,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "06526159-4cf8-4c95-91fa-01e83d6fe441"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, GookMinNeural)",
         "shortName": "ko-KR-GookMinNeural",
         "locale": "ko-KR",
@@ -199,7 +199,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "06eaa924-21ab-4bd1-9d71-01ed40046865"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (vi-VN, HoaiMyNeural)",
         "shortName": "vi-VN-HoaiMyNeural",
         "description": "",
@@ -240,7 +240,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "090b3817-3fe2-4c37-8c5f-025db1335032"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, NilNeural)",
         "shortName": "es-ES-NilNeural",
         "locale": "es-ES",
@@ -280,7 +280,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f078c87b-9723-4050-b57a-026f7efb38e4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, NanamiNeural)",
         "shortName": "ja-JP-NanamiNeural",
         "description": "",
@@ -333,7 +333,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b35c7ab9-7933-4f6b-bf49-028a06114d0b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-ZA, LukeNeural)",
         "shortName": "en-ZA-LukeNeural",
         "locale": "en-ZA",
@@ -373,7 +373,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a53f44a0-b3fe-4f02-94d8-03829b8081be"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (lo-LA, ChanthavongNeural)",
         "shortName": "lo-LA-ChanthavongNeural",
         "locale": "lo-LA",
@@ -413,7 +413,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6e185350-7363-4ee0-ab2c-038326c7ff41"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, CecilioNeural)",
         "shortName": "es-MX-CecilioNeural",
         "locale": "es-MX",
@@ -453,7 +453,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f4bf856d-6246-40be-a745-03c5e68f7d10"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, LucianoNeural)",
         "shortName": "es-MX-LucianoNeural",
         "locale": "es-MX",
@@ -493,7 +493,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "25dc980d-ff1f-42e8-bef2-04cbb4bd16ce"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-LK, KumarNeural)",
         "shortName": "ta-LK-KumarNeural",
         "locale": "ta-LK",
@@ -533,7 +533,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7777a5ee-439b-4780-88b8-060c527fbaf8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-CH, JanNeural)",
         "shortName": "de-CH-JanNeural",
         "locale": "de-CH",
@@ -573,7 +573,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7ad56aad-0fda-4b70-bb36-06328dda42f5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (gl-ES, SabelaNeural)",
         "shortName": "gl-ES-SabelaNeural",
         "locale": "gl-ES",
@@ -613,7 +613,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "fe9d5f74-af06-4803-976d-0839093512b1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-YE, MaryamNeural)",
         "shortName": "ar-YE-MaryamNeural",
         "locale": "ar-YE",
@@ -653,7 +653,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9a376069-83e6-4a20-b954-093d4a7d1757"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, DaichiNeural)",
         "shortName": "ja-JP-DaichiNeural",
         "locale": "ja-JP",
@@ -693,7 +693,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "61284492-3628-4c8f-a33a-0972a4603ad4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-SG, VenbaNeural)",
         "shortName": "ta-SG-VenbaNeural",
         "locale": "ta-SG",
@@ -733,7 +733,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "afed09aa-94df-4115-9600-09a007819371"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (kk-KZ, AigulNeural)",
         "shortName": "kk-KZ-AigulNeural",
         "locale": "kk-KZ",
@@ -773,7 +773,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "83b52df6-a6e2-4bd0-9587-09bd9bfb73e4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-NG, AbeoNeural)",
         "shortName": "en-NG-AbeoNeural",
         "locale": "en-NG",
@@ -813,7 +813,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e9b470fe-c8eb-4aec-a993-09e806741339"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-HK, SamNeural)",
         "shortName": "en-HK-SamNeural",
         "locale": "en-HK",
@@ -853,7 +853,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f6d931ff-4b5a-417a-b3ce-0a846a4dda4c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-PT, FernandaNeural)",
         "shortName": "pt-PT-FernandaNeural",
         "description": "",
@@ -894,7 +894,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "601ef07e-2f2a-4d7b-b59e-0b3b224948f0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-MY, KaniNeural)",
         "shortName": "ta-MY-KaniNeural",
         "locale": "ta-MY",
@@ -934,7 +934,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e8e16409-b614-435f-8d10-0ba08088c3c0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-SV, RodrigoNeural)",
         "shortName": "es-SV-RodrigoNeural",
         "locale": "es-SV",
@@ -974,7 +974,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "405d8cfc-479f-4b4c-80b7-0bf031084928"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, ElizabethNeural)",
         "shortName": "en-US-ElizabethNeural",
         "locale": "en-US",
@@ -1014,7 +1014,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f1b81aff-514c-4ea8-b602-0c56180c7c63"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, WilliamNeural)",
         "shortName": "en-AU-WilliamNeural",
         "description": "",
@@ -1055,7 +1055,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ada99918-f740-4e47-86f7-0d3c8e95c027"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, LibbyNeural)",
         "shortName": "en-GB-LibbyNeural",
         "description": "",
@@ -1096,7 +1096,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e4fbab32-f3f3-4943-b4db-0d8a7469b383"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, AnnetteNeural)",
         "shortName": "en-AU-AnnetteNeural",
         "locale": "en-AU",
@@ -1136,7 +1136,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "38715012-e919-4142-acbf-0eba9d45b70c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (cy-GB, AledNeural)",
         "shortName": "cy-GB-AledNeural",
         "locale": "cy-GB",
@@ -1176,7 +1176,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a2dd132c-bfcc-4215-9077-0fcd2d57255e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, ImeldaNeural)",
         "shortName": "it-IT-ImeldaNeural",
         "locale": "it-IT",
@@ -1216,7 +1216,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6077350a-dec0-40d0-8497-11976c4bb81f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-AR, ElenaNeural)",
         "shortName": "es-AR-ElenaNeural",
         "locale": "es-AR",
@@ -1256,7 +1256,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "16b6c635-eef5-43eb-87d3-11c780304891"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, MiaNeural)",
         "shortName": "en-GB-MiaNeural",
         "locale": "en-GB",
@@ -1297,7 +1297,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2367bbe4-0039-4222-a92a-12b37d66a362"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CO, SalomeNeural)",
         "shortName": "es-CO-SalomeNeural",
         "locale": "es-CO",
@@ -1337,7 +1337,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6f1346c4-e658-4395-9e98-132b0e4c1a62"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fi-FI, SelmaNeural)",
         "shortName": "fi-FI-SelmaNeural",
         "locale": "fi-FI",
@@ -1377,7 +1377,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0c48f5ae-fe62-4be3-a239-134492206ac5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, SunHiNeural)",
         "shortName": "ko-KR-SunHiNeural",
         "description": "",
@@ -1418,7 +1418,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "17e97d15-e286-416b-bc1b-13f7b3cd67af"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, RyanNeural)",
         "shortName": "en-GB-RyanNeural",
         "description": "",
@@ -1467,7 +1467,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "865ed125-9b77-4022-bf44-142ca2522695"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, ShioriNeural)",
         "shortName": "ja-JP-ShioriNeural",
         "locale": "ja-JP",
@@ -1507,7 +1507,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e99ee79d-06fc-4265-a27b-14c7fe231aca"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-SA, HamedNeural)",
         "shortName": "ar-SA-HamedNeural",
         "locale": "ar-SA",
@@ -1547,7 +1547,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "43572d52-a314-43ff-97d7-151585fb0f65"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoxuanNeural)",
         "shortName": "zh-CN-XiaoxuanNeural",
         "description": "Confident and capable voice with rich role-play and emotions that is optimized for audio books.",
@@ -1679,7 +1679,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "197d529b-8158-4bec-ab83-156c8485e81c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-NG, EzinneNeural)",
         "shortName": "en-NG-EzinneNeural",
         "locale": "en-NG",
@@ -1719,7 +1719,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "15b8867d-a217-4abb-9dde-158670c0615c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaochenNeural)",
         "shortName": "zh-CN-XiaochenNeural",
         "locale": "zh-CN",
@@ -1778,7 +1778,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "16cf511c-1865-404e-b2da-160362b7dff6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (he-IL, AvriNeural)",
         "shortName": "he-IL-AvriNeural",
         "locale": "he-IL",
@@ -1818,7 +1818,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ff915f3d-7c13-4914-a7ed-1615d17d4039"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (uk-UA, PolinaNeural)",
         "shortName": "uk-UA-PolinaNeural",
         "locale": "uk-UA",
@@ -1858,7 +1858,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5189e67d-9cc7-4fd8-b894-165ab7c1d504"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoxiaoNeural)",
         "shortName": "zh-CN-XiaoxiaoNeural",
         "description": "Lively and warm voice with multiple scenario styles and emotions.",
@@ -2057,7 +2057,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5f55541d-c844-4e04-a7f8-1723ffbea4a9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, DiegoNeural)",
         "shortName": "it-IT-DiegoNeural",
         "description": "",
@@ -2098,7 +2098,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "85e7f814-532a-4345-97e8-18a61717dd8e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, KatjaNeural)",
         "shortName": "de-DE-KatjaNeural",
         "description": "",
@@ -2139,7 +2139,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b7533283-392f-4969-b977-1a364b1adbae"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, ElviraNeural)",
         "shortName": "es-ES-ElviraNeural",
         "description": "",
@@ -2180,7 +2180,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9314d042-c519-4087-ba99-1a49d78e2d9f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (si-LK, SameeraNeural)",
         "shortName": "si-LK-SameeraNeural",
         "locale": "si-LK",
@@ -2220,7 +2220,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "92fde113-0078-4166-b94c-1a5277a9a8c0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaohanNeural)",
         "shortName": "zh-CN-XiaohanNeural",
         "description": "Warm and sweet voice with rich emotions that can be used in many conversation scenarios.",
@@ -2323,7 +2323,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2a741315-7d02-4b45-b91f-1b620ac545bc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, PierinaNeural)",
         "shortName": "it-IT-PierinaNeural",
         "locale": "it-IT",
@@ -2363,7 +2363,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2b869701-13e4-4612-9183-1d67ed0e6ccc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PY, TaniaNeural)",
         "shortName": "es-PY-TaniaNeural",
         "locale": "es-PY",
@@ -2403,7 +2403,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "cc82356f-b180-424d-ae74-1dbbdfdac93b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, MajaNeural)",
         "shortName": "de-DE-MajaNeural",
         "locale": "de-DE",
@@ -2443,7 +2443,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1f13dc7d-e108-4432-94b6-1e25445cb533"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sw-TZ, RehemaNeural)",
         "shortName": "sw-TZ-RehemaNeural",
         "locale": "sw-TZ",
@@ -2483,7 +2483,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8e2bd817-6415-4cde-9e56-1e45e2fb6973"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mn-MN, YesuiNeural)",
         "shortName": "mn-MN-YesuiNeural",
         "locale": "mn-MN",
@@ -2523,7 +2523,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d91fc86e-c4ac-4528-aad1-1f17a869b835"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, AmalaNeural)",
         "shortName": "de-DE-AmalaNeural",
         "locale": "de-DE",
@@ -2563,7 +2563,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c87ed4d5-30e1-43c7-9d21-1f61797fc706"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, TinaNeural)",
         "shortName": "en-AU-TinaNeural",
         "locale": "en-AU",
@@ -2603,7 +2603,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "36b7073c-1426-49ea-8393-206c4cd2ce99"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, NicolauNeural)",
         "shortName": "pt-BR-NicolauNeural",
         "locale": "pt-BR",
@@ -2643,7 +2643,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2e840c4d-fc29-40aa-bdb6-209cc07f26e6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, KimNeural)",
         "shortName": "en-AU-KimNeural",
         "locale": "en-AU",
@@ -2683,7 +2683,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e59988b1-2234-4607-9f69-2177f5892e0d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-CH, ArianeNeural)",
         "shortName": "fr-CH-ArianeNeural",
         "description": "",
@@ -2724,7 +2724,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c86e7dad-b97c-4de9-8ff1-2287bf405535"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ru-RU, SvetlanaNeural)",
         "shortName": "ru-RU-SvetlanaNeural",
         "locale": "ru-RU",
@@ -2764,7 +2764,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ed169f6c-1533-4ed5-8a17-23749095b556"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (su-ID, JajangNeural)",
         "shortName": "su-ID-JajangNeural",
         "locale": "su-ID",
@@ -2804,7 +2804,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a6482508-cc9f-4994-adf3-2397fe3cc5cd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaozhenNeural)",
         "shortName": "zh-CN-XiaozhenNeural",
         "locale": "zh-CN",
@@ -2869,7 +2869,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "40772218-9232-47e5-aa26-23a96d5effa0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (lt-LT, LeonasNeural)",
         "shortName": "lt-LT-LeonasNeural",
         "locale": "lt-LT",
@@ -2909,7 +2909,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4a99a2e0-2cf0-46c9-bcde-23d37674ecaf"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ur-PK, UzmaNeural)",
         "shortName": "ur-PK-UzmaNeural",
         "locale": "ur-PK",
@@ -2949,7 +2949,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "49efca2d-f9bb-4761-81d2-243bf84d520b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PY, MarioNeural)",
         "shortName": "es-PY-MarioNeural",
         "locale": "es-PY",
@@ -2989,7 +2989,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c1749ad5-0aa6-428a-9336-254ee247a672"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ka-GE, EkaNeural)",
         "shortName": "ka-GE-EkaNeural",
         "locale": "ka-GE",
@@ -3029,7 +3029,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "57801f3b-0718-44bc-81ff-259334396f17"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, YaraNeural)",
         "shortName": "pt-BR-YaraNeural",
         "locale": "pt-BR",
@@ -3069,7 +3069,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b7429917-f62d-44e1-bdd3-2623cb475bd2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-NZ, MollyNeural)",
         "shortName": "en-NZ-MollyNeural",
         "locale": "en-NZ",
@@ -3109,7 +3109,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8763bcde-b893-4e6d-852d-26d9cd967f0e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PA, MargaritaNeural)",
         "shortName": "es-PA-MargaritaNeural",
         "locale": "es-PA",
@@ -3149,7 +3149,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f86b8aff-fccb-4d98-a6dc-26eb83bf8ef6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-MA, JamalNeural)",
         "shortName": "ar-MA-JamalNeural",
         "locale": "ar-MA",
@@ -3189,7 +3189,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "954eda91-3108-4486-8143-26edb95e4e7f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, VeraNeural)",
         "shortName": "es-ES-VeraNeural",
         "locale": "es-ES",
@@ -3229,7 +3229,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "50b742e4-b3e5-4f11-bedf-28a1b81188c7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, JennyMultilingualNeural)",
         "shortName": "en-US-JennyMultilingualNeural",
         "locale": "en-US",
@@ -3322,7 +3322,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "19eaa6ae-0655-4704-928b-28e1f1b917b2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-OM, AbdullahNeural)",
         "shortName": "ar-OM-AbdullahNeural",
         "locale": "ar-OM",
@@ -3362,7 +3362,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "79c1cc71-a4e8-4981-bd8d-2921d82d4230"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (cy-GB, NiaNeural)",
         "shortName": "cy-GB-NiaNeural",
         "locale": "cy-GB",
@@ -3402,7 +3402,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5f44b500-0472-4596-a79d-29be8b3fb6d3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nb-NO, PernilleNeural)",
         "shortName": "nb-NO-PernilleNeural",
         "locale": "nb-NO",
@@ -3442,7 +3442,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d278fb66-0bd9-4706-a194-29f10970f2e4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, IrmaNeural)",
         "shortName": "it-IT-IrmaNeural",
         "locale": "it-IT",
@@ -3482,7 +3482,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6f91cbf3-5833-4dbd-aaab-2a7d54ddf3f1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pl-PL, AgnieszkaNeural)",
         "shortName": "pl-PL-AgnieszkaNeural",
         "locale": "pl-PL",
@@ -3522,7 +3522,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ef9c11c7-07ce-476f-871d-2b7f31a7c48b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-SV, LorenaNeural)",
         "shortName": "es-SV-LorenaNeural",
         "locale": "es-SV",
@@ -3562,7 +3562,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5db44c75-2d71-44b9-b82d-2bce134c4c2e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, KillianNeural)",
         "shortName": "de-DE-KillianNeural",
         "locale": "de-DE",
@@ -3602,7 +3602,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "daa147ce-c7af-4a97-9e37-2dd923df4433"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, TimNeural)",
         "shortName": "en-AU-TimNeural",
         "locale": "en-AU",
@@ -3642,7 +3642,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7676f89d-cacf-492b-889d-2e7b897bcde4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bg-BG, KalinaNeural)",
         "shortName": "bg-BG-KalinaNeural",
         "description": "",
@@ -3683,7 +3683,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5e4d2532-06f2-4773-b563-2f946289aadf"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunjianNeural)",
         "shortName": "zh-CN-YunjianNeural",
         "locale": "zh-CN",
@@ -3736,7 +3736,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "39947851-46d7-4561-8199-2fd8bdc49ba6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-BE, GerardNeural)",
         "shortName": "fr-BE-GerardNeural",
         "locale": "fr-BE",
@@ -3776,7 +3776,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8466e484-7aee-4c7a-85c3-30d59b533ad4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, YagoNeural)",
         "shortName": "es-MX-YagoNeural",
         "locale": "es-MX",
@@ -3816,7 +3816,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f4b9fd8a-fad9-44f0-b5f0-3219888d07fd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-KE, AsiliaNeural)",
         "shortName": "en-KE-AsiliaNeural",
         "locale": "en-KE",
@@ -3856,7 +3856,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "62bcf61d-7e9b-4f2d-b109-326d291f3197"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nl-NL, ColetteNeural)",
         "shortName": "nl-NL-ColetteNeural",
         "description": "",
@@ -3897,7 +3897,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "632392e6-d5af-4876-9417-32d19424e5b6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, GiovannaNeural)",
         "shortName": "pt-BR-GiovannaNeural",
         "locale": "pt-BR",
@@ -3937,7 +3937,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c101b3fa-3990-4943-b9fa-330f269e6d35"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyanNeural)",
         "shortName": "zh-CN-XiaoyanNeural",
         "locale": "zh-CN",
@@ -3996,7 +3996,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8190b804-6f50-4ad6-9b9d-332a4d3bf521"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (gl-ES, RoiNeural)",
         "shortName": "gl-ES-RoiNeural",
         "locale": "gl-ES",
@@ -4036,7 +4036,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "77988ee6-38e7-4b0a-ba91-33d88b3a42b0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-SY, LaithNeural)",
         "shortName": "ar-SY-LaithNeural",
         "locale": "ar-SY",
@@ -4076,7 +4076,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1152d3cc-8fd1-4448-8935-3475650a83a1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, AmberNeural)",
         "shortName": "en-US-AmberNeural",
         "locale": "en-US",
@@ -4116,7 +4116,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "814db6e1-ce6e-4b8a-9c10-347943910d18"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, AntonioNeural)",
         "shortName": "pt-BR-AntonioNeural",
         "description": "",
@@ -4157,7 +4157,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "89523202-fee2-410b-8a71-355e59bdaa21"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (am-ET, AmehaNeural)",
         "shortName": "am-ET-AmehaNeural",
         "locale": "am-ET",
@@ -4197,7 +4197,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6c4d0fa4-d47f-4e37-9d25-357d84cb02c3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-SG, AnbuNeural)",
         "shortName": "ta-SG-AnbuNeural",
         "locale": "ta-SG",
@@ -4237,7 +4237,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7b34b246-014f-4fea-9b47-3597b18778a9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, CelesteNeural)",
         "shortName": "fr-FR-CelesteNeural",
         "locale": "fr-FR",
@@ -4277,7 +4277,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "86ad0be8-ef3a-4e4b-a026-35e5c51153eb"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, InJoonNeural)",
         "shortName": "ko-KR-InJoonNeural",
         "description": "",
@@ -4318,7 +4318,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "662c6e95-d86c-490b-928d-3836034ffc42"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CR, JuanNeural)",
         "shortName": "es-CR-JuanNeural",
         "locale": "es-CR",
@@ -4358,7 +4358,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "80b67b7d-afee-4874-b394-394d8de13850"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ka-GE, GiorgiNeural)",
         "shortName": "ka-GE-GiorgiNeural",
         "locale": "ka-GE",
@@ -4398,7 +4398,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d05e2be8-ce1f-4b89-bf54-3984721887a4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, JorgeNeural)",
         "shortName": "es-MX-JorgeNeural",
         "description": "",
@@ -4447,7 +4447,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ace72e9b-dd48-4374-b508-39af2d140d16"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyiNeural)",
         "shortName": "zh-CN-XiaoyiNeural",
         "locale": "zh-CN",
@@ -4524,7 +4524,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "38bb36cb-0dda-403c-b012-3b447db510c3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, BrandonNeural)",
         "shortName": "en-US-BrandonNeural",
         "locale": "en-US",
@@ -4564,7 +4564,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2380ef4f-34bb-4d06-b6e2-3bbf42621a26"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sv-SE, MattiasNeural)",
         "shortName": "sv-SE-MattiasNeural",
         "locale": "sv-SE",
@@ -4604,7 +4604,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b99565a4-9413-4ad5-b1b0-3ceb4bf9ed48"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (az-AZ, BabekNeural)",
         "shortName": "az-AZ-BabekNeural",
         "locale": "az-AZ",
@@ -4644,7 +4644,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "803fad75-27ca-4d9e-99d9-3cf9bf365713"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mk-MK, AleksandarNeural)",
         "shortName": "mk-MK-AleksandarNeural",
         "locale": "mk-MK",
@@ -4684,7 +4684,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6cf1db56-de08-493a-a757-3d9bbee7d7d6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-CA, AntoineNeural)",
         "shortName": "fr-CA-AntoineNeural",
         "locale": "fr-CA",
@@ -4724,7 +4724,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b8c2f01f-68d1-4341-b46f-3e7c67f1a149"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-DO, RamonaNeural)",
         "shortName": "es-DO-RamonaNeural",
         "locale": "es-DO",
@@ -4764,7 +4764,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "92a6cc59-8b2b-4e31-bb80-3e8632111ae4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, TrianaNeural)",
         "shortName": "es-ES-TrianaNeural",
         "locale": "es-ES",
@@ -4804,7 +4804,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6f16cbe3-335c-46fe-a509-3e8da79df90d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunhaoNeural)",
         "shortName": "zh-CN-YunhaoNeural",
         "locale": "zh-CN",
@@ -4853,7 +4853,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "33583255-1cdd-4845-9f9f-3eb557ec2c59"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, AoiNeural)",
         "shortName": "ja-JP-AoiNeural",
         "locale": "ja-JP",
@@ -4893,7 +4893,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e9086169-7176-4afc-8b5e-3f06a3ad1fb3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nl-NL, MaartenNeural)",
         "shortName": "nl-NL-MaartenNeural",
         "locale": "nl-NL",
@@ -4933,7 +4933,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c2936675-a301-488e-b13c-3ffec5a2edbe"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-SG, WayneNeural)",
         "shortName": "en-SG-WayneNeural",
         "locale": "en-SG",
@@ -4973,7 +4973,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e8cbc91c-6e36-4a26-a417-40c6765b738a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-HN, CarlosNeural)",
         "shortName": "es-HN-CarlosNeural",
         "locale": "es-HN",
@@ -5013,7 +5013,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "87d4f7cd-10dc-426b-8465-41a8a5b8fa12"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, MaisieNeural)",
         "shortName": "en-GB-MaisieNeural",
         "locale": "en-GB",
@@ -5053,7 +5053,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "882abb1e-adef-47c6-9c0e-423e4bb1a2ab"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (so-SO, UbaxNeural)",
         "shortName": "so-SO-UbaxNeural",
         "locale": "so-SO",
@@ -5093,7 +5093,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "65cf2392-2e60-43af-b6a9-42eec2748f9e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bn-BD, NabanitaNeural)",
         "shortName": "bn-BD-NabanitaNeural",
         "locale": "bn-BD",
@@ -5133,7 +5133,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f72fee1a-54ea-4186-a30e-430b14b96cc4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-QA, MoazNeural)",
         "shortName": "ar-QA-MoazNeural",
         "locale": "ar-QA",
@@ -5173,7 +5173,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f710a1a0-ff4e-4eef-9909-44376390cea5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-TZ, ElimuNeural)",
         "shortName": "en-TZ-ElimuNeural",
         "locale": "en-TZ",
@@ -5213,7 +5213,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e49606b3-34de-4579-bf43-4458fffd85e8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-TZ, ImaniNeural)",
         "shortName": "en-TZ-ImaniNeural",
         "locale": "en-TZ",
@@ -5253,7 +5253,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e9642536-74cd-4580-ba7b-459355d4168f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, DavisNeural)",
         "shortName": "en-US-DavisNeural",
         "locale": "en-US",
@@ -5337,7 +5337,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b5f86142-ce84-4483-8142-45db0d778add"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, ConradNeural)",
         "shortName": "de-DE-ConradNeural",
         "description": "",
@@ -5378,7 +5378,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "865dd6ad-a19e-475b-86b9-464c889250a6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sr-RS, SophieNeural)",
         "shortName": "sr-RS-SophieNeural",
         "locale": "sr-RS",
@@ -5418,7 +5418,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "24760f62-1a7b-4b6f-a121-46b86bab164f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (kn-IN, SapnaNeural)",
         "shortName": "kn-IN-SapnaNeural",
         "locale": "kn-IN",
@@ -5458,7 +5458,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1d77f6c6-6f94-4bef-884e-46f3a9e7c258"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-UY, MateoNeural)",
         "shortName": "es-UY-MateoNeural",
         "locale": "es-UY",
@@ -5498,7 +5498,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "57303f99-fbef-44bf-b291-4735f88f9a61"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, MarinaNeural)",
         "shortName": "es-MX-MarinaNeural",
         "locale": "es-MX",
@@ -5538,7 +5538,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8db5ae9b-9d62-48e3-ae1e-4899a2b2e053"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, JasonNeural)",
         "shortName": "en-US-JasonNeural",
         "locale": "en-US",
@@ -5618,7 +5618,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "93cdc1ca-0ba2-4615-91ec-495bd6b40b3d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-HK, HiuGaaiNeural)",
         "shortName": "zh-HK-HiuGaaiNeural",
         "description": "",
@@ -5659,7 +5659,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "43b6bf15-38b2-4df8-a439-498e3ed7bfc3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ca-ES, JoanaNeural)",
         "shortName": "ca-ES-JoanaNeural",
         "locale": "ca-ES",
@@ -5699,7 +5699,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "817b1bf6-0020-4d2b-a978-49ded1768b12"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ru-RU, DariyaNeural)",
         "shortName": "ru-RU-DariyaNeural",
         "description": "",
@@ -5740,7 +5740,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6d04d9b3-41f0-4c52-835b-4a353e799ab8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, SaraNeural)",
         "shortName": "en-US-SaraNeural",
         "locale": "en-US",
@@ -5820,7 +5820,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "38db11b6-fa64-4989-8d75-4a48695ee5cd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-HK, YanNeural)",
         "shortName": "en-HK-YanNeural",
         "locale": "en-HK",
@@ -5860,7 +5860,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "845b64ce-7525-49b4-9a5a-4c42b23ce64d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, IsabellaNeural)",
         "shortName": "it-IT-IsabellaNeural",
         "description": "",
@@ -5909,7 +5909,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0bad16a8-a63e-4e1d-bc80-4c88ddaf2b77"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (he-IL, HilaNeural)",
         "shortName": "he-IL-HilaNeural",
         "description": "",
@@ -5950,7 +5950,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "286a3a96-fa74-4489-bb0a-4db9f437d2a1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, NatashaNeural)",
         "shortName": "en-AU-NatashaNeural",
         "description": "",
@@ -5991,7 +5991,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "40656072-27e0-4599-8cc4-4de109bcb0b1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ca-ES, AlbaNeural)",
         "shortName": "ca-ES-AlbaNeural",
         "description": "",
@@ -6032,7 +6032,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b06ff851-a50c-4e54-bf98-4ed52f0cb526"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (my-MM, NilarNeural)",
         "shortName": "my-MM-NilarNeural",
         "locale": "my-MM",
@@ -6072,7 +6072,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ae0b8565-6ccc-462d-8fdd-4f5521dea6b4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, BrigitteNeural)",
         "shortName": "fr-FR-BrigitteNeural",
         "locale": "fr-FR",
@@ -6112,7 +6112,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "730f985a-7223-4d6d-9bff-4fb76bdd4a0e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pl-PL, ZofiaNeural)",
         "shortName": "pl-PL-ZofiaNeural",
         "description": "",
@@ -6153,7 +6153,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "621f531c-128b-4004-9c50-500d27a6c52a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (te-IN, MohanNeural)",
         "shortName": "te-IN-MohanNeural",
         "locale": "te-IN",
@@ -6193,7 +6193,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "db216550-1d31-4f8d-a052-5055ec63fc8d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-IN, ValluvarNeural)",
         "shortName": "ta-IN-ValluvarNeural",
         "locale": "ta-IN",
@@ -6233,7 +6233,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8c9f6f0a-f349-4a59-b829-50f224817a46"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CO, GonzaloNeural)",
         "shortName": "es-CO-GonzaloNeural",
         "locale": "es-CO",
@@ -6273,7 +6273,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b53bcfc5-812e-40cc-a3ce-50fdc560afcc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sk-SK, LukasNeural)",
         "shortName": "sk-SK-LukasNeural",
         "locale": "sk-SK",
@@ -6313,7 +6313,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "eca66fba-5a66-4ada-9e99-513db4068ced"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, CoraNeural)",
         "shortName": "en-US-CoraNeural",
         "locale": "en-US",
@@ -6353,7 +6353,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4bfabb53-98ee-4c2d-9a60-51835494916d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (vi-VN, NamMinhNeural)",
         "shortName": "vi-VN-NamMinhNeural",
         "locale": "vi-VN",
@@ -6393,7 +6393,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "38c5302d-b63e-41d3-b9d5-51af941f72d4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN-shaanxi, XiaoniNeural)",
         "shortName": "zh-CN-shaanxi-XiaoniNeural",
         "locale": "zh-CN-shaanxi",
@@ -6433,7 +6433,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ed0cbbff-e662-4159-bc8f-51e4d652db47"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hr-HR, GabrijelaNeural)",
         "shortName": "hr-HR-GabrijelaNeural",
         "description": "",
@@ -6474,7 +6474,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "48d3ffd9-2a24-450c-b423-53762f6575c4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-GQ, TeresaNeural)",
         "shortName": "es-GQ-TeresaNeural",
         "locale": "es-GQ",
@@ -6514,7 +6514,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "94127b9b-e780-4dff-9c7f-5386d4ea6331"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, MichelleNeural)",
         "shortName": "en-US-MichelleNeural",
         "locale": "en-US",
@@ -6554,7 +6554,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d2e289ac-2b92-4127-9183-5475de808892"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, HenriNeural)",
         "shortName": "fr-FR-HenriNeural",
         "description": "",
@@ -6603,7 +6603,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "db1112a4-e410-496e-b6dd-5493515bc9fa"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ml-IN, SobhanaNeural)",
         "shortName": "ml-IN-SobhanaNeural",
         "locale": "ml-IN",
@@ -6643,7 +6643,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0fe16f65-a722-43d7-b79c-549b0da935ab"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, EliasNeural)",
         "shortName": "es-ES-EliasNeural",
         "locale": "es-ES",
@@ -6683,7 +6683,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2590425b-a919-44b9-b8c4-54f6a7f04255"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-PT, RaquelNeural)",
         "shortName": "pt-PT-RaquelNeural",
         "locale": "pt-PT",
@@ -6723,7 +6723,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5a8032b2-536d-4341-b828-550ae5946fd9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (el-GR, AthinaNeural)",
         "shortName": "el-GR-AthinaNeural",
         "description": "",
@@ -6764,7 +6764,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4a73ab1b-4908-4586-bde6-556699f5e855"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-GQ, JavierNeural)",
         "shortName": "es-GQ-JavierNeural",
         "locale": "es-GQ",
@@ -6804,7 +6804,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "76130879-a05a-442b-8145-55ecbcf934da"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (is-IS, GudrunNeural)",
         "shortName": "is-IS-GudrunNeural",
         "locale": "is-IS",
@@ -6844,7 +6844,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4f0f956b-7704-4cfd-b50c-56658f80084e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoshuangNeural)",
         "shortName": "zh-CN-XiaoshuangNeural",
         "locale": "zh-CN",
@@ -6919,7 +6919,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "732028ea-c614-45de-8cad-566e19e94e79"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (kn-IN, GaganNeural)",
         "shortName": "kn-IN-GaganNeural",
         "locale": "kn-IN",
@@ -6959,7 +6959,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "dc3d1705-5580-40f3-93a6-5785d1b70861"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, AlainNeural)",
         "shortName": "fr-FR-AlainNeural",
         "locale": "fr-FR",
@@ -6999,7 +6999,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "bfa6ab71-5463-4a9f-8170-58c219093aab"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, TanjaNeural)",
         "shortName": "de-DE-TanjaNeural",
         "locale": "de-DE",
@@ -7039,7 +7039,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ab391d83-4474-4387-9bdf-591524d03635"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, JiMinNeural)",
         "shortName": "ko-KR-JiMinNeural",
         "locale": "ko-KR",
@@ -7079,7 +7079,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "474131f3-ea79-45eb-bb61-594966a48110"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, JennyNeural)",
         "shortName": "en-US-JennyNeural",
         "description": "",
@@ -7193,7 +7193,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e5e4f59b-65c6-42b2-a6e3-5985d1a1ea07"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-UY, ValentinaNeural)",
         "shortName": "es-UY-ValentinaNeural",
         "locale": "es-UY",
@@ -7233,7 +7233,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "05750e25-e868-45c4-9ae7-5a137a4cdf19"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, KlarissaNeural)",
         "shortName": "de-DE-KlarissaNeural",
         "locale": "de-DE",
@@ -7273,7 +7273,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9ebb7b98-4fc8-4093-9e92-5a567ede03d8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-CH, LeniNeural)",
         "shortName": "de-CH-LeniNeural",
         "description": "",
@@ -7314,7 +7314,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "66becf5d-1fc6-488f-9f71-5a94bca91880"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-DZ, IsmaelNeural)",
         "shortName": "ar-DZ-IsmaelNeural",
         "locale": "ar-DZ",
@@ -7354,7 +7354,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d26c4ed1-a6f9-4a08-af27-5aae3df3a890"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nb-NO, FinnNeural)",
         "shortName": "nb-NO-FinnNeural",
         "locale": "nb-NO",
@@ -7394,7 +7394,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2b9002ee-95ba-419f-b983-5b14ece687a6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, BerndNeural)",
         "shortName": "de-DE-BerndNeural",
         "locale": "de-DE",
@@ -7434,7 +7434,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "10044c16-554d-4691-9c89-5c13e892ceb6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fi-FI, NooraNeural)",
         "shortName": "fi-FI-NooraNeural",
         "description": "",
@@ -7475,7 +7475,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "33b22076-a1b7-459a-b9db-5c507945176c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaomengNeural)",
         "shortName": "zh-CN-XiaomengNeural",
         "locale": "zh-CN",
@@ -7520,7 +7520,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e7ae8dcc-bee4-4545-8532-5c8710041809"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, CarlyNeural)",
         "shortName": "en-AU-CarlyNeural",
         "locale": "en-AU",
@@ -7560,7 +7560,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2fd0c0e4-8885-49d0-80b8-5ca9929e8716"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-OM, AyshaNeural)",
         "shortName": "ar-OM-AyshaNeural",
         "locale": "ar-OM",
@@ -7600,7 +7600,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "99893827-8784-4146-8bec-5cd7f4b296ed"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, RalfNeural)",
         "shortName": "de-DE-RalfNeural",
         "locale": "de-DE",
@@ -7640,7 +7640,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "be77cf10-8c9f-4916-b352-5da177804842"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunfengNeural)",
         "shortName": "zh-CN-YunfengNeural",
         "locale": "zh-CN",
@@ -7709,7 +7709,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "54bdad96-b5f6-4243-9705-5e0db3f67dcd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (si-LK, ThiliniNeural)",
         "shortName": "si-LK-ThiliniNeural",
         "locale": "si-LK",
@@ -7749,7 +7749,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "307049c0-bfaf-40dd-8b97-5f69465d0e48"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, ClaudeNeural)",
         "shortName": "fr-FR-ClaudeNeural",
         "locale": "fr-FR",
@@ -7789,7 +7789,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "329c1743-53d2-442e-b4ef-5fcb260105fa"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ne-NP, SagarNeural)",
         "shortName": "ne-NP-SagarNeural",
         "locale": "ne-NP",
@@ -7829,7 +7829,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "09d9fda8-5de9-4e7a-be8b-607a82f767d1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, ValerioNeural)",
         "shortName": "pt-BR-ValerioNeural",
         "locale": "pt-BR",
@@ -7869,7 +7869,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3bb57996-137f-460b-b245-61b4a441899f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, YuJinNeural)",
         "shortName": "ko-KR-YuJinNeural",
         "locale": "ko-KR",
@@ -7909,7 +7909,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f9fd897f-780d-4b7f-a8a2-628770eb3218"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, TonyNeural)",
         "shortName": "en-US-TonyNeural",
         "locale": "en-US",
@@ -7989,7 +7989,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "96d631b1-d438-48ba-aa46-6293707d2071"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, MauriceNeural)",
         "shortName": "fr-FR-MauriceNeural",
         "locale": "fr-FR",
@@ -8029,7 +8029,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "284ad774-159e-4a73-a997-62d7fdd72335"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (te-IN, ShrutiNeural)",
         "shortName": "te-IN-ShrutiNeural",
         "description": "",
@@ -8070,7 +8070,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "26eddc58-d6fa-4ddf-9550-634340d7b656"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-YE, SalehNeural)",
         "shortName": "ar-YE-SalehNeural",
         "locale": "ar-YE",
@@ -8110,7 +8110,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b7b0ee4d-4c7c-4156-9553-635c14ea3dc2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, LibertoNeural)",
         "shortName": "es-MX-LibertoNeural",
         "locale": "es-MX",
@@ -8150,7 +8150,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "588abaad-6cb0-4082-856c-64a440de1bfc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (is-IS, GunnarNeural)",
         "shortName": "is-IS-GunnarNeural",
         "locale": "is-IS",
@@ -8190,7 +8190,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c40aaac4-5e0f-4341-bc48-64c0b8ed64ff"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (cs-CZ, AntoninNeural)",
         "shortName": "cs-CZ-AntoninNeural",
         "locale": "cs-CZ",
@@ -8230,7 +8230,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f55a63a0-99f3-47e0-b8b3-650a5c742cde"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-IQ, BasselNeural)",
         "shortName": "ar-IQ-BasselNeural",
         "locale": "ar-IQ",
@@ -8270,7 +8270,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8fb26b62-b1a6-496c-81da-650a7bbfb3dd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mt-MT, JosephNeural)",
         "shortName": "mt-MT-JosephNeural",
         "locale": "mt-MT",
@@ -8310,7 +8310,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a67686f9-9d9d-43e3-8035-6528063fcfd3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, NuriaNeural)",
         "shortName": "es-MX-NuriaNeural",
         "locale": "es-MX",
@@ -8350,7 +8350,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3ae499e9-42b2-4a3e-999a-6549fd4d3d57"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (km-KH, PisethNeural)",
         "shortName": "km-KH-PisethNeural",
         "locale": "km-KH",
@@ -8390,7 +8390,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5d4bc403-93ef-49c3-a2d1-6555b9bcf591"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (th-TH, NiwatNeural)",
         "shortName": "th-TH-NiwatNeural",
         "locale": "th-TH",
@@ -8430,7 +8430,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "77c6b4b5-3b05-4eb6-a44e-65a20c3a5d37"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (eu-ES, AinhoaNeural)",
         "shortName": "eu-ES-AinhoaNeural",
         "locale": "eu-ES",
@@ -8470,7 +8470,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "56d154ac-b59c-414d-8b7b-6639435999e9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, KlausNeural)",
         "shortName": "de-DE-KlausNeural",
         "locale": "de-DE",
@@ -8510,7 +8510,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "bc76601a-7ffa-48ba-bc8d-66db94d3910c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mr-IN, ManoharNeural)",
         "shortName": "mr-IN-ManoharNeural",
         "locale": "mr-IN",
@@ -8550,7 +8550,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4c0cb0f6-f101-4fe1-838d-67f48c70ec53"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hr-HR, SreckoNeural)",
         "shortName": "hr-HR-SreckoNeural",
         "locale": "hr-HR",
@@ -8590,7 +8590,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b7bb8122-2c38-47be-a53b-69bbd81c7b7a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ro-RO, EmilNeural)",
         "shortName": "ro-RO-EmilNeural",
         "locale": "ro-RO",
@@ -8630,7 +8630,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "04b3870c-105c-4c8f-b557-6a02b92ad98f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ga-IE, OrlaNeural)",
         "shortName": "ga-IE-OrlaNeural",
         "description": "",
@@ -8671,7 +8671,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5db0c41c-9206-4a67-8987-6aec4b8b92c8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ro-RO, AlinaNeural)",
         "shortName": "ro-RO-AlinaNeural",
         "description": "",
@@ -8712,7 +8712,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5fc3d49b-a679-4a6b-89cd-6be315fa06c9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-MA, MounaNeural)",
         "shortName": "ar-MA-MounaNeural",
         "locale": "ar-MA",
@@ -8752,7 +8752,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d289dfad-828e-445b-bec6-6cde6dd1663c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunzeNeural)",
         "shortName": "zh-CN-YunzeNeural",
         "locale": "zh-CN",
@@ -8842,7 +8842,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0c9aeff2-a86f-4b3c-ad09-6dccc70e9bb5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (da-DK, JeppeNeural)",
         "shortName": "da-DK-JeppeNeural",
         "locale": "da-DK",
@@ -8882,7 +8882,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5471da53-e81c-414c-a0f3-6de6935bb24a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-AT, JonasNeural)",
         "shortName": "de-AT-JonasNeural",
         "locale": "de-AT",
@@ -8922,7 +8922,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f6369af4-16e6-4f7a-b2af-6ebcf9052252"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, HollieNeural)",
         "shortName": "en-GB-HollieNeural",
         "locale": "en-GB",
@@ -8962,7 +8962,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "de121e34-6b54-46b3-8766-6efeb7ebe53c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, GianniNeural)",
         "shortName": "it-IT-GianniNeural",
         "locale": "it-IT",
@@ -9002,7 +9002,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1953900b-4f14-4b18-bebc-6f21d8b67f36"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (id-ID, GadisNeural)",
         "shortName": "id-ID-GadisNeural",
         "locale": "id-ID",
@@ -9042,7 +9042,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3e2e9811-2a35-45f3-97a3-6f2d255cd9e0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hu-HU, NoemiNeural)",
         "shortName": "hu-HU-NoemiNeural",
         "description": "",
@@ -9083,7 +9083,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "23161424-2307-449a-9d24-6f50b7c09553"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-TW, HsiaoChenNeural)",
         "shortName": "zh-TW-HsiaoChenNeural",
         "locale": "zh-TW",
@@ -9123,7 +9123,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a67d97ed-51c3-4daa-a2f2-6fb669d48ab6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-CA, SylvieNeural)",
         "shortName": "fr-CA-SylvieNeural",
         "description": "",
@@ -9164,7 +9164,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "400eb503-6c32-499c-b66a-714a04b1e0ea"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, JosephineNeural)",
         "shortName": "fr-FR-JosephineNeural",
         "locale": "fr-FR",
@@ -9204,7 +9204,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "65ea2440-7f3f-422f-8688-7177e3417cd9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, FabiolaNeural)",
         "shortName": "it-IT-FabiolaNeural",
         "locale": "it-IT",
@@ -9244,7 +9244,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "883d200d-43ae-4b1d-a284-7226e93177ab"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (my-MM, ThihaNeural)",
         "shortName": "my-MM-ThihaNeural",
         "locale": "my-MM",
@@ -9284,7 +9284,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "08456f07-f950-4fa5-b0ef-7266bf338fe3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (lv-LV, NilsNeural)",
         "shortName": "lv-LV-NilsNeural",
         "locale": "lv-LV",
@@ -9324,7 +9324,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "89a21c17-e2e5-4732-8494-73b795c92857"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, LisandroNeural)",
         "shortName": "it-IT-LisandroNeural",
         "locale": "it-IT",
@@ -9364,7 +9364,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "cb6c203f-d969-4c34-b13e-73ed92ce859c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN-liaoning, XiaobeiNeural)",
         "shortName": "zh-CN-liaoning-XiaobeiNeural",
         "locale": "zh-CN-liaoning",
@@ -9404,7 +9404,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "67f27a5a-944a-4590-8a79-741d3780e48a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, ChristophNeural)",
         "shortName": "de-DE-ChristophNeural",
         "locale": "de-DE",
@@ -9444,7 +9444,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9662aa30-0632-4d8d-8c54-74dec56333e6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ga-IE, ColmNeural)",
         "shortName": "ga-IE-ColmNeural",
         "locale": "ga-IE",
@@ -9484,7 +9484,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7e2d1117-e923-43a9-a5a0-7514dc779b95"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, OliverNeural)",
         "shortName": "en-GB-OliverNeural",
         "locale": "en-GB",
@@ -9524,7 +9524,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "26118d30-06ba-4c1b-9f36-752135f87647"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bn-BD, PradeepNeural)",
         "shortName": "bn-BD-PradeepNeural",
         "locale": "bn-BD",
@@ -9564,7 +9564,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2645ee9c-4b0e-46a0-8085-76606154676a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoqiuNeural)",
         "shortName": "zh-CN-XiaoqiuNeural",
         "locale": "zh-CN",
@@ -9623,7 +9623,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "53d185d8-dd7b-4184-b987-76b6f1ce8c41"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, NaokiNeural)",
         "shortName": "ja-JP-NaokiNeural",
         "locale": "ja-JP",
@@ -9663,7 +9663,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9c696a0d-fb1b-485a-abeb-773b85297701"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunyeNeural)",
         "shortName": "zh-CN-YunyeNeural",
         "description": "Mature and relaxing voice with multiple emotions that is optimized for audio books.",
@@ -9811,7 +9811,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "26014551-90d7-4f55-a622-779b8263e006"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, YvetteNeural)",
         "shortName": "fr-FR-YvetteNeural",
         "locale": "fr-FR",
@@ -9851,7 +9851,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "58345d02-5c0f-472b-8b94-783420c8c66c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bn-IN, BashkarNeural)",
         "shortName": "bn-IN-BashkarNeural",
         "locale": "bn-IN",
@@ -9891,7 +9891,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1564dfc6-9cf9-46f6-a7d2-795415a99ce2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (wuu-CN, XiaotongNeural)",
         "shortName": "wuu-CN-XiaotongNeural",
         "locale": "wuu-CN",
@@ -9931,7 +9931,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c5b73621-18c5-425b-9020-79aae71f827e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, DarrenNeural)",
         "shortName": "en-AU-DarrenNeural",
         "locale": "en-AU",
@@ -9971,7 +9971,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2e31b5db-4def-4e35-9337-79bbdaf0cd87"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-PT, DuarteNeural)",
         "shortName": "pt-PT-DuarteNeural",
         "locale": "pt-PT",
@@ -10011,7 +10011,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d278f8ad-6f2c-4c23-bcbb-7ad04efd3cd4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, FreyaNeural)",
         "shortName": "en-AU-FreyaNeural",
         "locale": "en-AU",
@@ -10051,7 +10051,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ec6ce467-9f53-456e-87cf-7bd553a30a0f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-CA, LiamNeural)",
         "shortName": "en-CA-LiamNeural",
         "locale": "en-CA",
@@ -10091,7 +10091,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "376a5073-f406-4a9e-bc6f-7c50b23201f8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, DuncanNeural)",
         "shortName": "en-AU-DuncanNeural",
         "locale": "en-AU",
@@ -10131,7 +10131,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a875feda-252a-4d1d-8e72-7cc3c8199f43"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hy-AM, AnahitNeural)",
         "shortName": "hy-AM-AnahitNeural",
         "locale": "hy-AM",
@@ -10171,7 +10171,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f87a9492-b32f-46c4-a8bb-7f8c275edd5d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-NI, YolandaNeural)",
         "shortName": "es-NI-YolandaNeural",
         "locale": "es-NI",
@@ -10211,7 +10211,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8aba6946-2d68-4b7a-a30a-7fef52c903a2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, KeitaNeural)",
         "shortName": "ja-JP-KeitaNeural",
         "description": "",
@@ -10252,7 +10252,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "23c439de-2ff7-499f-90ff-80609f237c76"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, CataldoNeural)",
         "shortName": "it-IT-CataldoNeural",
         "locale": "it-IT",
@@ -10292,7 +10292,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "fd07655d-a8cf-4bcd-bcb8-8074ce0a5f7c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, FabioNeural)",
         "shortName": "pt-BR-FabioNeural",
         "locale": "pt-BR",
@@ -10332,7 +10332,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2345e9ff-57a6-4938-80bc-8220d9e15365"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bs-BA, VesnaNeural)",
         "shortName": "bs-BA-VesnaNeural",
         "locale": "bs-BA",
@@ -10372,7 +10372,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "94bf333e-29f6-443b-bbf2-82eae8bb0ff8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (uz-UZ, SardorNeural)",
         "shortName": "uz-UZ-SardorNeural",
         "locale": "uz-UZ",
@@ -10412,7 +10412,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "fcf9b60e-1a55-4a08-841b-83085ecd3213"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (th-TH, PremwadeeNeural)",
         "shortName": "th-TH-PremwadeeNeural",
         "description": "",
@@ -10453,7 +10453,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "671a080c-7219-425c-8bfd-832ad1ab3d54"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fi-FI, HarriNeural)",
         "shortName": "fi-FI-HarriNeural",
         "locale": "fi-FI",
@@ -10493,7 +10493,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "773fda1f-5210-4de3-aba4-833d434f0aa2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN-sichuan, YunxiNeural)",
         "shortName": "zh-CN-sichuan-YunxiNeural",
         "locale": "zh-CN-sichuan",
@@ -10533,7 +10533,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "383b7b38-8e3c-4ac1-a64c-8387ddee905e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (yue-CN, YunSongNeural)",
         "shortName": "yue-CN-YunSongNeural",
         "locale": "yue-CN",
@@ -10573,7 +10573,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7f98d131-4cb7-4799-9f4b-83d4803b2fea"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (gu-IN, NiranjanNeural)",
         "shortName": "gu-IN-NiranjanNeural",
         "locale": "gu-IN",
@@ -10613,7 +10613,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "036ea582-19ad-4f59-b909-840af667a8a8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (lt-LT, OnaNeural)",
         "shortName": "lt-LT-OnaNeural",
         "description": "",
@@ -10654,7 +10654,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0315db55-dbe4-4cfc-b180-848698f8a0d5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sq-AL, AnilaNeural)",
         "shortName": "sq-AL-AnilaNeural",
         "locale": "sq-AL",
@@ -10694,7 +10694,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b7de9dd4-e3ef-4e76-91f0-84c598201a5d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-DO, EmilioNeural)",
         "shortName": "es-DO-EmilioNeural",
         "locale": "es-DO",
@@ -10734,7 +10734,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "aa547b35-c8dd-44f5-82f2-84e053871500"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, SoniaNeural)",
         "shortName": "en-GB-SoniaNeural",
         "locale": "en-GB",
@@ -10782,7 +10782,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4b1dc409-f234-45cf-bda5-852fa95d0e5f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, AshleyNeural)",
         "shortName": "en-US-AshleyNeural",
         "locale": "en-US",
@@ -10822,7 +10822,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e46f4f45-4768-4b53-b385-85a8a36e1410"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoruiNeural)",
         "shortName": "zh-CN-XiaoruiNeural",
         "description": "Mature and wise voice with rich emotions that is optimized for audio books.",
@@ -10892,7 +10892,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "cf45435f-b5f9-47be-850f-85bda9d6bb73"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-KW, FahedNeural)",
         "shortName": "ar-KW-FahedNeural",
         "locale": "ar-KW",
@@ -10932,7 +10932,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2a069bfe-6b35-47e1-a103-86506ec659fc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-LY, OmarNeural)",
         "shortName": "ar-LY-OmarNeural",
         "locale": "ar-LY",
@@ -10972,7 +10972,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5791793c-2e22-4adb-a56c-86b6bae8c877"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zu-ZA, ThandoNeural)",
         "shortName": "zu-ZA-ThandoNeural",
         "locale": "zu-ZA",
@@ -11012,7 +11012,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7dde73d4-b5f8-418d-a8ce-87944c7d71bd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, SaulNeural)",
         "shortName": "es-ES-SaulNeural",
         "locale": "es-ES",
@@ -11052,7 +11052,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e86de0ab-f6ea-44dd-aa80-879755f632a6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, CarlotaNeural)",
         "shortName": "es-MX-CarlotaNeural",
         "locale": "es-MX",
@@ -11092,7 +11092,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1e298d8e-ec77-48f6-a581-8944355f4c9f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-AE, FatimaNeural)",
         "shortName": "ar-AE-FatimaNeural",
         "locale": "ar-AE",
@@ -11132,7 +11132,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "45565610-2f20-4ea9-8218-8a33aea63676"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (lo-LA, KeomanyNeural)",
         "shortName": "lo-LA-KeomanyNeural",
         "locale": "lo-LA",
@@ -11172,7 +11172,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8271d147-3d4c-4d0d-901c-8a3c3129f0bd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mn-MN, BataaNeural)",
         "shortName": "mn-MN-BataaNeural",
         "locale": "mn-MN",
@@ -11212,7 +11212,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1055210c-6d26-431b-b2ee-8a3e41e3c8c7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-AT, IngridNeural)",
         "shortName": "de-AT-IngridNeural",
         "description": "",
@@ -11253,7 +11253,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3cf2978c-83d5-4b58-b793-8b835b5f0b5f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CU, BelkysNeural)",
         "shortName": "es-CU-BelkysNeural",
         "locale": "es-CU",
@@ -11293,7 +11293,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "95257341-5e70-4e75-a634-8c4c9b942fd9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (af-ZA, AdriNeural)",
         "shortName": "af-ZA-AdriNeural",
         "locale": "af-ZA",
@@ -11333,7 +11333,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e11668e8-1d34-4470-994a-8d10d2695e09"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, ElkeNeural)",
         "shortName": "de-DE-ElkeNeural",
         "locale": "de-DE",
@@ -11373,7 +11373,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9156f60c-d3fe-40fb-9346-8d6ae6c8da04"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-LY, ImanNeural)",
         "shortName": "ar-LY-ImanNeural",
         "locale": "ar-LY",
@@ -11413,7 +11413,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4c21507e-7a5d-4071-81a4-8da05a039a60"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fil-PH, AngeloNeural)",
         "shortName": "fil-PH-AngeloNeural",
         "locale": "fil-PH",
@@ -11453,7 +11453,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5412d6b7-554c-40ab-9892-8e2c80386b41"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-PH, RosaNeural)",
         "shortName": "en-PH-RosaNeural",
         "locale": "en-PH",
@@ -11493,7 +11493,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c3232411-1b92-4959-a799-8e2df59186eb"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, JulioNeural)",
         "shortName": "pt-BR-JulioNeural",
         "locale": "pt-BR",
@@ -11533,7 +11533,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2e6ce445-6c53-46d9-b8db-8fecb87dade2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, AnaNeural)",
         "shortName": "en-US-AnaNeural",
         "locale": "en-US",
@@ -11573,7 +11573,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2c82b4c7-1b43-46f4-a021-9038c848dce9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-IE, ConnorNeural)",
         "shortName": "en-IE-ConnorNeural",
         "locale": "en-IE",
@@ -11613,7 +11613,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7db746e5-4da7-41da-8c5a-906f244effb5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sk-SK, ViktoriaNeural)",
         "shortName": "sk-SK-ViktoriaNeural",
         "description": "",
@@ -11654,7 +11654,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "28faf9ae-a1b3-4c82-a002-914e73d7e232"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, BongJinNeural)",
         "shortName": "ko-KR-BongJinNeural",
         "locale": "ko-KR",
@@ -11694,7 +11694,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "44ee81ca-a1f8-4c3d-9e1e-921b1d005970"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sv-SE, SofieNeural)",
         "shortName": "sv-SE-SofieNeural",
         "locale": "sv-SE",
@@ -11734,7 +11734,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6b2759f1-56db-4281-bde8-9235313dea7c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (et-EE, KertNeural)",
         "shortName": "et-EE-KertNeural",
         "locale": "et-EE",
@@ -11774,7 +11774,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "67e7d63e-f225-45e4-b75a-9266364fadb1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-GT, MartaNeural)",
         "shortName": "es-GT-MartaNeural",
         "locale": "es-GT",
@@ -11814,7 +11814,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "16fd5e4d-8f1b-4f15-ab8b-92e31b1057a0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (am-ET, MekdesNeural)",
         "shortName": "am-ET-MekdesNeural",
         "locale": "am-ET",
@@ -11854,7 +11854,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d9893835-d9d8-4485-ad27-930b275a733c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, SteffanNeural)",
         "shortName": "en-US-SteffanNeural",
         "locale": "en-US",
@@ -11903,7 +11903,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "09b38d23-ad18-4617-969a-9343d9021cb2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, BellaNeural)",
         "shortName": "en-GB-BellaNeural",
         "locale": "en-GB",
@@ -11943,7 +11943,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c08e4841-7cad-46b1-b4a7-93e996c7f5f9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, BeatrizNeural)",
         "shortName": "es-MX-BeatrizNeural",
         "locale": "es-MX",
@@ -11983,7 +11983,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2d9c6678-091a-48fb-bae9-940ffc4a138c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, AIGenerate2Neural)",
         "shortName": "en-US-AIGenerate2Neural",
         "locale": "en-US",
@@ -12023,7 +12023,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "869464e6-c35a-4f15-ab1f-94b415772a37"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ml-IN, MidhunNeural)",
         "shortName": "ml-IN-MidhunNeural",
         "locale": "ml-IN",
@@ -12063,7 +12063,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f558e661-1dad-4bad-a08d-952619b409b7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-IN, PallaviNeural)",
         "shortName": "ta-IN-PallaviNeural",
         "description": "",
@@ -12104,7 +12104,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d88b672d-537b-4139-aab5-95e6d24cf777"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hi-IN, SwaraNeural)",
         "shortName": "hi-IN-SwaraNeural",
         "description": "",
@@ -12145,7 +12145,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f7a54768-ea66-4a86-a2d5-97709ec8469f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, ManuelaNeural)",
         "shortName": "pt-BR-ManuelaNeural",
         "locale": "pt-BR",
@@ -12185,7 +12185,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ecc04a6b-9488-43da-a0a0-979ea15ce81e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-KW, NouraNeural)",
         "shortName": "ar-KW-NouraNeural",
         "locale": "ar-KW",
@@ -12225,7 +12225,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "dbb2c827-a5e7-439a-ba4d-97e3a4ee5b81"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sw-TZ, DaudiNeural)",
         "shortName": "sw-TZ-DaudiNeural",
         "locale": "sw-TZ",
@@ -12265,7 +12265,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f4528154-ee1b-46da-997d-98d08c75000b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-CA, ClaraNeural)",
         "shortName": "en-CA-ClaraNeural",
         "description": "",
@@ -12306,7 +12306,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f6c86801-3b7f-4cc3-abd7-996a740183fb"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, ThomasNeural)",
         "shortName": "en-GB-ThomasNeural",
         "locale": "en-GB",
@@ -12346,7 +12346,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5ddfa17b-a678-4f98-9915-9a0691680e44"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (lv-LV, EveritaNeural)",
         "shortName": "lv-LV-EveritaNeural",
         "description": "",
@@ -12387,7 +12387,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "24eb77d1-92ad-4a88-a89d-9a3f741091fc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-BH, LailaNeural)",
         "shortName": "ar-BH-LailaNeural",
         "locale": "ar-BH",
@@ -12427,7 +12427,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "32e36049-31f4-4924-b153-9ae203367d08"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, EloiseNeural)",
         "shortName": "fr-FR-EloiseNeural",
         "locale": "fr-FR",
@@ -12467,7 +12467,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "94d6a384-5800-4fba-ba4f-9b19e8904d65"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-AR, TomasNeural)",
         "shortName": "es-AR-TomasNeural",
         "locale": "es-AR",
@@ -12507,7 +12507,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b948cf84-935c-47a9-a943-9c7fdb42cde9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-TN, HediNeural)",
         "shortName": "ar-TN-HediNeural",
         "locale": "ar-TN",
@@ -12547,7 +12547,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "48416c15-6a97-4f7d-adeb-9ca25f4f4d5b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (da-DK, ChristelNeural)",
         "shortName": "da-DK-ChristelNeural",
         "description": "",
@@ -12588,7 +12588,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2ddbca91-11ca-43ba-aa09-9d20346f7a5a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (uk-UA, OstapNeural)",
         "shortName": "uk-UA-OstapNeural",
         "locale": "uk-UA",
@@ -12628,7 +12628,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d045ab76-5577-40b1-862b-a05fc5edf4ac"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CU, ManuelNeural)",
         "shortName": "es-CU-ManuelNeural",
         "locale": "es-CU",
@@ -12668,7 +12668,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a0b18d81-2da2-4896-b169-a0745021a2af"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ne-NP, HemkalaNeural)",
         "shortName": "ne-NP-HemkalaNeural",
         "locale": "ne-NP",
@@ -12708,7 +12708,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7953a9e3-8723-45a2-b495-a0d53313f763"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunxiNeural)",
         "shortName": "zh-CN-YunxiNeural",
         "description": "Lively and sunshine voice with rich emotions that can be used in many conversation scenarios.",
@@ -12844,7 +12844,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1011ca97-3e33-4e7c-8dda-a22dc244bafc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-SG, LunaNeural)",
         "shortName": "en-SG-LunaNeural",
         "locale": "en-SG",
@@ -12884,7 +12884,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5daae71c-815a-4118-a516-a37ee62db211"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nl-BE, ArnaudNeural)",
         "shortName": "nl-BE-ArnaudNeural",
         "locale": "nl-BE",
@@ -12924,7 +12924,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4a52cc29-f575-4d96-9e08-a45e7b7975b6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fa-IR, FaridNeural)",
         "shortName": "fa-IR-FaridNeural",
         "locale": "fa-IR",
@@ -12964,7 +12964,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "50c098f5-42ff-4a39-9753-a595d537d428"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (tr-TR, EmelNeural)",
         "shortName": "tr-TR-EmelNeural",
         "description": "",
@@ -13005,7 +13005,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5b30688a-af74-410e-9b92-a65882a76ab6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, RogerNeural)",
         "shortName": "en-US-RogerNeural",
         "locale": "en-US",
@@ -13054,7 +13054,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ec861c24-5c0a-4b26-b2a2-a72d0ee2cbe7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pl-PL, MarekNeural)",
         "shortName": "pl-PL-MarekNeural",
         "locale": "pl-PL",
@@ -13094,7 +13094,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "adc6ae77-abab-49e2-a6e5-a79ed6646bdd"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-ZA, LeahNeural)",
         "shortName": "en-ZA-LeahNeural",
         "locale": "en-ZA",
@@ -13134,7 +13134,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "edd219ae-6138-40c0-a59b-a7bc6d8be600"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, ArnauNeural)",
         "shortName": "es-ES-ArnauNeural",
         "locale": "es-ES",
@@ -13174,7 +13174,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b6d2cb43-e353-4409-b10e-a9a429846d00"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (eu-ES, AnderNeural)",
         "shortName": "eu-ES-AnderNeural",
         "locale": "eu-ES",
@@ -13214,7 +13214,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ddce4588-3f1e-459c-9934-aa4a5aea66af"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-NI, FedericoNeural)",
         "shortName": "es-NI-FedericoNeural",
         "locale": "es-NI",
@@ -13254,7 +13254,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "389b1132-ae33-48ae-a190-aabcb08d4db3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (wuu-CN, YunzheNeural)",
         "shortName": "wuu-CN-YunzheNeural",
         "locale": "wuu-CN",
@@ -13294,7 +13294,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2c5617a6-37b8-44dc-b4c0-ac73be78acf8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fa-IR, DilaraNeural)",
         "shortName": "fa-IR-DilaraNeural",
         "locale": "fa-IR",
@@ -13334,7 +13334,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "68cddd97-2143-4ad6-9d14-acc2223f7ea0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, GerardoNeural)",
         "shortName": "es-MX-GerardoNeural",
         "locale": "es-MX",
@@ -13374,7 +13374,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7dd9ee6d-926f-41d0-9e5f-acd41467522e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (gu-IN, DhwaniNeural)",
         "shortName": "gu-IN-DhwaniNeural",
         "locale": "gu-IN",
@@ -13414,7 +13414,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "97ebc7c6-1e92-4764-806b-ad61201a60a5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sr-RS, NicholasNeural)",
         "shortName": "sr-RS-NicholasNeural",
         "locale": "sr-RS",
@@ -13454,7 +13454,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d7747462-41fd-4140-af6b-adbb76cf2405"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, CalimeroNeural)",
         "shortName": "it-IT-CalimeroNeural",
         "locale": "it-IT",
@@ -13494,7 +13494,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0a9b0267-c022-4f86-85ee-ae514facbeb2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, BenignoNeural)",
         "shortName": "it-IT-BenignoNeural",
         "locale": "it-IT",
@@ -13534,7 +13534,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "06af3b1f-e3a7-45b3-8b84-aecd737401ed"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, PalmiraNeural)",
         "shortName": "it-IT-PalmiraNeural",
         "locale": "it-IT",
@@ -13574,7 +13574,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8d161c40-e771-449d-a089-af2d64dc5e3a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, AlvaroNeural)",
         "shortName": "es-ES-AlvaroNeural",
         "description": "",
@@ -13615,7 +13615,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ffe34fb6-c1ee-45ae-aef3-b0c303614c19"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (su-ID, TutiNeural)",
         "shortName": "su-ID-TutiNeural",
         "locale": "su-ID",
@@ -13655,7 +13655,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f9d2faf8-ff6b-4a89-aeb8-b0c5f16c4e4c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, AbbiNeural)",
         "shortName": "en-GB-AbbiNeural",
         "locale": "en-GB",
@@ -13695,7 +13695,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7cf7c9f9-63c2-4a30-9db3-b25f99709291"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-EC, AndreaNeural)",
         "shortName": "es-EC-AndreaNeural",
         "locale": "es-EC",
@@ -13735,7 +13735,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "303f5b66-71d9-4c74-b75b-b38080b11cbe"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (th-TH, AcharaNeural)",
         "shortName": "th-TH-AcharaNeural",
         "description": "",
@@ -13776,7 +13776,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ac773ad2-7b91-456c-b93f-b397ef1b11ff"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nb-NO, IselinNeural)",
         "shortName": "nb-NO-IselinNeural",
         "description": "",
@@ -13817,7 +13817,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e398d4d2-b8a8-4d1d-ab65-b4fe9278eb71"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, EricNeural)",
         "shortName": "en-US-EricNeural",
         "locale": "en-US",
@@ -13857,7 +13857,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "22bb63f1-7dba-49b9-9d4d-b56c7ce92d47"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, AlfieNeural)",
         "shortName": "en-GB-AlfieNeural",
         "locale": "en-GB",
@@ -13897,7 +13897,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1a97c094-c81f-4c6a-ad9f-b595b54bc448"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ur-IN, GulNeural)",
         "shortName": "ur-IN-GulNeural",
         "locale": "ur-IN",
@@ -13937,7 +13937,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a0c30154-af80-4aa0-8b73-b5ed657091e9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, CandelaNeural)",
         "shortName": "es-MX-CandelaNeural",
         "locale": "es-MX",
@@ -13977,7 +13977,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "471b7597-7004-4dcf-b364-b6bba39518f6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, MonicaNeural)",
         "shortName": "en-US-MonicaNeural",
         "locale": "en-US",
@@ -14017,7 +14017,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "af5c31bf-a36d-4852-8555-b775316d9e5f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-TW, YunJheNeural)",
         "shortName": "zh-TW-YunJheNeural",
         "locale": "zh-TW",
@@ -14057,7 +14057,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "eecf9888-9e58-4ed2-ae91-b7ae85a77cf3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-DZ, AminaNeural)",
         "shortName": "ar-DZ-AminaNeural",
         "locale": "ar-DZ",
@@ -14097,7 +14097,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5b1e2e20-b01c-4945-b635-b865738e00f5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-JO, TaimNeural)",
         "shortName": "ar-JO-TaimNeural",
         "locale": "ar-JO",
@@ -14137,7 +14137,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "08d7e69f-46fd-4053-bc85-b89ad688e3ff"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, RenataNeural)",
         "shortName": "es-MX-RenataNeural",
         "locale": "es-MX",
@@ -14177,7 +14177,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "176b1f4f-357d-4b5d-a59f-b8ecd1e69ed7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, LarissaNeural)",
         "shortName": "es-MX-LarissaNeural",
         "locale": "es-MX",
@@ -14217,7 +14217,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7f8007d2-4fb4-4720-a709-b945deefba3f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sv-SE, HilleviNeural)",
         "shortName": "sv-SE-HilleviNeural",
         "description": "",
@@ -14258,7 +14258,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6aeff0b1-3553-4b2b-92f4-b9a30cc8b294"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bg-BG, BorislavNeural)",
         "shortName": "bg-BG-BorislavNeural",
         "locale": "bg-BG",
@@ -14298,7 +14298,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3dab86d2-97aa-4f0e-91a5-bb572a659a29"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ur-PK, AsadNeural)",
         "shortName": "ur-PK-AsadNeural",
         "locale": "ur-PK",
@@ -14338,7 +14338,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "77f8306b-b8a7-4a3f-b892-bb5ed1e9ada8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-LK, SaranyaNeural)",
         "shortName": "ta-LK-SaranyaNeural",
         "locale": "ta-LK",
@@ -14378,7 +14378,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "22d37991-4127-4149-b548-bc000dbde9e4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, DarioNeural)",
         "shortName": "es-ES-DarioNeural",
         "locale": "es-ES",
@@ -14418,7 +14418,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2d9dc747-b268-420e-bdb7-bc30963f9f3a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-CH, FabriceNeural)",
         "shortName": "fr-CH-FabriceNeural",
         "locale": "fr-CH",
@@ -14458,7 +14458,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "dead9773-6cf1-44a3-b32b-bc7fe148693d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, JaneNeural)",
         "shortName": "en-US-JaneNeural",
         "locale": "en-US",
@@ -14538,7 +14538,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1fcefcc6-c578-4aec-99fa-bcd38dfa0a02"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyouNeural)",
         "shortName": "zh-CN-XiaoyouNeural",
         "description": "Angelic and clear voice that can be applied in many child related scenarios.",
@@ -14601,7 +14601,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d6814675-a0c5-4e09-9387-bd9b44d3e733"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-VE, PaolaNeural)",
         "shortName": "es-VE-PaolaNeural",
         "locale": "es-VE",
@@ -14641,7 +14641,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9678300c-5bf2-4454-807b-be57d3754dff"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, PelayoNeural)",
         "shortName": "es-MX-PelayoNeural",
         "locale": "es-MX",
@@ -14681,7 +14681,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0bf71dcf-e841-4f4c-aaf4-be63abc429f7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-VE, SebastianNeural)",
         "shortName": "es-VE-SebastianNeural",
         "locale": "es-VE",
@@ -14721,7 +14721,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "dfd6067e-87c2-428d-bd9e-be98643182f3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (et-EE, AnuNeural)",
         "shortName": "et-EE-AnuNeural",
         "description": "",
@@ -14762,7 +14762,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6be0ede7-bb79-4435-b18d-c06bbc272df2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sw-KE, RafikiNeural)",
         "shortName": "sw-KE-RafikiNeural",
         "locale": "sw-KE",
@@ -14802,7 +14802,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1acd89a8-65b1-4138-b417-c0b2950fd95c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ur-IN, SalmanNeural)",
         "shortName": "ur-IN-SalmanNeural",
         "locale": "ur-IN",
@@ -14842,7 +14842,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "10d69bc3-2b42-4fb3-9b60-c1624f09a35f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mr-IN, AarohiNeural)",
         "shortName": "mr-IN-AarohiNeural",
         "locale": "mr-IN",
@@ -14882,7 +14882,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "bc986aff-eabd-400a-b663-c1a401341324"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mt-MT, GraceNeural)",
         "shortName": "mt-MT-GraceNeural",
         "description": "",
@@ -14923,7 +14923,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c97e05df-dd50-494a-9550-c1c595382795"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (km-KH, SreymomNeural)",
         "shortName": "km-KH-SreymomNeural",
         "locale": "km-KH",
@@ -14963,7 +14963,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "cfec61f9-70e7-4726-accb-c1dbcc796b68"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-PH, JamesNeural)",
         "shortName": "en-PH-JamesNeural",
         "locale": "en-PH",
@@ -15003,7 +15003,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0a83aae7-926f-451b-bfb4-c3c0223e1c5b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-HN, KarlaNeural)",
         "shortName": "es-HN-KarlaNeural",
         "locale": "es-HN",
@@ -15043,7 +15043,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2eb006a0-2939-4131-b3ce-c465c1e60443"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CL, LorenzoNeural)",
         "shortName": "es-CL-LorenzoNeural",
         "locale": "es-CL",
@@ -15083,7 +15083,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "47153290-5326-4c71-bcc3-c4e3dea9837f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, FiammaNeural)",
         "shortName": "it-IT-FiammaNeural",
         "locale": "it-IT",
@@ -15123,7 +15123,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "595e80a5-f5cc-4c75-9c4f-c5395abff9b5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bs-BA, GoranNeural)",
         "shortName": "bs-BA-GoranNeural",
         "locale": "bs-BA",
@@ -15163,7 +15163,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b15a636e-cdfe-47b5-b192-c5d192c6f30d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-GT, AndresNeural)",
         "shortName": "es-GT-AndresNeural",
         "locale": "es-GT",
@@ -15203,7 +15203,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9ae8f5ba-8753-4ccb-9e57-c5d8ff7454f3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, EstrellaNeural)",
         "shortName": "es-ES-EstrellaNeural",
         "locale": "es-ES",
@@ -15243,7 +15243,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "adeecc76-b274-496e-ac11-c691841d03d5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (el-GR, NestorasNeural)",
         "shortName": "el-GR-NestorasNeural",
         "locale": "el-GR",
@@ -15283,7 +15283,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d3fc4288-e3f5-4ce8-b70e-c69ba7bd2405"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, JeromeNeural)",
         "shortName": "fr-FR-JeromeNeural",
         "locale": "fr-FR",
@@ -15323,7 +15323,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "62b4fcd7-d79c-465a-a23b-c703087f840d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (bn-IN, TanishaaNeural)",
         "shortName": "bn-IN-TanishaaNeural",
         "locale": "bn-IN",
@@ -15363,7 +15363,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ca1ba396-e04b-44b1-a9b3-c74433344372"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-SY, AmanyNeural)",
         "shortName": "ar-SY-AmanyNeural",
         "locale": "ar-SY",
@@ -15403,7 +15403,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "74554b1d-12ba-4dc6-8e47-c7b4436ea586"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, ElliotNeural)",
         "shortName": "en-GB-ElliotNeural",
         "locale": "en-GB",
@@ -15443,7 +15443,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "17fc7d8c-986b-48a1-889b-c84125a39f6c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PR, VictorNeural)",
         "shortName": "es-PR-VictorNeural",
         "locale": "es-PR",
@@ -15483,7 +15483,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3d94051c-960b-45e6-b0ab-c8e0cfe4e2d5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, ElzaNeural)",
         "shortName": "pt-BR-ElzaNeural",
         "locale": "pt-BR",
@@ -15523,7 +15523,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ec99c388-f6f5-428a-9c22-c9143b16d50c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-IQ, RanaNeural)",
         "shortName": "ar-IQ-RanaNeural",
         "locale": "ar-IQ",
@@ -15563,7 +15563,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0ee78d2e-9350-4111-86c5-c948ca6cd695"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, JoanneNeural)",
         "shortName": "en-AU-JoanneNeural",
         "locale": "en-AU",
@@ -15603,7 +15603,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "146398ff-b6c8-4958-99ca-c965d3d12548"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, NoahNeural)",
         "shortName": "en-GB-NoahNeural",
         "locale": "en-GB",
@@ -15643,7 +15643,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "003c43b7-a265-41b9-b8cf-c978d9e4deb8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ms-MY, YasminNeural)",
         "shortName": "ms-MY-YasminNeural",
         "description": "",
@@ -15684,7 +15684,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "32b1bdde-2225-4429-ad61-ca23a9d41a42"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunxiaNeural)",
         "shortName": "zh-CN-YunxiaNeural",
         "locale": "zh-CN",
@@ -15765,7 +15765,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "66dca810-157a-48a7-9a9c-cac3147734e8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sq-AL, IlirNeural)",
         "shortName": "sq-AL-IlirNeural",
         "locale": "sq-AL",
@@ -15805,7 +15805,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "768e2ad7-c79c-474a-b0ce-cb70c88cd6cb"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ps-AF, LatifaNeural)",
         "shortName": "ps-AF-LatifaNeural",
         "locale": "ps-AF",
@@ -15845,7 +15845,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c83eb52e-00f0-4502-839c-cba3b162bd65"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, KasperNeural)",
         "shortName": "de-DE-KasperNeural",
         "locale": "de-DE",
@@ -15885,7 +15885,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "735f99de-0526-44f9-a4ac-cbbd845b0aba"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, FranciscaNeural)",
         "shortName": "pt-BR-FranciscaNeural",
         "description": "",
@@ -15930,7 +15930,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7f555f91-be6f-44e6-afe9-cbf590fc7f24"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-LB, RamiNeural)",
         "shortName": "ar-LB-RamiNeural",
         "locale": "ar-LB",
@@ -15970,7 +15970,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7cd10960-9387-4084-b22d-cc0897e0a17b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, AriaNeural)",
         "shortName": "en-US-AriaNeural",
         "description": "",
@@ -16086,7 +16086,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "27e2f1c8-cfe0-4324-88e2-cd0bafeffe1b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, LaiaNeural)",
         "shortName": "es-ES-LaiaNeural",
         "locale": "es-ES",
@@ -16126,7 +16126,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9b72401f-fa3f-447d-ac89-cd479814d3fe"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sl-SI, PetraNeural)",
         "shortName": "sl-SI-PetraNeural",
         "description": "",
@@ -16167,7 +16167,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f645c2c3-9181-442a-8d96-cda1eeffcccf"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-CA, JeanNeural)",
         "shortName": "fr-CA-JeanNeural",
         "description": "",
@@ -16208,7 +16208,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "176f4338-31e6-43a9-bba2-cefe6bda182b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, NeilNeural)",
         "shortName": "en-AU-NeilNeural",
         "locale": "en-AU",
@@ -16248,7 +16248,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "46171608-fa13-4517-970b-cf3f7b9c00fb"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-IE, EmilyNeural)",
         "shortName": "en-IE-EmilyNeural",
         "description": "",
@@ -16289,7 +16289,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "948c1dbe-75f6-4c3e-a7be-cfa1ecdc2c9c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, CoralieNeural)",
         "shortName": "fr-FR-CoralieNeural",
         "locale": "fr-FR",
@@ -16329,7 +16329,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3a5b7702-dcd4-449f-ae08-cfc31b8f5fa4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN-henan, YundengNeural)",
         "shortName": "zh-CN-henan-YundengNeural",
         "locale": "zh-CN-henan",
@@ -16369,7 +16369,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d79eb070-849b-4b42-9ef5-d077965b075a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, YunyangNeural)",
         "shortName": "zh-CN-YunyangNeural",
         "description": "Profesional and fluent voice with multiple scenario styles.",
@@ -16463,7 +16463,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "cb034992-a2f3-4752-80ba-d093ddc3ea29"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, JacquelineNeural)",
         "shortName": "fr-FR-JacquelineNeural",
         "locale": "fr-FR",
@@ -16503,7 +16503,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5289eaf1-53e6-47e6-9844-d0b4a795897e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ta-MY, SuryaNeural)",
         "shortName": "ta-MY-SuryaNeural",
         "locale": "ta-MY",
@@ -16543,7 +16543,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6a0571cc-d619-41a8-b959-d19ee45dcbc6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (af-ZA, WillemNeural)",
         "shortName": "af-ZA-WillemNeural",
         "locale": "af-ZA",
@@ -16583,7 +16583,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a4753064-3db5-4f5d-aeba-d28e7442c26f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (de-DE, GiselaNeural)",
         "shortName": "de-DE-GiselaNeural",
         "locale": "de-DE",
@@ -16623,7 +16623,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9bae679d-653a-4e89-82a0-d2c911f6bd1f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ja-JP, MayuNeural)",
         "shortName": "ja-JP-MayuNeural",
         "locale": "ja-JP",
@@ -16663,7 +16663,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "cfcdcaa4-9d3c-4c67-ad23-d355b41f0a2a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, IreneNeural)",
         "shortName": "es-ES-IreneNeural",
         "locale": "es-ES",
@@ -16703,7 +16703,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "db571d48-6b03-4247-87ea-d3d670ca9f16"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, BrendaNeural)",
         "shortName": "pt-BR-BrendaNeural",
         "locale": "pt-BR",
@@ -16743,7 +16743,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "194f8bf8-0162-424c-ab15-d3d6bb145520"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ps-AF, GulNawazNeural)",
         "shortName": "ps-AF-GulNawazNeural",
         "locale": "ps-AF",
@@ -16783,7 +16783,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "752fe147-0bdf-4426-9eb7-d3e50eef4e35"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-TW, HsiaoYuNeural)",
         "shortName": "zh-TW-HsiaoYuNeural",
         "description": "",
@@ -16824,7 +16824,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7881206a-84f7-48a2-b3d3-d42023552efb"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, YvesNeural)",
         "shortName": "fr-FR-YvesNeural",
         "locale": "fr-FR",
@@ -16864,7 +16864,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7dd10772-f742-4b98-8374-d473a8431e20"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, JacobNeural)",
         "shortName": "en-US-JacobNeural",
         "locale": "en-US",
@@ -16904,7 +16904,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c8e1b1c1-e5c4-4f04-93ab-d55b83949751"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, DonatoNeural)",
         "shortName": "pt-BR-DonatoNeural",
         "locale": "pt-BR",
@@ -16944,7 +16944,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "78af6233-41a2-420f-a3fe-d5e66296529f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fil-PH, BlessicaNeural)",
         "shortName": "fil-PH-BlessicaNeural",
         "locale": "fil-PH",
@@ -16984,7 +16984,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d6bb7968-50b7-4f22-bcf1-d709c49e70fe"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-BH, AliNeural)",
         "shortName": "ar-BH-AliNeural",
         "locale": "ar-BH",
@@ -17024,7 +17024,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "90f920d8-c159-41a0-8f3e-d7f8997ad666"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nl-NL, FennaNeural)",
         "shortName": "nl-NL-FennaNeural",
         "locale": "nl-NL",
@@ -17064,7 +17064,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d4ed37d8-8d9f-47a2-8042-d82b9f6daf90"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-IN, NeerjaNeural)",
         "shortName": "en-IN-NeerjaNeural",
         "description": "",
@@ -17105,7 +17105,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "9622ee9e-a68a-444b-ad30-d84db7340f07"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-US, PalomaNeural)",
         "shortName": "es-US-PalomaNeural",
         "locale": "es-US",
@@ -17145,7 +17145,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "22bcc50c-a99e-4acb-8355-d853c9804874"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, NancyNeural)",
         "shortName": "en-US-NancyNeural",
         "locale": "en-US",
@@ -17225,7 +17225,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "52c945ea-c060-4085-aef7-d9c6951f0a86"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-HK, WanLungNeural)",
         "shortName": "zh-HK-WanLungNeural",
         "locale": "zh-HK",
@@ -17265,7 +17265,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3f845c8a-1e92-4b44-8217-da0f9f634dc4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (az-AZ, BanuNeural)",
         "shortName": "az-AZ-BanuNeural",
         "locale": "az-AZ",
@@ -17305,7 +17305,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c03df8e3-1e9d-49a1-acb5-daa2aa3e2d2d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, AbrilNeural)",
         "shortName": "es-ES-AbrilNeural",
         "locale": "es-ES",
@@ -17345,7 +17345,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5e59b45b-251e-4424-ab41-db4ac3c27895"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sw-KE, ZuriNeural)",
         "shortName": "sw-KE-ZuriNeural",
         "locale": "sw-KE",
@@ -17385,7 +17385,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c315f54f-d225-40fc-bf38-db9afc3449cc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (so-SO, MuuseNeural)",
         "shortName": "so-SO-MuuseNeural",
         "locale": "so-SO",
@@ -17425,7 +17425,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e572c97c-d4aa-4c57-8be4-dc529d34ab29"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (sl-SI, RokNeural)",
         "shortName": "sl-SI-RokNeural",
         "locale": "sl-SI",
@@ -17465,7 +17465,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "236139f8-3803-40db-8b24-dcb56104a973"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-AE, HamdanNeural)",
         "shortName": "ar-AE-HamdanNeural",
         "locale": "ar-AE",
@@ -17505,7 +17505,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "963644be-9a6a-4a7c-8f30-ddab286f4ba0"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaomoNeural)",
         "shortName": "zh-CN-XiaomoNeural",
         "description": "Clear and relaxing voice with rich role-play and emotions that is optimized for audio books.",
@@ -17665,7 +17665,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0ca5d0ac-5a66-4d8e-9140-de556ef3916d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, HumbertoNeural)",
         "shortName": "pt-BR-HumbertoNeural",
         "locale": "pt-BR",
@@ -17705,7 +17705,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6233d99d-eb7b-4890-bd5a-e0139af6cb4b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, EthanNeural)",
         "shortName": "en-GB-EthanNeural",
         "locale": "en-GB",
@@ -17745,7 +17745,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "21d7ae8e-30af-4fa6-a265-e03e6a76e2be"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-NZ, MitchellNeural)",
         "shortName": "en-NZ-MitchellNeural",
         "locale": "en-NZ",
@@ -17785,7 +17785,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8cc98d23-ea9d-4bde-85d3-e0dcdb17fddf"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zu-ZA, ThembaNeural)",
         "shortName": "zu-ZA-ThembaNeural",
         "locale": "zu-ZA",
@@ -17825,7 +17825,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "608b582e-0934-4d7c-b33d-e172e724cae5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PA, RobertoNeural)",
         "shortName": "es-PA-RobertoNeural",
         "locale": "es-PA",
@@ -17865,7 +17865,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "dc81141a-304d-48ed-b9cb-e203f94b3ad8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ms-MY, OsmanNeural)",
         "shortName": "ms-MY-OsmanNeural",
         "locale": "ms-MY",
@@ -17905,7 +17905,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "fe3060ea-a2a3-4c44-969c-e2b59cf5d342"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, GuyNeural)",
         "shortName": "en-US-GuyNeural",
         "description": "",
@@ -17990,7 +17990,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e0638b39-fbd2-4497-a482-e2f65759412a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-QA, AmalNeural)",
         "shortName": "ar-QA-AmalNeural",
         "locale": "ar-QA",
@@ -18030,7 +18030,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "59a12d88-9d94-4e6e-99e6-e49c1f433870"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PE, CamilaNeural)",
         "shortName": "es-PE-CamilaNeural",
         "locale": "es-PE",
@@ -18070,7 +18070,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7dd4e360-55ef-4e1a-ac97-e53fe874660f"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-HK, HiuMaanNeural)",
         "shortName": "zh-HK-HiuMaanNeural",
         "locale": "zh-HK",
@@ -18110,7 +18110,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ec92d13c-b25b-4aa8-9e40-e65015775398"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (pt-BR, LeticiaNeural)",
         "shortName": "pt-BR-LeticiaNeural",
         "locale": "pt-BR",
@@ -18150,7 +18150,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6eac313c-0139-4f09-a44a-e7d8731c1f1e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-BO, MarceloNeural)",
         "shortName": "es-BO-MarceloNeural",
         "locale": "es-BO",
@@ -18190,7 +18190,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e11817e0-75e6-48ad-b375-e8ede271ee2d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, TeoNeural)",
         "shortName": "es-ES-TeoNeural",
         "locale": "es-ES",
@@ -18230,7 +18230,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f4ae5b2b-c6f5-4574-a516-ea413ddd638b"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (yue-CN, XiaoMinNeural)",
         "shortName": "yue-CN-XiaoMinNeural",
         "locale": "yue-CN",
@@ -18270,7 +18270,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d6db2ea7-2048-4c35-8733-ea7de8e8278d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-BO, SofiaNeural)",
         "shortName": "es-BO-SofiaNeural",
         "locale": "es-BO",
@@ -18310,7 +18310,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "77225261-11e8-4f00-92c5-ebd3cea15fa9"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (tr-TR, AhmetNeural)",
         "shortName": "tr-TR-AhmetNeural",
         "locale": "tr-TR",
@@ -18350,7 +18350,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3e7c9283-5b48-4bf8-acec-ec7e4a51828c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (jv-ID, DimasNeural)",
         "shortName": "jv-ID-DimasNeural",
         "locale": "jv-ID",
@@ -18390,7 +18390,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f8e3c0b1-fe18-4009-ae86-ecc464d3d4a5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-GB, OliviaNeural)",
         "shortName": "en-GB-OliviaNeural",
         "locale": "en-GB",
@@ -18430,7 +18430,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "253a7da2-fc9a-4e1b-8d26-ed2919ecb899"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (uz-UZ, MadinaNeural)",
         "shortName": "uz-UZ-MadinaNeural",
         "locale": "uz-UZ",
@@ -18470,7 +18470,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "3641b93d-312b-4227-ae32-ed681431ba38"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, LiaNeural)",
         "shortName": "es-ES-LiaNeural",
         "locale": "es-ES",
@@ -18510,7 +18510,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b1377f34-f7dd-4744-88ec-ef2fbc9ed336"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hu-HU, TamasNeural)",
         "shortName": "hu-HU-TamasNeural",
         "locale": "hu-HU",
@@ -18550,7 +18550,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7c31a42d-a9f5-4780-81f2-f05183453f7c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (id-ID, ArdiNeural)",
         "shortName": "id-ID-ArdiNeural",
         "description": "",
@@ -18591,7 +18591,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "6eae597f-b880-47c8-bbe6-f05e69fbdf9d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (kk-KZ, DauletNeural)",
         "shortName": "kk-KZ-DauletNeural",
         "locale": "kk-KZ",
@@ -18631,7 +18631,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "990dd0ec-a391-4336-8f00-f0f1b46c5d20"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PR, KarinaNeural)",
         "shortName": "es-PR-KarinaNeural",
         "locale": "es-PR",
@@ -18671,7 +18671,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "02973e72-898f-454c-9e9e-f11e46ec8400"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (cs-CZ, VlastaNeural)",
         "shortName": "cs-CZ-VlastaNeural",
         "description": "",
@@ -18712,7 +18712,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b9a3e70b-049d-45aa-99ec-f171badf48ad"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-US, AlonsoNeural)",
         "shortName": "es-US-AlonsoNeural",
         "locale": "es-US",
@@ -18752,7 +18752,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "76bc3321-2dfe-4d5f-bb6d-f1dcbafba5a2"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ca-ES, EnricNeural)",
         "shortName": "ca-ES-EnricNeural",
         "locale": "ca-ES",
@@ -18792,7 +18792,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "989cb719-479f-4bd6-9490-f3634d3f4b15"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ko-KR, SeoHyeonNeural)",
         "shortName": "ko-KR-SeoHyeonNeural",
         "locale": "ko-KR",
@@ -18832,7 +18832,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2e7fd13b-b651-4055-8cc4-f382246dcee5"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, DaliaNeural)",
         "shortName": "es-MX-DaliaNeural",
         "description": "",
@@ -18873,7 +18873,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f7b51518-94d6-471c-bed6-f384525f6877"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-TN, ReemNeural)",
         "shortName": "ar-TN-ReemNeural",
         "locale": "ar-TN",
@@ -18913,7 +18913,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "93317eac-e4c4-4178-98f5-f3a0b4e1a7fe"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-EG, SalmaNeural)",
         "shortName": "ar-EG-SalmaNeural",
         "description": "",
@@ -18954,7 +18954,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "a4e51bc1-71c2-4645-a2ba-f4b78720e0a7"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hy-AM, HaykNeural)",
         "shortName": "hy-AM-HaykNeural",
         "locale": "hy-AM",
@@ -18994,7 +18994,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ea1f2715-ab0d-4c34-ac01-f4de0b4d9150"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-US, ChristopherNeural)",
         "shortName": "en-US-ChristopherNeural",
         "locale": "en-US",
@@ -19034,7 +19034,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "4337134d-4e59-48d1-af56-f4e96771bda1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-EG, ShakirNeural)",
         "shortName": "ar-EG-ShakirNeural",
         "locale": "ar-EG",
@@ -19074,7 +19074,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "b46c29d0-e660-4be9-8758-f54dfe71eb97"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (jv-ID, SitiNeural)",
         "shortName": "jv-ID-SitiNeural",
         "locale": "jv-ID",
@@ -19114,7 +19114,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "5fb5ba29-0956-4ab0-bfd2-f55ada33426d"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-KE, ChilembaNeural)",
         "shortName": "en-KE-ChilembaNeural",
         "locale": "en-KE",
@@ -19154,7 +19154,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "c403c07c-19ff-45dc-887b-f5b2639bff31"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (zh-CN-shandong, YunxiangNeural)",
         "shortName": "zh-CN-shandong-YunxiangNeural",
         "locale": "zh-CN-shandong",
@@ -19194,7 +19194,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8b49a818-048b-4251-a1c3-f5b97d978db3"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-LB, LaylaNeural)",
         "shortName": "ar-LB-LaylaNeural",
         "locale": "ar-LB",
@@ -19234,7 +19234,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7326354c-b68b-46e7-98e0-f671a8b8c141"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, ElsaNeural)",
         "shortName": "it-IT-ElsaNeural",
         "description": "",
@@ -19275,7 +19275,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "735db598-81e2-408f-b039-f7afef686748"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-BE, CharlineNeural)",
         "shortName": "fr-BE-CharlineNeural",
         "locale": "fr-BE",
@@ -19315,7 +19315,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "88c51e8f-a6d1-4967-96c1-f7c93a9b5b0e"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (nl-BE, DenaNeural)",
         "shortName": "nl-BE-DenaNeural",
         "locale": "nl-BE",
@@ -19355,7 +19355,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "68d38509-2bda-4a63-b939-f7d78d3b56a6"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-SA, ZariyahNeural)",
         "shortName": "ar-SA-ZariyahNeural",
         "description": "",
@@ -19396,7 +19396,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "2e0c3be2-e1ba-48c5-adeb-f99460796c3c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, ElsieNeural)",
         "shortName": "en-AU-ElsieNeural",
         "locale": "en-AU",
@@ -19436,7 +19436,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "641d91b0-5484-4a79-a926-fbd57b080d61"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (it-IT, RinaldoNeural)",
         "shortName": "it-IT-RinaldoNeural",
         "locale": "it-IT",
@@ -19476,7 +19476,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "0824e990-0c58-43d2-997d-fc63fa573b04"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (fr-FR, DeniseNeural)",
         "shortName": "fr-FR-DeniseNeural",
         "description": "",
@@ -19525,7 +19525,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "1346514b-fb3e-4b9a-a4e5-fcb93d91e4bc"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CL, CatalinaNeural)",
         "shortName": "es-CL-CatalinaNeural",
         "locale": "es-CL",
@@ -19565,7 +19565,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7006e439-22ec-463e-b284-fceac3d0d4d1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-CR, MariaNeural)",
         "shortName": "es-CR-MariaNeural",
         "locale": "es-CR",
@@ -19605,7 +19605,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7053b22a-5f8a-4f1f-816f-fd6c31fd4b83"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-IN, PrabhatNeural)",
         "shortName": "en-IN-PrabhatNeural",
         "locale": "en-IN",
@@ -19645,7 +19645,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "637ffba4-caa2-436e-a6d1-fda7a339eafe"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-EC, LuisNeural)",
         "shortName": "es-EC-LuisNeural",
         "locale": "es-EC",
@@ -19685,7 +19685,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d99ca458-b92d-41a1-9aa3-fdd348ab1f9c"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (mk-MK, MarijaNeural)",
         "shortName": "mk-MK-MarijaNeural",
         "locale": "mk-MK",
@@ -19725,7 +19725,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "ce2d063f-1738-4745-b504-fddd524130b8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ru-RU, DmitryNeural)",
         "shortName": "ru-RU-DmitryNeural",
         "locale": "ru-RU",
@@ -19765,7 +19765,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "8f00a701-8c0f-487b-af37-fe478a30fe64"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (en-AU, KenNeural)",
         "shortName": "en-AU-KenNeural",
         "locale": "en-AU",
@@ -19805,7 +19805,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "d1695bf1-7246-4c1e-9597-fe675fb2dfed"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (hi-IN, MadhurNeural)",
         "shortName": "hi-IN-MadhurNeural",
         "locale": "hi-IN",
@@ -19845,7 +19845,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "158031c3-095c-4d7e-b877-fe7490ba318a"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (ar-JO, SanaNeural)",
         "shortName": "ar-JO-SanaNeural",
         "locale": "ar-JO",
@@ -19885,7 +19885,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "f79165a9-bc79-48fc-9c85-fe9ea43b1ec1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-PE, AlexNeural)",
         "shortName": "es-PE-AlexNeural",
         "locale": "es-PE",
@@ -19924,149 +19924,8 @@ export const voices = [
         },
         "voiceType": "StandardVoice",
         "id": "565cd495-ea37-420e-99e3-fed6df8836bb"
-    }
-,
-    {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-Dalia)",
-        "shortName": "es-MX-Dalia:DragonHDLatestNeural",
-        "locale": "es-MX",
-        "properties": {
-            "Gender": "Female",
-            "VoiceRoleNames": "",
-            "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Dalia DragonHD",
-            "LocalName": "Dalia",
-            "ShortName": "es-MX-Dalia:DragonHDLatestNeural",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Mexico)",
-            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
-            "DisplayVoiceName": "DragonHDLatestNeural",
-            "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-MX",
-            "localeZH": ""
-        },
-        "categories": [],
-        "masterpieces": [],
-        "samples": {
-            "languageSamples": [],
-            "roleSamples": [],
-            "styleSamples": []
-        },
-        "voiceType": "StandardVoice",
-        "id": "5e42b365-77f1-43f8-acfd-e97cb30b26f2"
     },
-    {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-Jorge)",
-        "shortName": "es-MX-Jorge:DragonHDLatestNeural",
-        "locale": "es-MX",
-        "properties": {
-            "Gender": "Male",
-            "VoiceRoleNames": "",
-            "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Jorge DragonHD",
-            "LocalName": "Jorge",
-            "ShortName": "es-MX-Jorge:DragonHDLatestNeural",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Mexico)",
-            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
-            "DisplayVoiceName": "DragonHDLatestNeural",
-            "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-MX",
-            "localeZH": ""
-        },
-        "categories": [],
-        "masterpieces": [],
-        "samples": {
-            "languageSamples": [],
-            "roleSamples": [],
-            "styleSamples": []
-        },
-        "voiceType": "StandardVoice",
-        "id": "ecad3678-6624-4c0c-8087-5f6261e61c61"
-    },
-    {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-Ximena)",
-        "shortName": "es-ES-Ximena:DragonHDLatestNeural",
-        "locale": "es-ES",
-        "properties": {
-            "Gender": "Female",
-            "VoiceRoleNames": "",
-            "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Ximena DragonHD",
-            "LocalName": "Ximena",
-            "ShortName": "es-ES-Ximena:DragonHDLatestNeural",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Spain)",
-            "PreviewSentence": "Crea aplicaciones y servicios que hablan de forma natural a los usuarios, y que mejoran la accesibilidad y la facilidad de uso.",
-            "DisplayVoiceName": "DragonHDLatestNeural",
-            "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-ES",
-            "localeZH": ""
-        },
-        "categories": [],
-        "masterpieces": [],
-        "samples": {
-            "languageSamples": [],
-            "roleSamples": [],
-            "styleSamples": []
-        },
-        "voiceType": "StandardVoice",
-        "id": "9a5e37e4-45d0-4dc6-b53a-2c66c0aa0b67"
-    },
-    {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-Tristan)",
-        "shortName": "es-ES-Tristan:DragonHDLatestNeural",
-        "locale": "es-ES",
-        "properties": {
-            "Gender": "Male",
-            "VoiceRoleNames": "",
-            "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Tristan DragonHD",
-            "LocalName": "Tristan",
-            "ShortName": "es-ES-Tristan:DragonHDLatestNeural",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Spain)",
-            "PreviewSentence": "Crea aplicaciones y servicios que hablan de forma natural a los usuarios, y que mejoran la accesibilidad y la facilidad de uso.",
-            "DisplayVoiceName": "DragonHDLatestNeural",
-            "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-ES",
-            "localeZH": ""
-        },
-        "categories": [],
-        "masterpieces": [],
-        "samples": {
-            "languageSamples": [],
-            "roleSamples": [],
-            "styleSamples": []
-        },
-        "voiceType": "StandardVoice",
-        "id": "6fd8f7b3-c045-463e-a95c-72b8b91dde48"
-    },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-DaliaMultilingual)",
         "shortName": "es-MX-DaliaMultilingualNeural",
         "locale": "es-MX",
@@ -20101,7 +19960,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "08da032f-ff1d-491c-b62c-1d25abfdbad4"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-JorgeMultilingual)",
         "shortName": "es-MX-JorgeMultilingualNeural",
         "locale": "es-MX",
@@ -20136,7 +19995,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "07ad48b2-d422-48c9-9230-8feafc0db9ac"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-ArabellaMultilingual)",
         "shortName": "es-ES-ArabellaMultilingualNeural",
         "locale": "es-ES",
@@ -20171,7 +20030,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "25715170-fd93-4af0-8cf7-db9dcd44a5b1"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-IsidoraMultilingual)",
         "shortName": "es-ES-IsidoraMultilingualNeural",
         "locale": "es-ES",
@@ -20206,7 +20065,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "7ae7fd2a-e0b4-41a1-9d59-0fabd5c021b8"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-TristanMultilingual)",
         "shortName": "es-ES-TristanMultilingualNeural",
         "locale": "es-ES",
@@ -20241,7 +20100,7 @@ export const voices = [
         "voiceType": "StandardVoice",
         "id": "e022bfe1-1eb2-4808-8a00-12ebb8642b12"
     },
-    {
+{
         "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-XimenaMultilingual)",
         "shortName": "es-ES-XimenaMultilingualNeural",
         "locale": "es-ES",
@@ -20277,98 +20136,28 @@ export const voices = [
         "id": "7594666d-eb5b-4406-93bc-90864d7fe853"
     },
     {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-Alejo)",
-        "shortName": "es-MX-Alejo:MAI-Voice-2",
-        "locale": "es-MX",
-        "properties": {
-            "Gender": "Male",
-            "VoiceRoleNames": "",
-            "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Alejo MAI",
-            "LocalName": "Alejo",
-            "ShortName": "es-MX-Alejo:MAI-Voice-2",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Mexico)",
-            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
-            "DisplayVoiceName": "MAI-Voice-2",
-            "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-MX",
-            "localeZH": ""
-        },
-        "categories": [],
-        "masterpieces": [],
-        "samples": {
-            "languageSamples": [],
-            "roleSamples": [],
-            "styleSamples": []
-        },
-        "voiceType": "StandardVoice",
-        "id": "d9c95fb7-1fde-43f9-a416-b99d6a6dcfbe"
-    },
-    {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-Alejo)",
-        "shortName": "es-MX-Alejo:MAI-Voice-2-Flash",
-        "locale": "es-MX",
-        "properties": {
-            "Gender": "Male",
-            "VoiceRoleNames": "",
-            "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Alejo MAI Flash",
-            "LocalName": "Alejo",
-            "ShortName": "es-MX-Alejo:MAI-Voice-2-Flash",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Mexico)",
-            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
-            "DisplayVoiceName": "MAI-Voice-2-Flash",
-            "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-MX",
-            "localeZH": ""
-        },
-        "categories": [],
-        "masterpieces": [],
-        "samples": {
-            "languageSamples": [],
-            "roleSamples": [],
-            "styleSamples": []
-        },
-        "voiceType": "StandardVoice",
-        "id": "6aeb1ee9-1302-4af4-8367-e70a3a6d8cac"
-    },
-    {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-Valeria)",
-        "shortName": "es-MX-Valeria:MAI-Voice-2",
-        "locale": "es-MX",
+        "name": "de-DE-Seraphina:DragonHDLatestNeural",
+        "shortName": "de-DE-Seraphina:DragonHDLatestNeural",
+        "locale": "de-DE",
         "properties": {
             "Gender": "Female",
             "VoiceRoleNames": "",
             "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering",
+            "VoiceStyleNames": "",
             "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Valeria MAI",
-            "LocalName": "Valeria",
-            "ShortName": "es-MX-Valeria:MAI-Voice-2",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Mexico)",
-            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
-            "DisplayVoiceName": "MAI-Voice-2",
+            "DisplayName": "Seraphina Dragon HD Latest",
+            "LocalName": "Seraphina Dragon HD Latest",
+            "ShortName": "de-DE-Seraphina:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "62",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Seraphina:DragonHDLatestNeural",
             "VoiceModelKind": "NeuralTts",
             "ReleaseScope": "PublicGA",
-            "locale": "es-MX",
+            "locale": "de-DE",
             "localeZH": ""
         },
         "categories": [],
@@ -20379,31 +20168,101 @@ export const voices = [
             "styleSamples": []
         },
         "voiceType": "StandardVoice",
-        "id": "82fd4217-a803-4c2a-9501-77a5c2fc78ab"
+        "id": "fff89e09-9ed0-4c1f-a9bd-6b7791a8b480"
     },
     {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-MX, es-MX-Valeria)",
-        "shortName": "es-MX-Valeria:MAI-Voice-2-Flash",
-        "locale": "es-MX",
+        "name": "de-DE-Florian:DragonHDLatestNeural",
+        "shortName": "de-DE-Florian:DragonHDLatestNeural",
+        "locale": "de-DE",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Florian Dragon HD Latest",
+            "LocalName": "Florian Dragon HD Latest",
+            "ShortName": "de-DE-Florian:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "63",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Florian:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "de-DE",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "de69f6fc-8926-4c08-b9f6-043967011776"
+    },
+    {
+        "name": "de-DE-Klaus:MAI-Voice-2-Flash",
+        "shortName": "de-DE-Klaus:MAI-Voice-2-Flash",
+        "locale": "de-DE",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Klaus MAI-Voice-2-Flash",
+            "LocalName": "Klaus MAI-Voice-2-Flash",
+            "ShortName": "de-DE-Klaus:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "81",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Klaus:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "de-DE",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "02c8f9ec-1c0f-40bc-8fcf-9092e3f3908e"
+    },
+    {
+        "name": "de-DE-Mia:MAI-Voice-2-Flash",
+        "shortName": "de-DE-Mia:MAI-Voice-2-Flash",
+        "locale": "de-DE",
         "properties": {
             "Gender": "Female",
             "VoiceRoleNames": "",
             "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Valeria MAI Flash",
-            "LocalName": "Valeria",
-            "ShortName": "es-MX-Valeria:MAI-Voice-2-Flash",
-            "SampleRateHertz": "48000",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Mia MAI-Voice-2-Flash",
+            "LocalName": "Mia MAI-Voice-2-Flash",
+            "ShortName": "de-DE-Mia:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
             "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
-            "LocaleDescription": "Spanish (Mexico)",
-            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
-            "DisplayVoiceName": "MAI-Voice-2-Flash",
+            "SecondaryLocales": "en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "82",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Mia:MAI-Voice-2-Flash",
             "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
-            "locale": "es-MX",
+            "ReleaseScope": "PublicPreview",
+            "locale": "de-DE",
             "localeZH": ""
         },
         "categories": [],
@@ -20414,28 +20273,2478 @@ export const voices = [
             "styleSamples": []
         },
         "voiceType": "StandardVoice",
-        "id": "9844e5fe-18a9-4bd9-971a-8ceace21f998"
+        "id": "87acb039-043f-448e-9147-90a2ff0b3def"
     },
     {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-Marta)",
-        "shortName": "es-ES-Marta:MAI-Voice-2",
+        "name": "de-DE-Seraphina:DragonLatestNeural",
+        "shortName": "de-DE-Seraphina:DragonLatestNeural",
+        "locale": "de-DE",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Seraphina Dragon Latest",
+            "LocalName": "Seraphina Dragon Latest",
+            "ShortName": "de-DE-Seraphina:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "83",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Seraphina:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "de-DE",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bb216442-a0b5-4042-9625-2256e94772d8"
+    },
+    {
+        "name": "de-DE-Klaus:MAI-Voice-2",
+        "shortName": "de-DE-Klaus:MAI-Voice-2",
+        "locale": "de-DE",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Klaus MAI-Voice-2",
+            "LocalName": "Klaus MAI-Voice-2",
+            "ShortName": "de-DE-Klaus:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "84",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Klaus:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "de-DE",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "21cbf580-5c5a-4322-9192-efff0d58c2b5"
+    },
+    {
+        "name": "de-DE-Mia:MAI-Voice-2",
+        "shortName": "de-DE-Mia:MAI-Voice-2",
+        "locale": "de-DE",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Mia MAI-Voice-2",
+            "LocalName": "Mia MAI-Voice-2",
+            "ShortName": "de-DE-Mia:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "85",
+            "LocaleDescription": "German (Germany)",
+            "PreviewSentence": "Erstellen Sie Apps und Dienste, die auf natürliche Art mit Nutzern sprechen, und dadurch Zugänglichkeit und Benutzerfreundlichkeit verbessern.",
+            "DisplayVoiceName": "de-DE-Mia:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "de-DE",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "35202df2-21d6-461d-b06e-768f3c527f9c"
+    },
+    {
+        "name": "en-AU-Isla:MAI-Voice-2-Flash",
+        "shortName": "en-AU-Isla:MAI-Voice-2-Flash",
+        "locale": "en-AU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Isla MAI-Voice-2-Flash",
+            "LocalName": "Isla MAI-Voice-2-Flash",
+            "ShortName": "en-AU-Isla:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "103",
+            "LocaleDescription": "English (Australia)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-AU-Isla:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-AU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "e4915f28-3e47-49b0-900d-6715b1226a6f"
+    },
+    {
+        "name": "en-au-cyanspark:DragonHDOmniLatestNeural",
+        "shortName": "en-au-cyanspark:DragonHDOmniLatestNeural",
+        "locale": "en-AU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Cyanspark Dragon HD Omni Latest",
+            "LocalName": "Cyanspark Dragon HD Omni Latest",
+            "ShortName": "en-au-cyanspark:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "104",
+            "LocaleDescription": "English (Australia)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-au-cyanspark:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-AU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "31667170-773d-4f4f-ba94-bfabb04a3ca1"
+    },
+    {
+        "name": "en-AU-Isla:MAI-Voice-2",
+        "shortName": "en-AU-Isla:MAI-Voice-2",
+        "locale": "en-AU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Isla MAI-Voice-2",
+            "LocalName": "Isla MAI-Voice-2",
+            "ShortName": "en-AU-Isla:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "105",
+            "LocaleDescription": "English (Australia)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-AU-Isla:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-AU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a75d9d84-5166-4181-92c1-607daaedafab"
+    },
+    {
+        "name": "en-au-siennatopaz:DragonHDOmniLatestNeural",
+        "shortName": "en-au-siennatopaz:DragonHDOmniLatestNeural",
+        "locale": "en-AU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Siennatopaz Dragon HD Omni Latest",
+            "LocalName": "Siennatopaz Dragon HD Omni Latest",
+            "ShortName": "en-au-siennatopaz:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "106",
+            "LocaleDescription": "English (Australia)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-au-siennatopaz:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-AU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "909534af-7334-406d-9c74-5113416473aa"
+    },
+    {
+        "name": "en-GB-Ada:DragonHDLatestNeural",
+        "shortName": "en-GB-Ada:DragonHDLatestNeural",
+        "locale": "en-GB",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ada Dragon HD Latest",
+            "LocalName": "Ada Dragon HD Latest",
+            "ShortName": "en-GB-Ada:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "109",
+            "LocaleDescription": "English (UK)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-GB-Ada:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-GB",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1ef900c5-21da-47d1-b5fa-781d43fac5de"
+    },
+    {
+        "name": "en-GB-Ollie:DragonHDLatestNeural",
+        "shortName": "en-GB-Ollie:DragonHDLatestNeural",
+        "locale": "en-GB",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ollie Dragon HD Latest",
+            "LocalName": "Ollie Dragon HD Latest",
+            "ShortName": "en-GB-Ollie:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "110",
+            "LocaleDescription": "English (UK)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-GB-Ollie:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-GB",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a432bb74-1398-4628-8366-5752ed504176"
+    },
+    {
+        "name": "en-GB-Ryan:DragonHDLatestNeural",
+        "shortName": "en-GB-Ryan:DragonHDLatestNeural",
+        "locale": "en-GB",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ryan Dragon HD Latest",
+            "LocalName": "Ryan Dragon HD Latest",
+            "ShortName": "en-GB-Ryan:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "128",
+            "LocaleDescription": "English (UK)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-GB-Ryan:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-GB",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ad61d837-79bc-4645-8ba8-ea6d60331de2"
+    },
+    {
+        "name": "en-GB-Sonia:DragonHDLatestNeural",
+        "shortName": "en-GB-Sonia:DragonHDLatestNeural",
+        "locale": "en-GB",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Sonia Dragon HD Latest",
+            "LocalName": "Sonia Dragon HD Latest",
+            "ShortName": "en-GB-Sonia:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "129",
+            "LocaleDescription": "English (UK)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-GB-Sonia:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-GB",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ec8df195-427b-4157-8353-e6c6eaa5b856"
+    },
+    {
+        "name": "en-IN-Diya:DragonHDLatestNeural",
+        "shortName": "en-IN-Diya:DragonHDLatestNeural",
+        "locale": "en-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Diya Dragon HD Latest",
+            "LocalName": "Diya Dragon HD Latest",
+            "ShortName": "en-IN-Diya:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "134",
+            "LocaleDescription": "English (India)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-IN-Diya:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1db5fc3f-a239-4806-be97-97201a96a704"
+    },
+    {
+        "name": "en-IN-Lavanya:DragonHDLatestNeural",
+        "shortName": "en-IN-Lavanya:DragonHDLatestNeural",
+        "locale": "en-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Lavanya Dragon HD Latest",
+            "LocalName": "Lavanya Dragon HD Latest",
+            "ShortName": "en-IN-Lavanya:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "135",
+            "LocaleDescription": "English (India)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-IN-Lavanya:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "59d18fd9-8f34-47dc-8ee5-bee45fd0d156"
+    },
+    {
+        "name": "en-IN-Meera:DragonHDLatestNeural",
+        "shortName": "en-IN-Meera:DragonHDLatestNeural",
+        "locale": "en-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Meera Dragon HD Latest",
+            "LocalName": "Meera Dragon HD Latest",
+            "ShortName": "en-IN-Meera:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "136",
+            "LocaleDescription": "English (India)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-IN-Meera:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f2635faa-5cc0-4055-9543-b3c9fea753f3"
+    },
+    {
+        "name": "en-IN-Aarti:DragonHDLatestNeural",
+        "shortName": "en-IN-Aarti:DragonHDLatestNeural",
+        "locale": "en-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Aarti Dragon HD Latest",
+            "LocalName": "Aarti Dragon HD Latest",
+            "ShortName": "en-IN-Aarti:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "137",
+            "LocaleDescription": "English (India)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-IN-Aarti:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bb0116a2-d396-4904-b49c-adb981507625"
+    },
+    {
+        "name": "en-IN-Arjun:DragonHDLatestNeural",
+        "shortName": "en-IN-Arjun:DragonHDLatestNeural",
+        "locale": "en-IN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Arjun Dragon HD Latest",
+            "LocalName": "Arjun Dragon HD Latest",
+            "ShortName": "en-IN-Arjun:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "138",
+            "LocaleDescription": "English (India)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-IN-Arjun:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "294ff0ec-357d-4a63-9e80-dc778b1198f0"
+    },
+    {
+        "name": "en-IN-Neerja:DragonHDLatestNeural",
+        "shortName": "en-IN-Neerja:DragonHDLatestNeural",
+        "locale": "en-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Neerja Dragon HD Latest",
+            "LocalName": "Neerja Dragon HD Latest",
+            "ShortName": "en-IN-Neerja:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "139",
+            "LocaleDescription": "English (India)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-IN-Neerja:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ab3503a2-0412-4f89-8135-d3d1fabdb986"
+    },
+    {
+        "name": "en-US-Ava:DragonHDLatestNeural",
+        "shortName": "en-US-Ava:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ava Dragon HD Latest",
+            "LocalName": "Ava Dragon HD Latest",
+            "ShortName": "en-US-Ava:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "166",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Ava:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "cff02830-c816-45bf-ba0c-ab8bd0210a5e"
+    },
+    {
+        "name": "en-US-Andrew:DragonHDLatestNeural",
+        "shortName": "en-US-Andrew:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Andrew Dragon HD Latest",
+            "LocalName": "Andrew Dragon HD Latest",
+            "ShortName": "en-US-Andrew:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "167",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Andrew:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "e6b9e9a0-a34e-4d0b-97cf-09684cefb8d5"
+    },
+    {
+        "name": "en-US-Adam:DragonHDLatestNeural",
+        "shortName": "en-US-Adam:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Adam Dragon HD Latest",
+            "LocalName": "Adam Dragon HD Latest",
+            "ShortName": "en-US-Adam:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "168",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Adam:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a38f14f9-a5e5-432e-9927-3f5e9347dca1"
+    },
+    {
+        "name": "en-US-Alloy:DragonHDLatestNeural",
+        "shortName": "en-US-Alloy:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Alloy Dragon HD Latest",
+            "LocalName": "Alloy Dragon HD Latest",
+            "ShortName": "en-US-Alloy:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "169",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Alloy:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "683372bf-26e1-4da4-bfb7-bd2af6c8d51f"
+    },
+    {
+        "name": "en-US-Aria:DragonHDLatestNeural",
+        "shortName": "en-US-Aria:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Aria Dragon HD Latest",
+            "LocalName": "Aria Dragon HD Latest",
+            "ShortName": "en-US-Aria:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "170",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Aria:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "3f424c9b-af80-4ae4-8918-f064b73b16b3"
+    },
+    {
+        "name": "en-US-Bree:DragonHDLatestNeural",
+        "shortName": "en-US-Bree:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Bree Dragon HD Latest",
+            "LocalName": "Bree Dragon HD Latest",
+            "ShortName": "en-US-Bree:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "171",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Bree:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "04b5e839-f3b9-4983-b4ab-ef7c730d3985"
+    },
+    {
+        "name": "en-US-Brian:DragonHDLatestNeural",
+        "shortName": "en-US-Brian:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Brian Dragon HD Latest",
+            "LocalName": "Brian Dragon HD Latest",
+            "ShortName": "en-US-Brian:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "172",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Brian:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7347fe2e-fbad-40c7-a5b3-3008de49ed14"
+    },
+    {
+        "name": "en-US-Davis:DragonHDLatestNeural",
+        "shortName": "en-US-Davis:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Davis Dragon HD Latest",
+            "LocalName": "Davis Dragon HD Latest",
+            "ShortName": "en-US-Davis:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "173",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Davis:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "0d68d861-fd7c-4c55-8811-d4e733dcdd68"
+    },
+    {
+        "name": "en-US-Emma:DragonHDLatestNeural",
+        "shortName": "en-US-Emma:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Emma Dragon HD Latest",
+            "LocalName": "Emma Dragon HD Latest",
+            "ShortName": "en-US-Emma:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "174",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Emma:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "53dec01b-8b6f-46ed-8a23-98499dc1e89a"
+    },
+    {
+        "name": "en-US-Jane:DragonHDLatestNeural",
+        "shortName": "en-US-Jane:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jane Dragon HD Latest",
+            "LocalName": "Jane Dragon HD Latest",
+            "ShortName": "en-US-Jane:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "175",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Jane:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8db1aa81-e40e-4deb-a4b8-5e9d3bfbff2e"
+    },
+    {
+        "name": "en-US-Jenny:DragonHDLatestNeural",
+        "shortName": "en-US-Jenny:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jenny Dragon HD Latest",
+            "LocalName": "Jenny Dragon HD Latest",
+            "ShortName": "en-US-Jenny:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "176",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Jenny:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8fe90ad3-9fd1-4ad9-8e55-e5e6a4ccfe05"
+    },
+    {
+        "name": "en-US-Nova:DragonHDLatestNeural",
+        "shortName": "en-US-Nova:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Nova Dragon HD Latest",
+            "LocalName": "Nova Dragon HD Latest",
+            "ShortName": "en-US-Nova:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "177",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Nova:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "59750ff8-5cbf-488e-aa55-accf400cfba6"
+    },
+    {
+        "name": "en-US-Phoebe:DragonHDLatestNeural",
+        "shortName": "en-US-Phoebe:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Phoebe Dragon HD Latest",
+            "LocalName": "Phoebe Dragon HD Latest",
+            "ShortName": "en-US-Phoebe:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "178",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Phoebe:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a0674d45-994e-4a61-b854-467eed3cf81d"
+    },
+    {
+        "name": "en-US-Serena:DragonHDLatestNeural",
+        "shortName": "en-US-Serena:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Serena Dragon HD Latest",
+            "LocalName": "Serena Dragon HD Latest",
+            "ShortName": "en-US-Serena:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "179",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Serena:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "b65bb70a-8959-413e-a038-62bed34abb0a"
+    },
+    {
+        "name": "en-US-Steffan:DragonHDLatestNeural",
+        "shortName": "en-US-Steffan:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Steffan Dragon HD Latest",
+            "LocalName": "Steffan Dragon HD Latest",
+            "ShortName": "en-US-Steffan:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "180",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Steffan:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "de1e8324-7f5a-4d72-af55-9c6b8a94895f"
+    },
+    {
+        "name": "en-US-Andrew:DragonHDOmniLatestNeural",
+        "shortName": "en-US-Andrew:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Andrew Dragon HD Omni Latest",
+            "LocalName": "Andrew Dragon HD Omni Latest",
+            "ShortName": "en-US-Andrew:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "181",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Andrew:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "3e430203-05fa-4294-a650-5cf14275fca2"
+    },
+    {
+        "name": "en-US-Caleb:DragonHDOmniLatestNeural",
+        "shortName": "en-US-Caleb:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Caleb Dragon HD Omni Latest",
+            "LocalName": "Caleb Dragon HD Omni Latest",
+            "ShortName": "en-US-Caleb:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "182",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Caleb:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fce440dd-d3be-4608-a30e-39253ac240b6"
+    },
+    {
+        "name": "en-US-Dana:DragonHDOmniLatestNeural",
+        "shortName": "en-US-Dana:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Dana Dragon HD Omni Latest",
+            "LocalName": "Dana Dragon HD Omni Latest",
+            "ShortName": "en-US-Dana:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "183",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Dana:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "0ce77696-040b-4b3a-9975-f7fe199f5c2d"
+    },
+    {
+        "name": "en-US-Lewis:DragonHDOmniLatestNeural",
+        "shortName": "en-US-Lewis:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Lewis Dragon HD Omni Latest",
+            "LocalName": "Lewis Dragon HD Omni Latest",
+            "ShortName": "en-US-Lewis:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "184",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Lewis:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "677950ba-980f-4edc-97ea-7cddfb4b0b8f"
+    },
+    {
+        "name": "en-US-Phoebe:DragonHDOmniLatestNeural",
+        "shortName": "en-US-Phoebe:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Phoebe Dragon HD Omni Latest",
+            "LocalName": "Phoebe Dragon HD Omni Latest",
+            "ShortName": "en-US-Phoebe:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "185",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Phoebe:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "339c5f7b-9f39-4cdf-988d-80afffd56186"
+    },
+    {
+        "name": "en-US-Jimmie:DragonHDFlashLatestNeural",
+        "shortName": "en-US-Jimmie:DragonHDFlashLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jimmie Dragon HD Flash Latest",
+            "LocalName": "Jimmie Dragon HD Flash Latest",
+            "ShortName": "en-US-Jimmie:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "233",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Jimmie:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "eda1d6e2-cc61-4f6c-919d-c2b5cfd8b762"
+    },
+    {
+        "name": "en-US-Tiana:DragonHDFlashLatestNeural",
+        "shortName": "en-US-Tiana:DragonHDFlashLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Tiana Dragon HD Flash Latest",
+            "LocalName": "Tiana Dragon HD Flash Latest",
+            "ShortName": "en-US-Tiana:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "245",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Tiana:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "4a75c189-ccd0-4f74-af2a-4d5e24c8c7e7"
+    },
+    {
+        "name": "en-US-Tyler:DragonHDFlashLatestNeural",
+        "shortName": "en-US-Tyler:DragonHDFlashLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Tyler Dragon HD Flash Latest",
+            "LocalName": "Tyler Dragon HD Flash Latest",
+            "ShortName": "en-US-Tyler:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "246",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Tyler:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f2f2cd5f-11cf-4b74-9fea-740d09c3f764"
+    },
+    {
+        "name": "en-US-Andrew:DragonLatestNeural",
+        "shortName": "en-US-Andrew:DragonLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Andrew Dragon Latest",
+            "LocalName": "Andrew Dragon Latest",
+            "ShortName": "en-US-Andrew:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "247",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Andrew:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "b89f2e94-6def-4d37-9652-7ff1429c7495"
+    },
+    {
+        "name": "en-US-Ava:DragonLatestNeural",
+        "shortName": "en-US-Ava:DragonLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ava Dragon Latest",
+            "LocalName": "Ava Dragon Latest",
+            "ShortName": "en-US-Ava:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "249",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Ava:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d112c361-3abe-4be6-bfe5-6fabef559ce1"
+    },
+    {
+        "name": "en-US-Ethan:MAI-Voice-2-Flash",
+        "shortName": "en-US-Ethan:MAI-Voice-2-Flash",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Ethan MAI-Voice-2-Flash",
+            "LocalName": "Ethan MAI-Voice-2-Flash",
+            "ShortName": "en-US-Ethan:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "251",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Ethan:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ddf89f6c-a327-4833-b300-bf043923754f"
+    },
+    {
+        "name": "en-US-Grant:MAI-Voice-2-Flash",
+        "shortName": "en-US-Grant:MAI-Voice-2-Flash",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Grant MAI-Voice-2-Flash",
+            "LocalName": "Grant MAI-Voice-2-Flash",
+            "ShortName": "en-US-Grant:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "252",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Grant:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "2d57b3ee-fc51-499c-b525-213e3783adb7"
+    },
+    {
+        "name": "en-US-Harper:MAI-Voice-2-Flash",
+        "shortName": "en-US-Harper:MAI-Voice-2-Flash",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,shouting,softvoice,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Harper MAI-Voice-2-Flash",
+            "LocalName": "Harper MAI-Voice-2-Flash",
+            "ShortName": "en-US-Harper:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "253",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Harper:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "16be3051-9a7b-4098-93d9-4063391873b1"
+    },
+    {
+        "name": "en-US-Iris:MAI-Voice-2-Flash",
+        "shortName": "en-US-Iris:MAI-Voice-2-Flash",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Iris MAI-Voice-2-Flash",
+            "LocalName": "Iris MAI-Voice-2-Flash",
+            "ShortName": "en-US-Iris:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "254",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Iris:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a48e20e7-4e28-44ed-8c60-dc5c16b594e2"
+    },
+    {
+        "name": "en-US-Jasper:MAI-Voice-2-Flash",
+        "shortName": "en-US-Jasper:MAI-Voice-2-Flash",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jasper MAI-Voice-2-Flash",
+            "LocalName": "Jasper MAI-Voice-2-Flash",
+            "ShortName": "en-US-Jasper:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "255",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Jasper:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ca6cfd08-9c1b-4eaf-b2da-926d072ff050"
+    },
+    {
+        "name": "en-US-Olivia:MAI-Voice-2-Flash",
+        "shortName": "en-US-Olivia:MAI-Voice-2-Flash",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Olivia MAI-Voice-2-Flash",
+            "LocalName": "Olivia MAI-Voice-2-Flash",
+            "ShortName": "en-US-Olivia:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "256",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Olivia:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "83385fb8-ff9b-488f-a158-f88c262235ff"
+    },
+    {
+        "name": "en-US-Tessa:DragonHDLatestNeural",
+        "shortName": "en-US-Tessa:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Tessa Dragon HD Latest",
+            "LocalName": "Tessa Dragon HD Latest",
+            "ShortName": "en-US-Tessa:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "257",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Tessa:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fdf7c1ff-1ac5-45c4-ac13-fcf0ab9e2e14"
+    },
+    {
+        "name": "en-US-Andrew-Preview:DragonHDLatestNeural",
+        "shortName": "en-US-Andrew-Preview:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Andrew Preview Dragon HD Latest",
+            "LocalName": "Andrew Preview Dragon HD Latest",
+            "ShortName": "en-US-Andrew-Preview:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "259",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Andrew-Preview:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "39f3bcf3-763b-4408-b0fd-46b5426c0d90"
+    },
+    {
+        "name": "en-US-Ava-Preview:DragonHDLatestNeural",
+        "shortName": "en-US-Ava-Preview:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ava Preview Dragon HD Latest",
+            "LocalName": "Ava Preview Dragon HD Latest",
+            "ShortName": "en-US-Ava-Preview:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "260",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Ava-Preview:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7fa6f9b8-3a69-472b-9508-d4afe48b60ec"
+    },
+    {
+        "name": "en-us-ava:DragonHDOmniLatestNeural",
+        "shortName": "en-us-ava:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ava Dragon HD Omni Latest",
+            "LocalName": "Ava Dragon HD Omni Latest",
+            "ShortName": "en-us-ava:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "261",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-us-ava:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "3c7fd458-a4d2-44b3-8f89-6a5b3172b942"
+    },
+    {
+        "name": "en-us-blushzephyr:DragonHDOmniLatestNeural",
+        "shortName": "en-us-blushzephyr:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Blushzephyr Dragon HD Omni Latest",
+            "LocalName": "Blushzephyr Dragon HD Omni Latest",
+            "ShortName": "en-us-blushzephyr:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "262",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-us-blushzephyr:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bd9c9262-c69e-41fb-9532-3432f38da4ce"
+    },
+    {
+        "name": "en-us-emma:DragonHDOmniLatestNeural",
+        "shortName": "en-us-emma:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Emma Dragon HD Omni Latest",
+            "LocalName": "Emma Dragon HD Omni Latest",
+            "ShortName": "en-us-emma:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "263",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-us-emma:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f5a5fdba-503b-4107-80d0-240e55648bd9"
+    },
+    {
+        "name": "en-US-Ethan:MAI-Voice-2",
+        "shortName": "en-US-Ethan:MAI-Voice-2",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Ethan MAI-Voice-2",
+            "LocalName": "Ethan MAI-Voice-2",
+            "ShortName": "en-US-Ethan:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "264",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Ethan:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "054c5b69-610c-493d-b822-41a8812015b4"
+    },
+    {
+        "name": "en-US-Evelyn:DragonHDLatestNeural",
+        "shortName": "en-US-Evelyn:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Evelyn Dragon HD Latest",
+            "LocalName": "Evelyn Dragon HD Latest",
+            "ShortName": "en-US-Evelyn:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "265",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Evelyn:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "13cb8c8d-d403-4b62-8038-d4a09c2d5ef4"
+    },
+    {
+        "name": "en-us-goldenspark:DragonHDOmniLatestNeural",
+        "shortName": "en-us-goldenspark:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Goldenspark Dragon HD Omni Latest",
+            "LocalName": "Goldenspark Dragon HD Omni Latest",
+            "ShortName": "en-us-goldenspark:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "266",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-us-goldenspark:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "583e2caf-b89e-4a69-b8da-509762e87322"
+    },
+    {
+        "name": "en-US-Grant:MAI-Voice-2",
+        "shortName": "en-US-Grant:MAI-Voice-2",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Grant MAI-Voice-2",
+            "LocalName": "Grant MAI-Voice-2",
+            "ShortName": "en-US-Grant:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "267",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Grant:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "e684c1d1-a5fa-4184-bedb-aeedc103f6cb"
+    },
+    {
+        "name": "en-US-Harper:MAI-Voice-2",
+        "shortName": "en-US-Harper:MAI-Voice-2",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,shouting,softvoice,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Harper MAI-Voice-2",
+            "LocalName": "Harper MAI-Voice-2",
+            "ShortName": "en-US-Harper:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "268",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Harper:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "339ace45-7623-4a1c-8784-ff9573abdb5b"
+    },
+    {
+        "name": "en-US-Iris:MAI-Voice-2",
+        "shortName": "en-US-Iris:MAI-Voice-2",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Iris MAI-Voice-2",
+            "LocalName": "Iris MAI-Voice-2",
+            "ShortName": "en-US-Iris:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "269",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Iris:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "72bdcef2-0a78-4284-807f-5683a0d0d0d7"
+    },
+    {
+        "name": "en-US-Jasper:MAI-Voice-2",
+        "shortName": "en-US-Jasper:MAI-Voice-2",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jasper MAI-Voice-2",
+            "LocalName": "Jasper MAI-Voice-2",
+            "ShortName": "en-US-Jasper:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "270",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Jasper:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d89130d3-37a3-4166-8640-1bbabae4d58c"
+    },
+    {
+        "name": "en-us-jelly:DragonHDOmniLatestNeural",
+        "shortName": "en-us-jelly:DragonHDOmniLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jelly Dragon HD Omni Latest",
+            "LocalName": "Jelly Dragon HD Omni Latest",
+            "ShortName": "en-us-jelly:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "271",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-us-jelly:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "4849accc-63f9-4030-ac1a-a9499dba6556"
+    },
+    {
+        "name": "en-US-Jimmie:DragonHDLatestNeural",
+        "shortName": "en-US-Jimmie:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jimmie Dragon HD Latest",
+            "LocalName": "Jimmie Dragon HD Latest",
+            "ShortName": "en-US-Jimmie:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "272",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Jimmie:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "3ff206c0-7252-4413-86a4-77015adbdae4"
+    },
+    {
+        "name": "en-US-Juno:DragonHDLatestNeural",
+        "shortName": "en-US-Juno:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Juno Dragon HD Latest",
+            "LocalName": "Juno Dragon HD Latest",
+            "ShortName": "en-US-Juno:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "273",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Juno:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "6cf144dc-b600-45ae-8b0d-da5926a13b1c"
+    },
+    {
+        "name": "en-US-Mila:DragonHDLatestNeural",
+        "shortName": "en-US-Mila:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Mila Dragon HD Latest",
+            "LocalName": "Mila Dragon HD Latest",
+            "ShortName": "en-US-Mila:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "274",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Mila:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "dcb78d57-80fd-4ec9-ac65-a97912ca744a"
+    },
+    {
+        "name": "en-US-Olivia:MAI-Voice-2",
+        "shortName": "en-US-Olivia:MAI-Voice-2",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Olivia MAI-Voice-2",
+            "LocalName": "Olivia MAI-Voice-2",
+            "ShortName": "en-US-Olivia:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "275",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Olivia:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "711fd825-ed76-4cdb-b630-cd242246ae6f"
+    },
+    {
+        "name": "en-US-Serena-Preview:DragonHDLatestNeural",
+        "shortName": "en-US-Serena-Preview:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Serena Preview Dragon HD Latest",
+            "LocalName": "Serena Preview Dragon HD Latest",
+            "ShortName": "en-US-Serena-Preview:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "276",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Serena-Preview:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8afe1ef5-bdb3-46d2-b3f6-a8ed68e5cb66"
+    },
+    {
+        "name": "en-US-Tiana:DragonHDLatestNeural",
+        "shortName": "en-US-Tiana:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Tiana Dragon HD Latest",
+            "LocalName": "Tiana Dragon HD Latest",
+            "ShortName": "en-US-Tiana:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "277",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Tiana:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "cead5bdc-4887-41b1-8402-e7dd6ac7e997"
+    },
+    {
+        "name": "en-US-Tyler:DragonHDLatestNeural",
+        "shortName": "en-US-Tyler:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Tyler Dragon HD Latest",
+            "LocalName": "Tyler Dragon HD Latest",
+            "ShortName": "en-US-Tyler:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "278",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Tyler:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "3869c9f3-f9dd-48cd-b53c-40f56fed0046"
+    },
+    {
+        "name": "en-US-Vance:DragonHDLatestNeural",
+        "shortName": "en-US-Vance:DragonHDLatestNeural",
+        "locale": "en-US",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Vance Dragon HD Latest",
+            "LocalName": "Vance Dragon HD Latest",
+            "ShortName": "en-US-Vance:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "279",
+            "LocaleDescription": "English (US)",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "en-US-Vance:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "en-US",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f920d3db-5e92-44c8-8c91-067be17e5d34"
+    },
+    {
+        "name": "es-ES-Ximena:DragonHDLatestNeural",
+        "shortName": "es-ES-Ximena:DragonHDLatestNeural",
         "locale": "es-ES",
         "properties": {
             "Gender": "Female",
             "VoiceRoleNames": "",
             "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious",
+            "VoiceStyleNames": "",
             "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Marta MAI",
-            "LocalName": "Marta",
-            "ShortName": "es-ES-Marta:MAI-Voice-2",
-            "SampleRateHertz": "48000",
-            "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
+            "DisplayName": "Ximena Dragon HD Latest",
+            "LocalName": "Ximena Dragon HD Latest",
+            "ShortName": "es-ES-Ximena:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "300",
             "LocaleDescription": "Spanish (Spain)",
             "PreviewSentence": "Crea aplicaciones y servicios que hablan de forma natural a los usuarios, y que mejoran la accesibilidad y la facilidad de uso.",
-            "DisplayVoiceName": "MAI-Voice-2",
+            "DisplayVoiceName": "es-ES-Ximena:DragonHDLatestNeural",
             "VoiceModelKind": "NeuralTts",
             "ReleaseScope": "PublicGA",
             "locale": "es-ES",
@@ -20449,30 +22758,65 @@ export const voices = [
             "styleSamples": []
         },
         "voiceType": "StandardVoice",
-        "id": "05a457a8-1716-49e3-abbe-ad92770a3c23"
+        "id": "a17be3ea-19c9-470e-bf05-551209eaa0b8"
     },
     {
-        "name": "Microsoft Server Speech Text to Speech Voice (es-ES, es-ES-Marta)",
+        "name": "es-ES-Tristan:DragonHDLatestNeural",
+        "shortName": "es-ES-Tristan:DragonHDLatestNeural",
+        "locale": "es-ES",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Tristan Dragon HD Latest",
+            "LocalName": "Tristan Dragon HD Latest",
+            "ShortName": "es-ES-Tristan:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "301",
+            "LocaleDescription": "Spanish (Spain)",
+            "PreviewSentence": "Crea aplicaciones y servicios que hablan de forma natural a los usuarios, y que mejoran la accesibilidad y la facilidad de uso.",
+            "DisplayVoiceName": "es-ES-Tristan:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "es-ES",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "c2574c46-8371-42c1-9e3e-fa161ea05bff"
+    },
+    {
+        "name": "es-ES-Marta:MAI-Voice-2-Flash",
         "shortName": "es-ES-Marta:MAI-Voice-2-Flash",
         "locale": "es-ES",
         "properties": {
             "Gender": "Female",
             "VoiceRoleNames": "",
             "VoiceRoleNameDefinitions": "{}",
-            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious",
-            "VoiceStyleNameDefinitions": "{}",
-            "DisplayName": "Marta MAI Flash",
-            "LocalName": "Marta",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Marta MAI-Voice-2-Flash",
+            "LocalName": "Marta MAI-Voice-2-Flash",
             "ShortName": "es-ES-Marta:MAI-Voice-2-Flash",
-            "SampleRateHertz": "48000",
+            "SampleRateHertz": "24000",
             "FrontendVoiceType": "Neural",
-            "SecondaryLocales": "",
-            "OrderInVoiceListApi": "900",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "322",
             "LocaleDescription": "Spanish (Spain)",
             "PreviewSentence": "Crea aplicaciones y servicios que hablan de forma natural a los usuarios, y que mejoran la accesibilidad y la facilidad de uso.",
-            "DisplayVoiceName": "MAI-Voice-2-Flash",
+            "DisplayVoiceName": "es-ES-Marta:MAI-Voice-2-Flash",
             "VoiceModelKind": "NeuralTts",
-            "ReleaseScope": "PublicGA",
+            "ReleaseScope": "PublicPreview",
             "locale": "es-ES",
             "localeZH": ""
         },
@@ -20484,6 +22828,4696 @@ export const voices = [
             "styleSamples": []
         },
         "voiceType": "StandardVoice",
-        "id": "3ae77879-650b-4084-8682-ea7e802abe2d"
+        "id": "17d1ddf2-7428-4926-853d-8aa5adbe63d5"
+    },
+    {
+        "name": "es-ES-Marta:MAI-Voice-2",
+        "shortName": "es-ES-Marta:MAI-Voice-2",
+        "locale": "es-ES",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Marta MAI-Voice-2",
+            "LocalName": "Marta MAI-Voice-2",
+            "ShortName": "es-ES-Marta:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "323",
+            "LocaleDescription": "Spanish (Spain)",
+            "PreviewSentence": "Crea aplicaciones y servicios que hablan de forma natural a los usuarios, y que mejoran la accesibilidad y la facilidad de uso.",
+            "DisplayVoiceName": "es-ES-Marta:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "es-ES",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "cb098192-48cb-49c7-b254-b88ab279641f"
+    },
+    {
+        "name": "es-MX-Alejo:MAI-Voice-2-Flash",
+        "shortName": "es-MX-Alejo:MAI-Voice-2-Flash",
+        "locale": "es-MX",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Alejo MAI-Voice-2-Flash",
+            "LocalName": "Alejo MAI-Voice-2-Flash",
+            "ShortName": "es-MX-Alejo:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "347",
+            "LocaleDescription": "Spanish (Mexico)",
+            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
+            "DisplayVoiceName": "es-MX-Alejo:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "es-MX",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a246f1de-0f14-49b3-b87e-0dc08ca20794"
+    },
+    {
+        "name": "es-MX-Valeria:MAI-Voice-2-Flash",
+        "shortName": "es-MX-Valeria:MAI-Voice-2-Flash",
+        "locale": "es-MX",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Valeria MAI-Voice-2-Flash",
+            "LocalName": "Valeria MAI-Voice-2-Flash",
+            "ShortName": "es-MX-Valeria:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "348",
+            "LocaleDescription": "Spanish (Mexico)",
+            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
+            "DisplayVoiceName": "es-MX-Valeria:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "es-MX",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "015374af-ace8-4ca7-ad10-f98518a65970"
+    },
+    {
+        "name": "es-MX-Dalia:DragonHDLatestNeural",
+        "shortName": "es-MX-Dalia:DragonHDLatestNeural",
+        "locale": "es-MX",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Dalia Dragon HD Latest",
+            "LocalName": "Dalia Dragon HD Latest",
+            "ShortName": "es-MX-Dalia:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "349",
+            "LocaleDescription": "Spanish (Mexico)",
+            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
+            "DisplayVoiceName": "es-MX-Dalia:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "es-MX",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "36d4c5bf-e576-4b70-b957-eabb9f4acf67"
+    },
+    {
+        "name": "es-MX-Jorge:DragonHDLatestNeural",
+        "shortName": "es-MX-Jorge:DragonHDLatestNeural",
+        "locale": "es-MX",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Jorge Dragon HD Latest",
+            "LocalName": "Jorge Dragon HD Latest",
+            "ShortName": "es-MX-Jorge:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "350",
+            "LocaleDescription": "Spanish (Mexico)",
+            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
+            "DisplayVoiceName": "es-MX-Jorge:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "es-MX",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1c40d94b-e626-4326-9d4e-2e1703060206"
+    },
+    {
+        "name": "es-MX-Alejo:MAI-Voice-2",
+        "shortName": "es-MX-Alejo:MAI-Voice-2",
+        "locale": "es-MX",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Alejo MAI-Voice-2",
+            "LocalName": "Alejo MAI-Voice-2",
+            "ShortName": "es-MX-Alejo:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "351",
+            "LocaleDescription": "Spanish (Mexico)",
+            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
+            "DisplayVoiceName": "es-MX-Alejo:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "es-MX",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "803b7f24-42a4-47f5-9182-774c09730d6e"
+    },
+    {
+        "name": "es-MX-Valeria:MAI-Voice-2",
+        "shortName": "es-MX-Valeria:MAI-Voice-2",
+        "locale": "es-MX",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Valeria MAI-Voice-2",
+            "LocalName": "Valeria MAI-Voice-2",
+            "ShortName": "es-MX-Valeria:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "352",
+            "LocaleDescription": "Spanish (Mexico)",
+            "PreviewSentence": "Crea apps y servicios que hablen de forma natural con los usuarios, mejorando la accesibilidad y la usabilidad.",
+            "DisplayVoiceName": "es-MX-Valeria:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "es-MX",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "79ba597b-43ec-4481-aa91-721045ba90d3"
+    },
+    {
+        "name": "fil-PH-Angelo:DragonHDLatestNeural",
+        "shortName": "fil-PH-Angelo:DragonHDLatestNeural",
+        "locale": "fil-PH",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Angelo Dragon HD Latest",
+            "LocalName": "Angelo Dragon HD Latest",
+            "ShortName": "fil-PH-Angelo:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "382",
+            "LocaleDescription": "fil-PH",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "fil-PH-Angelo:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fil-PH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fe2dda63-4c2e-4ac0-92d5-f0456039b0bb"
+    },
+    {
+        "name": "fil-PH-Blessica:DragonHDLatestNeural",
+        "shortName": "fil-PH-Blessica:DragonHDLatestNeural",
+        "locale": "fil-PH",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Blessica Dragon HD Latest",
+            "LocalName": "Blessica Dragon HD Latest",
+            "ShortName": "fil-PH-Blessica:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "383",
+            "LocaleDescription": "fil-PH",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "fil-PH-Blessica:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fil-PH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "334978e8-a7c0-4dbd-a028-b018b09a60a3"
+    },
+    {
+        "name": "fil-PH-Mariela:DragonHDLatestNeural",
+        "shortName": "fil-PH-Mariela:DragonHDLatestNeural",
+        "locale": "fil-PH",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Mariela Dragon HD Latest",
+            "LocalName": "Mariela Dragon HD Latest",
+            "ShortName": "fil-PH-Mariela:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "384",
+            "LocaleDescription": "fil-PH",
+            "PreviewSentence": "Welcome to the Microsoft Voice Tuning. ",
+            "DisplayVoiceName": "fil-PH-Mariela:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fil-PH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "59c68535-757e-4af9-a969-a8c3f318df00"
+    },
+    {
+        "name": "fr-CA-Sylvie:DragonHDLatestNeural",
+        "shortName": "fr-CA-Sylvie:DragonHDLatestNeural",
+        "locale": "fr-CA",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Sylvie Dragon HD Latest",
+            "LocalName": "Sylvie Dragon HD Latest",
+            "ShortName": "fr-CA-Sylvie:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "387",
+            "LocaleDescription": "French (Canada)",
+            "PreviewSentence": "Créer des applications et des services qui parlent aux utilisateurs, améliorant ainsi l’accessibilité et la facilité d’utilisation.",
+            "DisplayVoiceName": "fr-CA-Sylvie:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "fr-CA",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7c7bb1b4-3301-4140-a6e2-5fa572eacc53"
+    },
+    {
+        "name": "fr-CA-Thierry:DragonHDLatestNeural",
+        "shortName": "fr-CA-Thierry:DragonHDLatestNeural",
+        "locale": "fr-CA",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Thierry Dragon HD Latest",
+            "LocalName": "Thierry Dragon HD Latest",
+            "ShortName": "fr-CA-Thierry:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "388",
+            "LocaleDescription": "French (Canada)",
+            "PreviewSentence": "Créer des applications et des services qui parlent aux utilisateurs, améliorant ainsi l’accessibilité et la facilité d’utilisation.",
+            "DisplayVoiceName": "fr-CA-Thierry:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "fr-CA",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bbec6b0e-ec34-46cf-9a36-ef742bb3f2ad"
+    },
+    {
+        "name": "fr-FR-Vivienne:DragonHDLatestNeural",
+        "shortName": "fr-FR-Vivienne:DragonHDLatestNeural",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Vivienne Dragon HD Latest",
+            "LocalName": "Vivienne Dragon HD Latest",
+            "ShortName": "fr-FR-Vivienne:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "395",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Vivienne:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "abb7b06a-997e-45e4-ab95-695c096fb552"
+    },
+    {
+        "name": "fr-FR-Remy:DragonHDLatestNeural",
+        "shortName": "fr-FR-Remy:DragonHDLatestNeural",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Remy Dragon HD Latest",
+            "LocalName": "Remy Dragon HD Latest",
+            "ShortName": "fr-FR-Remy:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "396",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Remy:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "723b78c8-b15b-457f-b132-09bc65dea613"
+    },
+    {
+        "name": "fr-FR-Denise:DragonLatestNeural",
+        "shortName": "fr-FR-Denise:DragonLatestNeural",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Denise Dragon Latest",
+            "LocalName": "Denise Dragon Latest",
+            "ShortName": "fr-FR-Denise:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "414",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Denise:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bff510e0-52f8-4db7-888b-4808158d5fc3"
+    },
+    {
+        "name": "fr-FR-Marc:MAI-Voice-2-Flash",
+        "shortName": "fr-FR-Marc:MAI-Voice-2-Flash",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Marc MAI-Voice-2-Flash",
+            "LocalName": "Marc MAI-Voice-2-Flash",
+            "ShortName": "fr-FR-Marc:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "415",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Marc:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "31b5bf5f-1726-4700-ae12-8c861a7dee63"
+    },
+    {
+        "name": "fr-FR-Remy:DragonLatestNeural",
+        "shortName": "fr-FR-Remy:DragonLatestNeural",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Remy Dragon Latest",
+            "LocalName": "Remy Dragon Latest",
+            "ShortName": "fr-FR-Remy:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "416",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Remy:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1e73bd69-46d9-429f-92cb-bdcc65df07d0"
+    },
+    {
+        "name": "fr-FR-Soleil:MAI-Voice-2-Flash",
+        "shortName": "fr-FR-Soleil:MAI-Voice-2-Flash",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Soleil MAI-Voice-2-Flash",
+            "LocalName": "Soleil MAI-Voice-2-Flash",
+            "ShortName": "fr-FR-Soleil:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "417",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Soleil:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "20febcbd-fa0f-4ae4-ae4a-f19a3cae64fe"
+    },
+    {
+        "name": "fr-FR-Marc:MAI-Voice-2",
+        "shortName": "fr-FR-Marc:MAI-Voice-2",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Marc MAI-Voice-2",
+            "LocalName": "Marc MAI-Voice-2",
+            "ShortName": "fr-FR-Marc:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "418",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Marc:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "5c189a51-2171-43f2-9ca4-46ec5207be59"
+    },
+    {
+        "name": "fr-FR-Soleil:MAI-Voice-2",
+        "shortName": "fr-FR-Soleil:MAI-Voice-2",
+        "locale": "fr-FR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Soleil MAI-Voice-2",
+            "LocalName": "Soleil MAI-Voice-2",
+            "ShortName": "fr-FR-Soleil:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "419",
+            "LocaleDescription": "French (France)",
+            "PreviewSentence": "Construire des applications et services qui communiquent naturellement avec l'utilisateur, en améliorant l’accessibilité et l'ergonomie",
+            "DisplayVoiceName": "fr-FR-Soleil:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "fr-FR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "db0b5a5a-17d7-4a8d-a648-fc0b1960ed44"
+    },
+    {
+        "name": "hi-IN-Arjun:MAI-Voice-2-Flash",
+        "shortName": "hi-IN-Arjun:MAI-Voice-2-Flash",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Arjun MAI-Voice-2-Flash",
+            "LocalName": "Arjun MAI-Voice-2-Flash",
+            "ShortName": "hi-IN-Arjun:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "437",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Arjun:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "9b11b890-96c7-479f-963a-c05a273220b3"
+    },
+    {
+        "name": "hi-IN-Dhruv:MAI-Voice-2-Flash",
+        "shortName": "hi-IN-Dhruv:MAI-Voice-2-Flash",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Dhruv MAI-Voice-2-Flash",
+            "LocalName": "Dhruv MAI-Voice-2-Flash",
+            "ShortName": "hi-IN-Dhruv:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "438",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Dhruv:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "c22c657c-60af-4568-afeb-1ec008ca3550"
+    },
+    {
+        "name": "hi-IN-Diya:DragonLatestNeural",
+        "shortName": "hi-IN-Diya:DragonLatestNeural",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Diya Dragon Latest",
+            "LocalName": "Diya Dragon Latest",
+            "ShortName": "hi-IN-Diya:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "439",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Diya:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bf5315d7-6161-4dcf-a4a9-ba1ee8127c21"
+    },
+    {
+        "name": "hi-IN-Kavya:MAI-Voice-2-Flash",
+        "shortName": "hi-IN-Kavya:MAI-Voice-2-Flash",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Kavya MAI-Voice-2-Flash",
+            "LocalName": "Kavya MAI-Voice-2-Flash",
+            "ShortName": "hi-IN-Kavya:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "440",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Kavya:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "4c6755b4-ed76-4639-a54c-2926d65fe773"
+    },
+    {
+        "name": "hi-IN-Priya:MAI-Voice-2-Flash",
+        "shortName": "hi-IN-Priya:MAI-Voice-2-Flash",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Priya MAI-Voice-2-Flash",
+            "LocalName": "Priya MAI-Voice-2-Flash",
+            "ShortName": "hi-IN-Priya:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "441",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Priya:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "83a8c1c4-b835-48a3-a5e9-f5d32b3db532"
+    },
+    {
+        "name": "hi-IN-Arjun:MAI-Voice-2",
+        "shortName": "hi-IN-Arjun:MAI-Voice-2",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Arjun MAI-Voice-2",
+            "LocalName": "Arjun MAI-Voice-2",
+            "ShortName": "hi-IN-Arjun:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "442",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Arjun:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a2c976c7-f55e-4644-9092-689f45281767"
+    },
+    {
+        "name": "hi-IN-Dhruv:MAI-Voice-2",
+        "shortName": "hi-IN-Dhruv:MAI-Voice-2",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Dhruv MAI-Voice-2",
+            "LocalName": "Dhruv MAI-Voice-2",
+            "ShortName": "hi-IN-Dhruv:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "443",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Dhruv:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "20d58b25-5ee7-4723-9646-e3427fbfdc03"
+    },
+    {
+        "name": "hi-IN-Kavya:MAI-Voice-2",
+        "shortName": "hi-IN-Kavya:MAI-Voice-2",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Kavya MAI-Voice-2",
+            "LocalName": "Kavya MAI-Voice-2",
+            "ShortName": "hi-IN-Kavya:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "444",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Kavya:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "669898a7-6b9f-4865-88dd-7663abe443a7"
+    },
+    {
+        "name": "hi-IN-Priya:MAI-Voice-2",
+        "shortName": "hi-IN-Priya:MAI-Voice-2",
+        "locale": "hi-IN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Priya MAI-Voice-2",
+            "LocalName": "Priya MAI-Voice-2",
+            "ShortName": "hi-IN-Priya:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "445",
+            "LocaleDescription": "Hindi (India)",
+            "PreviewSentence": "ऐसे ऐप और सेवाओं का निर्माण करें जो उपयोगकर्ताओं से आम बोलचाल की भाषा में बात करे, जिससे सुगमता और उपयोगिता बढ़े।",
+            "DisplayVoiceName": "hi-IN-Priya:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hi-IN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f3a60433-5b39-4a81-a0c0-2a47b104688c"
+    },
+    {
+        "name": "hu-HU-Bence:MAI-Voice-2-Flash",
+        "shortName": "hu-HU-Bence:MAI-Voice-2-Flash",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Bence MAI-Voice-2-Flash",
+            "LocalName": "Bence MAI-Voice-2-Flash",
+            "ShortName": "hu-HU-Bence:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "450",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Bence:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "624ddc90-aa20-44d4-8aae-91519f5a1c61"
+    },
+    {
+        "name": "hu-HU-Levente:MAI-Voice-2-Flash",
+        "shortName": "hu-HU-Levente:MAI-Voice-2-Flash",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Levente MAI-Voice-2-Flash",
+            "LocalName": "Levente MAI-Voice-2-Flash",
+            "ShortName": "hu-HU-Levente:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "451",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Levente:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "b31b9c0f-54bb-42d8-a56f-85c108c457d4"
+    },
+    {
+        "name": "hu-HU-Lilla:MAI-Voice-2-Flash",
+        "shortName": "hu-HU-Lilla:MAI-Voice-2-Flash",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Lilla MAI-Voice-2-Flash",
+            "LocalName": "Lilla MAI-Voice-2-Flash",
+            "ShortName": "hu-HU-Lilla:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "452",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Lilla:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8a4bad6a-2b44-4103-8846-9baa15e070dc"
+    },
+    {
+        "name": "hu-HU-Réka:MAI-Voice-2-Flash",
+        "shortName": "hu-HU-Réka:MAI-Voice-2-Flash",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Réka MAI-Voice-2-Flash",
+            "LocalName": "Réka MAI-Voice-2-Flash",
+            "ShortName": "hu-HU-Réka:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "453",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Réka:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d6a12daf-4304-4f0b-9d0e-8c1c1bcfffa6"
+    },
+    {
+        "name": "hu-HU-Bence:MAI-Voice-2",
+        "shortName": "hu-HU-Bence:MAI-Voice-2",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Bence MAI-Voice-2",
+            "LocalName": "Bence MAI-Voice-2",
+            "ShortName": "hu-HU-Bence:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "454",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Bence:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d8974c7f-b406-4917-9eff-1d63dd80e13a"
+    },
+    {
+        "name": "hu-HU-Levente:MAI-Voice-2",
+        "shortName": "hu-HU-Levente:MAI-Voice-2",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Levente MAI-Voice-2",
+            "LocalName": "Levente MAI-Voice-2",
+            "ShortName": "hu-HU-Levente:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "455",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Levente:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8fee848b-ecaf-4ba9-9b65-9415f3c2aaea"
+    },
+    {
+        "name": "hu-HU-Lilla:MAI-Voice-2",
+        "shortName": "hu-HU-Lilla:MAI-Voice-2",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Lilla MAI-Voice-2",
+            "LocalName": "Lilla MAI-Voice-2",
+            "ShortName": "hu-HU-Lilla:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "456",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Lilla:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "69d51d30-c129-4f46-9084-bce6ad3cf2e5"
+    },
+    {
+        "name": "hu-HU-Réka:MAI-Voice-2",
+        "shortName": "hu-HU-Réka:MAI-Voice-2",
+        "locale": "hu-HU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Réka MAI-Voice-2",
+            "LocalName": "Réka MAI-Voice-2",
+            "ShortName": "hu-HU-Réka:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "457",
+            "LocaleDescription": "Hungarian",
+            "PreviewSentence": "Készítsen appokat és szolgáltatásokat, melyek természetes hangon beszélnek a felhasználóval, ezáltal hozzáférhetőbbek és könnyebben használhatóak.",
+            "DisplayVoiceName": "hu-HU-Réka:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "hu-HU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fbbbba78-a1a2-41c1-92e4-99c46ee813ae"
+    },
+    {
+        "name": "id-ID-Ardi:DragonHDLatestNeural",
+        "shortName": "id-ID-Ardi:DragonHDLatestNeural",
+        "locale": "id-ID",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ardi Dragon HD Latest",
+            "LocalName": "Ardi Dragon HD Latest",
+            "ShortName": "id-ID-Ardi:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "462",
+            "LocaleDescription": "Indonesian",
+            "PreviewSentence": "Buat aplikasi dan layanan yang berbicara secara alami kepada pengguna, sehingga meningkatkan aksesibilitas dan kegunaan.",
+            "DisplayVoiceName": "id-ID-Ardi:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "id-ID",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bec87de7-6858-4bef-a0c7-11ce7b644861"
+    },
+    {
+        "name": "id-ID-Gadis:DragonHDLatestNeural",
+        "shortName": "id-ID-Gadis:DragonHDLatestNeural",
+        "locale": "id-ID",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Gadis Dragon HD Latest",
+            "LocalName": "Gadis Dragon HD Latest",
+            "ShortName": "id-ID-Gadis:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "463",
+            "LocaleDescription": "Indonesian",
+            "PreviewSentence": "Buat aplikasi dan layanan yang berbicara secara alami kepada pengguna, sehingga meningkatkan aksesibilitas dan kegunaan.",
+            "DisplayVoiceName": "id-ID-Gadis:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "id-ID",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7265cf38-a547-4f87-9696-8f0aeba84e9e"
+    },
+    {
+        "name": "id-ID-Larasati:DragonHDLatestNeural",
+        "shortName": "id-ID-Larasati:DragonHDLatestNeural",
+        "locale": "id-ID",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Larasati Dragon HD Latest",
+            "LocalName": "Larasati Dragon HD Latest",
+            "ShortName": "id-ID-Larasati:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "464",
+            "LocaleDescription": "Indonesian",
+            "PreviewSentence": "Buat aplikasi dan layanan yang berbicara secara alami kepada pengguna, sehingga meningkatkan aksesibilitas dan kegunaan.",
+            "DisplayVoiceName": "id-ID-Larasati:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "id-ID",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d1cb585d-642b-4564-adb0-1fe8a9218fc2"
+    },
+    {
+        "name": "it-IT-Isabella:DragonHDLatestNeural",
+        "shortName": "it-IT-Isabella:DragonHDLatestNeural",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Isabella Dragon HD Latest",
+            "LocalName": "Isabella Dragon HD Latest",
+            "ShortName": "it-IT-Isabella:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "467",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Isabella:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "42709288-fa74-457d-b145-e60a77edd55c"
+    },
+    {
+        "name": "it-IT-Alessio:DragonHDLatestNeural",
+        "shortName": "it-IT-Alessio:DragonHDLatestNeural",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Alessio Dragon HD Latest",
+            "LocalName": "Alessio Dragon HD Latest",
+            "ShortName": "it-IT-Alessio:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "468",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Alessio:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "0fb5c4bc-a8e0-4bd7-adc6-7399f5224223"
+    },
+    {
+        "name": "it-IT-Alessio:DragonLatestNeural",
+        "shortName": "it-IT-Alessio:DragonLatestNeural",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Alessio Dragon Latest",
+            "LocalName": "Alessio Dragon Latest",
+            "ShortName": "it-IT-Alessio:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "489",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Alessio:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ddf635a0-70a9-4d53-b497-0e6fa863573e"
+    },
+    {
+        "name": "it-IT-Isabella:DragonLatestNeural",
+        "shortName": "it-IT-Isabella:DragonLatestNeural",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Isabella Dragon Latest",
+            "LocalName": "Isabella Dragon Latest",
+            "ShortName": "it-IT-Isabella:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "490",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Isabella:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "56cce1ea-d6c0-4fdf-bfae-9b283132445d"
+    },
+    {
+        "name": "it-IT-Luca:MAI-Voice-2-Flash",
+        "shortName": "it-IT-Luca:MAI-Voice-2-Flash",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Luca MAI-Voice-2-Flash",
+            "LocalName": "Luca MAI-Voice-2-Flash",
+            "ShortName": "it-IT-Luca:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "491",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Luca:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "31c37444-7a02-48f4-a155-f54cbcfab5c2"
+    },
+    {
+        "name": "it-IT-Rosa:MAI-Voice-2-Flash",
+        "shortName": "it-IT-Rosa:MAI-Voice-2-Flash",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Rosa MAI-Voice-2-Flash",
+            "LocalName": "Rosa MAI-Voice-2-Flash",
+            "ShortName": "it-IT-Rosa:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "492",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Rosa:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "9d805357-9995-477a-80ad-64843ca6a722"
+    },
+    {
+        "name": "it-IT-Giuseppe:DragonHDLatestNeural",
+        "shortName": "it-IT-Giuseppe:DragonHDLatestNeural",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Giuseppe Dragon HD Latest",
+            "LocalName": "Giuseppe Dragon HD Latest",
+            "ShortName": "it-IT-Giuseppe:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "493",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Giuseppe:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "32f0d33a-c959-481d-8110-3b76a202246e"
+    },
+    {
+        "name": "it-IT-Luca:MAI-Voice-2",
+        "shortName": "it-IT-Luca:MAI-Voice-2",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Luca MAI-Voice-2",
+            "LocalName": "Luca MAI-Voice-2",
+            "ShortName": "it-IT-Luca:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "494",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Luca:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "df30c82f-cfdf-4296-a364-c04b627e577a"
+    },
+    {
+        "name": "it-IT-Rosa:MAI-Voice-2",
+        "shortName": "it-IT-Rosa:MAI-Voice-2",
+        "locale": "it-IT",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Rosa MAI-Voice-2",
+            "LocalName": "Rosa MAI-Voice-2",
+            "ShortName": "it-IT-Rosa:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "495",
+            "LocaleDescription": "Italian",
+            "PreviewSentence": "Benvenuti nella piattaforma di generazione di contenuti audio di Microsoft.",
+            "DisplayVoiceName": "it-IT-Rosa:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "it-IT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "86c82103-5e60-4c3a-9c02-35401ed41100"
+    },
+    {
+        "name": "ja-JP-Nanami:DragonHDLatestNeural",
+        "shortName": "ja-JP-Nanami:DragonHDLatestNeural",
+        "locale": "ja-JP",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Nanami Dragon HD Latest",
+            "LocalName": "Nanami Dragon HD Latest",
+            "ShortName": "ja-JP-Nanami:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "500",
+            "LocaleDescription": "Japanese",
+            "PreviewSentence": "アクセシビリティとユーザビリティを向上させながら、ユーザーに自然なことばを話すアプリとサービスを構築する",
+            "DisplayVoiceName": "ja-JP-Nanami:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "ja-JP",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "89f55378-e670-4ebb-9d56-b3734a031894"
+    },
+    {
+        "name": "ja-JP-Masaru:DragonHDLatestNeural",
+        "shortName": "ja-JP-Masaru:DragonHDLatestNeural",
+        "locale": "ja-JP",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Masaru Dragon HD Latest",
+            "LocalName": "Masaru Dragon HD Latest",
+            "ShortName": "ja-JP-Masaru:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "501",
+            "LocaleDescription": "Japanese",
+            "PreviewSentence": "アクセシビリティとユーザビリティを向上させながら、ユーザーに自然なことばを話すアプリとサービスを構築する",
+            "DisplayVoiceName": "ja-JP-Masaru:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "ja-JP",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ea027a2a-87b2-456c-b4b5-727d62f30f85"
+    },
+    {
+        "name": "ko-KR-SunHi:DragonHDLatestNeural",
+        "shortName": "ko-KR-SunHi:DragonHDLatestNeural",
+        "locale": "ko-KR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "SunHi Dragon HD Latest",
+            "LocalName": "SunHi Dragon HD Latest",
+            "ShortName": "ko-KR-SunHi:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "520",
+            "LocaleDescription": "Korean",
+            "PreviewSentence": "사용자들에게 자연스럽게 이야기하는 앱과 서비스를 만들며 접근성과 사용성을 개선시킵니다.",
+            "DisplayVoiceName": "ko-KR-SunHi:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "ko-KR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "453ecf94-a98b-4a56-990f-6eee0e47a249"
+    },
+    {
+        "name": "ko-KR-Hyunsu:DragonHDLatestNeural",
+        "shortName": "ko-KR-Hyunsu:DragonHDLatestNeural",
+        "locale": "ko-KR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Hyunsu Dragon HD Latest",
+            "LocalName": "Hyunsu Dragon HD Latest",
+            "ShortName": "ko-KR-Hyunsu:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "521",
+            "LocaleDescription": "Korean",
+            "PreviewSentence": "사용자들에게 자연스럽게 이야기하는 앱과 서비스를 만들며 접근성과 사용성을 개선시킵니다.",
+            "DisplayVoiceName": "ko-KR-Hyunsu:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "ko-KR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "133960db-2617-4442-9619-1f1deea1abb3"
+    },
+    {
+        "name": "ko-KR-Haena:MAI-Voice-2-Flash",
+        "shortName": "ko-KR-Haena:MAI-Voice-2-Flash",
+        "locale": "ko-KR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Haena MAI-Voice-2-Flash",
+            "LocalName": "Haena MAI-Voice-2-Flash",
+            "ShortName": "ko-KR-Haena:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "532",
+            "LocaleDescription": "Korean",
+            "PreviewSentence": "사용자들에게 자연스럽게 이야기하는 앱과 서비스를 만들며 접근성과 사용성을 개선시킵니다.",
+            "DisplayVoiceName": "ko-KR-Haena:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ko-KR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "20f82cac-a4bd-414b-961b-59c6b93f88c8"
+    },
+    {
+        "name": "ko-KR-Junho:MAI-Voice-2-Flash",
+        "shortName": "ko-KR-Junho:MAI-Voice-2-Flash",
+        "locale": "ko-KR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,relieved,sad,softvoice,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Junho MAI-Voice-2-Flash",
+            "LocalName": "Junho MAI-Voice-2-Flash",
+            "ShortName": "ko-KR-Junho:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "533",
+            "LocaleDescription": "Korean",
+            "PreviewSentence": "사용자들에게 자연스럽게 이야기하는 앱과 서비스를 만들며 접근성과 사용성을 개선시킵니다.",
+            "DisplayVoiceName": "ko-KR-Junho:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ko-KR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "210ca752-28b3-4e8d-bb3b-b675d403e5a7"
+    },
+    {
+        "name": "ko-KR-Haena:MAI-Voice-2",
+        "shortName": "ko-KR-Haena:MAI-Voice-2",
+        "locale": "ko-KR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Haena MAI-Voice-2",
+            "LocalName": "Haena MAI-Voice-2",
+            "ShortName": "ko-KR-Haena:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "534",
+            "LocaleDescription": "Korean",
+            "PreviewSentence": "사용자들에게 자연스럽게 이야기하는 앱과 서비스를 만들며 접근성과 사용성을 개선시킵니다.",
+            "DisplayVoiceName": "ko-KR-Haena:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ko-KR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "44d72fa9-82d9-49fe-87a0-43083b0e799e"
+    },
+    {
+        "name": "ko-KR-Junho:MAI-Voice-2",
+        "shortName": "ko-KR-Junho:MAI-Voice-2",
+        "locale": "ko-KR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,relieved,sad,softvoice,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Junho MAI-Voice-2",
+            "LocalName": "Junho MAI-Voice-2",
+            "ShortName": "ko-KR-Junho:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "535",
+            "LocaleDescription": "Korean",
+            "PreviewSentence": "사용자들에게 자연스럽게 이야기하는 앱과 서비스를 만들며 접근성과 사용성을 개선시킵니다.",
+            "DisplayVoiceName": "ko-KR-Junho:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ko-KR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "2075b1a2-bd3e-4ab0-9696-8cffe17a2ba1"
+    },
+    {
+        "name": "ms-MY-Nadira:DragonHDLatestNeural",
+        "shortName": "ms-MY-Nadira:DragonHDLatestNeural",
+        "locale": "ms-MY",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Nadira Dragon HD Latest",
+            "LocalName": "Nadira Dragon HD Latest",
+            "ShortName": "ms-MY-Nadira:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "552",
+            "LocaleDescription": "Malay",
+            "PreviewSentence": "Membina aplikasi dan perkhidmatan yang bercakap sememangnya kepada pengguna, meningkatkan kebolehcapaian dan kebolehgunaanya.",
+            "DisplayVoiceName": "ms-MY-Nadira:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ms-MY",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "cfecd4da-145d-4f2b-80d2-76cc30ab3d36"
+    },
+    {
+        "name": "ms-MY-Osman:DragonHDLatestNeural",
+        "shortName": "ms-MY-Osman:DragonHDLatestNeural",
+        "locale": "ms-MY",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Osman Dragon HD Latest",
+            "LocalName": "Osman Dragon HD Latest",
+            "ShortName": "ms-MY-Osman:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "553",
+            "LocaleDescription": "Malay",
+            "PreviewSentence": "Membina aplikasi dan perkhidmatan yang bercakap sememangnya kepada pengguna, meningkatkan kebolehcapaian dan kebolehgunaanya.",
+            "DisplayVoiceName": "ms-MY-Osman:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ms-MY",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "088e11b2-469f-416b-85d2-3af17eb325e2"
+    },
+    {
+        "name": "ms-MY-Yasmin:DragonHDLatestNeural",
+        "shortName": "ms-MY-Yasmin:DragonHDLatestNeural",
+        "locale": "ms-MY",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yasmin Dragon HD Latest",
+            "LocalName": "Yasmin Dragon HD Latest",
+            "ShortName": "ms-MY-Yasmin:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "554",
+            "LocaleDescription": "Malay",
+            "PreviewSentence": "Membina aplikasi dan perkhidmatan yang bercakap sememangnya kepada pengguna, meningkatkan kebolehcapaian dan kebolehgunaanya.",
+            "DisplayVoiceName": "ms-MY-Yasmin:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ms-MY",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "a68580f0-4db7-4b68-a9fa-31598f158794"
+    },
+    {
+        "name": "nl-NL-Fleur:MAI-Voice-2-Flash",
+        "shortName": "nl-NL-Fleur:MAI-Voice-2-Flash",
+        "locale": "nl-NL",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Fleur MAI-Voice-2-Flash",
+            "LocalName": "Fleur MAI-Voice-2-Flash",
+            "ShortName": "nl-NL-Fleur:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "569",
+            "LocaleDescription": "Dutch",
+            "PreviewSentence": "Ontwikkel apps en diensten die natuurlijk aanvoelen, waardoor de toegankelijkheid en bruikbaarheid vergroot worden.",
+            "DisplayVoiceName": "nl-NL-Fleur:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "nl-NL",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "9119e189-a6db-48b9-b8a9-ed3f43151e3f"
+    },
+    {
+        "name": "nl-NL-Sander:MAI-Voice-2-Flash",
+        "shortName": "nl-NL-Sander:MAI-Voice-2-Flash",
+        "locale": "nl-NL",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Sander MAI-Voice-2-Flash",
+            "LocalName": "Sander MAI-Voice-2-Flash",
+            "ShortName": "nl-NL-Sander:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "570",
+            "LocaleDescription": "Dutch",
+            "PreviewSentence": "Ontwikkel apps en diensten die natuurlijk aanvoelen, waardoor de toegankelijkheid en bruikbaarheid vergroot worden.",
+            "DisplayVoiceName": "nl-NL-Sander:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "nl-NL",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "90321888-e213-4eaf-b5ce-31f0d3e405e9"
+    },
+    {
+        "name": "nl-NL-Fleur:MAI-Voice-2",
+        "shortName": "nl-NL-Fleur:MAI-Voice-2",
+        "locale": "nl-NL",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Fleur MAI-Voice-2",
+            "LocalName": "Fleur MAI-Voice-2",
+            "ShortName": "nl-NL-Fleur:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "571",
+            "LocaleDescription": "Dutch",
+            "PreviewSentence": "Ontwikkel apps en diensten die natuurlijk aanvoelen, waardoor de toegankelijkheid en bruikbaarheid vergroot worden.",
+            "DisplayVoiceName": "nl-NL-Fleur:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "nl-NL",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "31e54816-624b-408b-941b-4c22d5411628"
+    },
+    {
+        "name": "nl-NL-Sander:MAI-Voice-2",
+        "shortName": "nl-NL-Sander:MAI-Voice-2",
+        "locale": "nl-NL",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Sander MAI-Voice-2",
+            "LocalName": "Sander MAI-Voice-2",
+            "ShortName": "nl-NL-Sander:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "572",
+            "LocaleDescription": "Dutch",
+            "PreviewSentence": "Ontwikkel apps en diensten die natuurlijk aanvoelen, waardoor de toegankelijkheid en bruikbaarheid vergroot worden.",
+            "DisplayVoiceName": "nl-NL-Sander:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "nl-NL",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "0dfb54bd-7d12-4743-bdd7-091d6d0ef9a1"
+    },
+    {
+        "name": "pt-BR-Thalita:DragonHDLatestNeural",
+        "shortName": "pt-BR-Thalita:DragonHDLatestNeural",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Thalita Dragon HD Latest",
+            "LocalName": "Thalita Dragon HD Latest",
+            "ShortName": "pt-BR-Thalita:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "582",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Thalita:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1d93e0e1-4f52-4ba8-9f09-2f779eb6313c"
+    },
+    {
+        "name": "pt-BR-Macerio:DragonHDLatestNeural",
+        "shortName": "pt-BR-Macerio:DragonHDLatestNeural",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Macerio Dragon HD Latest",
+            "LocalName": "Macerio Dragon HD Latest",
+            "ShortName": "pt-BR-Macerio:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "583",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Macerio:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "929039c4-08ad-445e-b1f0-356964da44d0"
+    },
+    {
+        "name": "pt-BR-Caio:MAI-Voice-2-Flash",
+        "shortName": "pt-BR-Caio:MAI-Voice-2-Flash",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Caio MAI-Voice-2-Flash",
+            "LocalName": "Caio MAI-Voice-2-Flash",
+            "ShortName": "pt-BR-Caio:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "602",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Caio:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fe5d725d-0b33-4068-8e15-de0f57b1daa2"
+    },
+    {
+        "name": "pt-BR-Francisca:DragonLatestNeural",
+        "shortName": "pt-BR-Francisca:DragonLatestNeural",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Francisca Dragon Latest",
+            "LocalName": "Francisca Dragon Latest",
+            "ShortName": "pt-BR-Francisca:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "603",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Francisca:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ff323cc2-d8e3-485c-8224-13b053b90238"
+    },
+    {
+        "name": "pt-BR-Luana:MAI-Voice-2-Flash",
+        "shortName": "pt-BR-Luana:MAI-Voice-2-Flash",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Luana MAI-Voice-2-Flash",
+            "LocalName": "Luana MAI-Voice-2-Flash",
+            "ShortName": "pt-BR-Luana:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "604",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Luana:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "9a24d51a-9c85-47e7-8d30-3f9502e3a8df"
+    },
+    {
+        "name": "pt-BR-Macerio:DragonLatestNeural",
+        "shortName": "pt-BR-Macerio:DragonLatestNeural",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Macerio Dragon Latest",
+            "LocalName": "Macerio Dragon Latest",
+            "ShortName": "pt-BR-Macerio:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "605",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Macerio:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ebb07d0c-6796-4925-bb9f-477c4061f69e"
+    },
+    {
+        "name": "pt-BR-Pedro:MAI-Voice-2-Flash",
+        "shortName": "pt-BR-Pedro:MAI-Voice-2-Flash",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Pedro MAI-Voice-2-Flash",
+            "LocalName": "Pedro MAI-Voice-2-Flash",
+            "ShortName": "pt-BR-Pedro:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "606",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Pedro:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ebb8c012-44f2-4d62-b290-a7b6e7b74783"
+    },
+    {
+        "name": "pt-BR-Rafael:MAI-Voice-2-Flash",
+        "shortName": "pt-BR-Rafael:MAI-Voice-2-Flash",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Rafael MAI-Voice-2-Flash",
+            "LocalName": "Rafael MAI-Voice-2-Flash",
+            "ShortName": "pt-BR-Rafael:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "607",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Rafael:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ea7e8428-2488-4e99-b38b-35b8ad3b8cfa"
+    },
+    {
+        "name": "pt-BR-Caio:MAI-Voice-2",
+        "shortName": "pt-BR-Caio:MAI-Voice-2",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Caio MAI-Voice-2",
+            "LocalName": "Caio MAI-Voice-2",
+            "ShortName": "pt-BR-Caio:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "608",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Caio:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fbb2785b-a8f5-43fe-84ce-050b283c7f66"
+    },
+    {
+        "name": "pt-BR-Luana:MAI-Voice-2",
+        "shortName": "pt-BR-Luana:MAI-Voice-2",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Luana MAI-Voice-2",
+            "LocalName": "Luana MAI-Voice-2",
+            "ShortName": "pt-BR-Luana:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "609",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Luana:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "89c5186b-d71c-4c59-b33c-b7da057069d6"
+    },
+    {
+        "name": "pt-BR-Pedro:MAI-Voice-2",
+        "shortName": "pt-BR-Pedro:MAI-Voice-2",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Pedro MAI-Voice-2",
+            "LocalName": "Pedro MAI-Voice-2",
+            "ShortName": "pt-BR-Pedro:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "610",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Pedro:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "314a4d7f-e2fe-4aee-85d6-c1a99e543a8b"
+    },
+    {
+        "name": "pt-BR-Rafael:MAI-Voice-2",
+        "shortName": "pt-BR-Rafael:MAI-Voice-2",
+        "locale": "pt-BR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Rafael MAI-Voice-2",
+            "LocalName": "Rafael MAI-Voice-2",
+            "ShortName": "pt-BR-Rafael:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-PT,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "611",
+            "LocaleDescription": "Portuguese (Brazil)",
+            "PreviewSentence": "Desenvolver aplicativos e serviços que conversem naturalmente com os usuários, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-BR-Rafael:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-BR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "96a140ff-da3e-4de4-bd07-68d68a095562"
+    },
+    {
+        "name": "pt-PT-Rui:MAI-Voice-2-Flash",
+        "shortName": "pt-PT-Rui:MAI-Voice-2-Flash",
+        "locale": "pt-PT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Rui MAI-Voice-2-Flash",
+            "LocalName": "Rui MAI-Voice-2-Flash",
+            "ShortName": "pt-PT-Rui:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "615",
+            "LocaleDescription": "Portuguese (Portugal)",
+            "PreviewSentence": "Constrói aplicações e serviços que falam naturalmente com os utilizadores, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-PT-Rui:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-PT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ff325ac9-eb91-4517-bef2-732ddaa5408a"
+    },
+    {
+        "name": "pt-PT-Rui:MAI-Voice-2",
+        "shortName": "pt-PT-Rui:MAI-Voice-2",
+        "locale": "pt-PT",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,embarrassed,excited,happy,hopeful,joyful,regretful,relieved,sad,softvoice,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Rui MAI-Voice-2",
+            "LocalName": "Rui MAI-Voice-2",
+            "ShortName": "pt-PT-Rui:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,ro-RO,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "616",
+            "LocaleDescription": "Portuguese (Portugal)",
+            "PreviewSentence": "Constrói aplicações e serviços que falam naturalmente com os utilizadores, melhorando a acessibilidade e usabilidade.",
+            "DisplayVoiceName": "pt-PT-Rui:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "pt-PT",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d7946b95-d2ac-453c-ad01-28010e462a94"
+    },
+    {
+        "name": "ro-RO-Andrei:MAI-Voice-2-Flash",
+        "shortName": "ro-RO-Andrei:MAI-Voice-2-Flash",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Andrei MAI-Voice-2-Flash",
+            "LocalName": "Andrei MAI-Voice-2-Flash",
+            "ShortName": "ro-RO-Andrei:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "619",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Andrei:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ca2181bc-c590-4a62-a044-45a994e0a85c"
+    },
+    {
+        "name": "ro-RO-Elena:MAI-Voice-2-Flash",
+        "shortName": "ro-RO-Elena:MAI-Voice-2-Flash",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Elena MAI-Voice-2-Flash",
+            "LocalName": "Elena MAI-Voice-2-Flash",
+            "ShortName": "ro-RO-Elena:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "620",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Elena:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "c35cd6e7-d67f-4c70-b3f6-9a1b27339f88"
+    },
+    {
+        "name": "ro-RO-Ioana:MAI-Voice-2-Flash",
+        "shortName": "ro-RO-Ioana:MAI-Voice-2-Flash",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ioana MAI-Voice-2-Flash",
+            "LocalName": "Ioana MAI-Voice-2-Flash",
+            "ShortName": "ro-RO-Ioana:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "621",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Ioana:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7dd9783d-d16e-42c3-9e30-7e4955cbc007"
+    },
+    {
+        "name": "ro-RO-Radu:MAI-Voice-2-Flash",
+        "shortName": "ro-RO-Radu:MAI-Voice-2-Flash",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Radu MAI-Voice-2-Flash",
+            "LocalName": "Radu MAI-Voice-2-Flash",
+            "ShortName": "ro-RO-Radu:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "622",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Radu:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "94237b59-5669-4a2b-9529-ad662376471f"
+    },
+    {
+        "name": "ro-RO-Andrei:MAI-Voice-2",
+        "shortName": "ro-RO-Andrei:MAI-Voice-2",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Andrei MAI-Voice-2",
+            "LocalName": "Andrei MAI-Voice-2",
+            "ShortName": "ro-RO-Andrei:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "623",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Andrei:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d6d1c492-4419-4795-be65-a677af5bf8db"
+    },
+    {
+        "name": "ro-RO-Elena:MAI-Voice-2",
+        "shortName": "ro-RO-Elena:MAI-Voice-2",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Elena MAI-Voice-2",
+            "LocalName": "Elena MAI-Voice-2",
+            "ShortName": "ro-RO-Elena:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "624",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Elena:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7e800306-bc6c-4b31-bb0c-67e692e08d0d"
+    },
+    {
+        "name": "ro-RO-Ioana:MAI-Voice-2",
+        "shortName": "ro-RO-Ioana:MAI-Voice-2",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Ioana MAI-Voice-2",
+            "LocalName": "Ioana MAI-Voice-2",
+            "ShortName": "ro-RO-Ioana:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "625",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Ioana:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "2a4f3c4e-5355-47ea-b5e8-5cfbee08192c"
+    },
+    {
+        "name": "ro-RO-Radu:MAI-Voice-2",
+        "shortName": "ro-RO-Radu:MAI-Voice-2",
+        "locale": "ro-RO",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Radu MAI-Voice-2",
+            "LocalName": "Radu MAI-Voice-2",
+            "ShortName": "ro-RO-Radu:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ru-RU,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "626",
+            "LocaleDescription": "Romanian",
+            "PreviewSentence": "Creați aplicații și servicii familiare utilizatorilor, îmbunătățind accesibilitatea și ușurința utilizării.",
+            "DisplayVoiceName": "ro-RO-Radu:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ro-RO",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "437446fe-fee2-4866-801e-b6a24ebc2d54"
+    },
+    {
+        "name": "ru-RU-Lev:MAI-Voice-2-Flash",
+        "shortName": "ru-RU-Lev:MAI-Voice-2-Flash",
+        "locale": "ru-RU",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Lev MAI-Voice-2-Flash",
+            "LocalName": "Lev MAI-Voice-2-Flash",
+            "ShortName": "ru-RU-Lev:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "630",
+            "LocaleDescription": "Russian",
+            "PreviewSentence": "Возможность создавать приложения и сервисы, которые естественным образом общаются с пользователями, улучшая доступность и удобство использования.",
+            "DisplayVoiceName": "ru-RU-Lev:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ru-RU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bd194f01-4fb8-4c59-9c39-d5041f59a29b"
+    },
+    {
+        "name": "ru-RU-Masha:MAI-Voice-2-Flash",
+        "shortName": "ru-RU-Masha:MAI-Voice-2-Flash",
+        "locale": "ru-RU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Masha MAI-Voice-2-Flash",
+            "LocalName": "Masha MAI-Voice-2-Flash",
+            "ShortName": "ru-RU-Masha:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "631",
+            "LocaleDescription": "Russian",
+            "PreviewSentence": "Возможность создавать приложения и сервисы, которые естественным образом общаются с пользователями, улучшая доступность и удобство использования.",
+            "DisplayVoiceName": "ru-RU-Masha:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ru-RU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8a852a9a-323c-40f9-8369-1be659e5dfc2"
+    },
+    {
+        "name": "ru-RU-Lev:MAI-Voice-2",
+        "shortName": "ru-RU-Lev:MAI-Voice-2",
+        "locale": "ru-RU",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Lev MAI-Voice-2",
+            "LocalName": "Lev MAI-Voice-2",
+            "ShortName": "ru-RU-Lev:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "632",
+            "LocaleDescription": "Russian",
+            "PreviewSentence": "Возможность создавать приложения и сервисы, которые естественным образом общаются с пользователями, улучшая доступность и удобство использования.",
+            "DisplayVoiceName": "ru-RU-Lev:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ru-RU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d2995ff4-1be4-4ba0-b4ae-03967c751faa"
+    },
+    {
+        "name": "ru-RU-Masha:MAI-Voice-2",
+        "shortName": "ru-RU-Masha:MAI-Voice-2",
+        "locale": "ru-RU",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Masha MAI-Voice-2",
+            "LocalName": "Masha MAI-Voice-2",
+            "ShortName": "ru-RU-Masha:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,th-TH,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "633",
+            "LocaleDescription": "Russian",
+            "PreviewSentence": "Возможность создавать приложения и сервисы, которые естественным образом общаются с пользователями, улучшая доступность и удобство использования.",
+            "DisplayVoiceName": "ru-RU-Masha:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "ru-RU",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f1b48c67-8dd5-40ee-9739-693be9e0ac61"
+    },
+    {
+        "name": "th-TH-Krit:MAI-Voice-2-Flash",
+        "shortName": "th-TH-Krit:MAI-Voice-2-Flash",
+        "locale": "th-TH",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Krit MAI-Voice-2-Flash",
+            "LocalName": "Krit MAI-Voice-2-Flash",
+            "ShortName": "th-TH-Krit:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "670",
+            "LocaleDescription": "Thai",
+            "PreviewSentence": "สร้างแอปและบริการที่สื่อสารกับผู้ใช้ได้อย่างเป็นธรรมชาติ ซึ่งช่วยปรับปรุงการเข้าถึงและการใช้งาน",
+            "DisplayVoiceName": "th-TH-Krit:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "th-TH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "45f22a8f-7044-4001-a52f-a1599459af82"
+    },
+    {
+        "name": "th-TH-Nattapong:MAI-Voice-2-Flash",
+        "shortName": "th-TH-Nattapong:MAI-Voice-2-Flash",
+        "locale": "th-TH",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Nattapong MAI-Voice-2-Flash",
+            "LocalName": "Nattapong MAI-Voice-2-Flash",
+            "ShortName": "th-TH-Nattapong:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "671",
+            "LocaleDescription": "Thai",
+            "PreviewSentence": "สร้างแอปและบริการที่สื่อสารกับผู้ใช้ได้อย่างเป็นธรรมชาติ ซึ่งช่วยปรับปรุงการเข้าถึงและการใช้งาน",
+            "DisplayVoiceName": "th-TH-Nattapong:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "th-TH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f91c4e35-1cec-494c-8718-c6b8183c8f6f"
+    },
+    {
+        "name": "th-TH-Krit:MAI-Voice-2",
+        "shortName": "th-TH-Krit:MAI-Voice-2",
+        "locale": "th-TH",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Krit MAI-Voice-2",
+            "LocalName": "Krit MAI-Voice-2",
+            "ShortName": "th-TH-Krit:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "672",
+            "LocaleDescription": "Thai",
+            "PreviewSentence": "สร้างแอปและบริการที่สื่อสารกับผู้ใช้ได้อย่างเป็นธรรมชาติ ซึ่งช่วยปรับปรุงการเข้าถึงและการใช้งาน",
+            "DisplayVoiceName": "th-TH-Krit:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "th-TH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "cf9e5483-463c-45a3-88e3-da804a11cb9b"
+    },
+    {
+        "name": "th-TH-Nattapong:MAI-Voice-2",
+        "shortName": "th-TH-Nattapong:MAI-Voice-2",
+        "locale": "th-TH",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Nattapong MAI-Voice-2",
+            "LocalName": "Nattapong MAI-Voice-2",
+            "ShortName": "th-TH-Nattapong:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,tr-TR,zh-CN",
+            "OrderInVoiceListApi": "673",
+            "LocaleDescription": "Thai",
+            "PreviewSentence": "สร้างแอปและบริการที่สื่อสารกับผู้ใช้ได้อย่างเป็นธรรมชาติ ซึ่งช่วยปรับปรุงการเข้าถึงและการใช้งาน",
+            "DisplayVoiceName": "th-TH-Nattapong:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "th-TH",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f4a53f83-ceb9-41cc-b3f9-dd015155a78c"
+    },
+    {
+        "name": "tr-TR-Aydın:MAI-Voice-2-Flash",
+        "shortName": "tr-TR-Aydın:MAI-Voice-2-Flash",
+        "locale": "tr-TR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Aydın MAI-Voice-2-Flash",
+            "LocalName": "Aydın MAI-Voice-2-Flash",
+            "ShortName": "tr-TR-Aydın:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,zh-CN",
+            "OrderInVoiceListApi": "676",
+            "LocaleDescription": "Turkish",
+            "PreviewSentence": "Kullanıcılarla doğal biçimde konuşan, erişilebilirlik ve kullanılabilirliği iyileştiren uygulama ve servisler geliştirmek.",
+            "DisplayVoiceName": "tr-TR-Aydın:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "tr-TR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "747a4bbb-6bb3-4d7c-8880-47b24e54a963"
+    },
+    {
+        "name": "tr-TR-Elif:MAI-Voice-2-Flash",
+        "shortName": "tr-TR-Elif:MAI-Voice-2-Flash",
+        "locale": "tr-TR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Elif MAI-Voice-2-Flash",
+            "LocalName": "Elif MAI-Voice-2-Flash",
+            "ShortName": "tr-TR-Elif:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,zh-CN",
+            "OrderInVoiceListApi": "677",
+            "LocaleDescription": "Turkish",
+            "PreviewSentence": "Kullanıcılarla doğal biçimde konuşan, erişilebilirlik ve kullanılabilirliği iyileştiren uygulama ve servisler geliştirmek.",
+            "DisplayVoiceName": "tr-TR-Elif:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "tr-TR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "c7dbe900-0ef5-4c65-a278-9cbab42bcc33"
+    },
+    {
+        "name": "tr-TR-Aydın:MAI-Voice-2",
+        "shortName": "tr-TR-Aydın:MAI-Voice-2",
+        "locale": "tr-TR",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Aydın MAI-Voice-2",
+            "LocalName": "Aydın MAI-Voice-2",
+            "ShortName": "tr-TR-Aydın:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,zh-CN",
+            "OrderInVoiceListApi": "678",
+            "LocaleDescription": "Turkish",
+            "PreviewSentence": "Kullanıcılarla doğal biçimde konuşan, erişilebilirlik ve kullanılabilirliği iyileştiren uygulama ve servisler geliştirmek.",
+            "DisplayVoiceName": "tr-TR-Aydın:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "tr-TR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "bb0e8ba5-803f-493b-a896-87d6e5727c1b"
+    },
+    {
+        "name": "tr-TR-Elif:MAI-Voice-2",
+        "shortName": "tr-TR-Elif:MAI-Voice-2",
+        "locale": "tr-TR",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "adventurous,caringempathy,curious,encouraging,excited,friendlycheerful,nostalgic,reflective,saddisappointed,serious,Default",
+            "VoiceStyleNameDefinitions": "{\"serious\":6,\"Default\":0}",
+            "DisplayName": "Elif MAI-Voice-2",
+            "LocalName": "Elif MAI-Voice-2",
+            "ShortName": "tr-TR-Elif:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,zh-CN",
+            "OrderInVoiceListApi": "679",
+            "LocaleDescription": "Turkish",
+            "PreviewSentence": "Kullanıcılarla doğal biçimde konuşan, erişilebilirlik ve kullanılabilirliği iyileştiren uygulama ve servisler geliştirmek.",
+            "DisplayVoiceName": "tr-TR-Elif:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "tr-TR",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "e5a1f3ef-a4d9-43cb-9c66-2496073b9c50"
+    },
+    {
+        "name": "zh-CN-Xiaoxiao:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoxiao:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,chat,cheerful,customer-service,excited,fearful,sad,voice-assistant,comforting,debating,disappointed,shy,sorry,strict,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"fearful\":3,\"sad\":8,\"shy\":1,\"strict\":6,\"Default\":0}",
+            "DisplayName": "Xiaoxiao Dragon HD Flash Latest",
+            "LocalName": "Xiaoxiao Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoxiao:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "694",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoxiao:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fd383712-568d-4ed5-aa57-81496870c844"
+    },
+    {
+        "name": "zh-CN-Xiaoxiao2:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoxiao2:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "affectionate,angry,anxious,cheerful,curious,disappointed,empathetic,encouraging,excited,fearful,guilty,lonely,poetry-reading,sad,surprised,sentimental,sorry,story-telling,whispering,tired,Default",
+            "VoiceStyleNameDefinitions": "{\"affectionate\":9,\"angry\":7,\"cheerful\":4,\"fearful\":3,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Xiaoxiao2 Dragon HD Flash Latest",
+            "LocalName": "Xiaoxiao2 Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoxiao2:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "695",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoxiao2:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "5d58143c-8e1c-4a24-b211-d9b366eb7904"
+    },
+    {
+        "name": "zh-CN-Xiaochen:DragonHDLatestNeural",
+        "shortName": "zh-CN-Xiaochen:DragonHDLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Xiaochen Dragon HD Latest",
+            "LocalName": "Xiaochen Dragon HD Latest",
+            "ShortName": "zh-CN-Xiaochen:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "696",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaochen:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7ea726c9-9cde-49eb-ad47-e3ab8a49f4b6"
+    },
+    {
+        "name": "zh-CN-Yunxiao:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunxiao:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunxiao Dragon HD Flash Latest",
+            "LocalName": "Yunxiao Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunxiao:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "697",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunxiao:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "d4182cbc-7818-4a96-9a95-d5c2bdf05bae"
+    },
+    {
+        "name": "zh-CN-Yunyi:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunyi:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "assassin,captain,cavalier,prince,game-narrator,geomancer,poet,Default",
+            "VoiceStyleNameDefinitions": "{\"Default\":0}",
+            "DisplayName": "Yunyi Dragon HD Flash Latest",
+            "LocalName": "Yunyi Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunyi:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "698",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunyi:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f0bcc0f1-34b1-413b-a34d-0f885d87f9ba"
+    },
+    {
+        "name": "zh-CN-Yunfan:DragonHDLatestNeural",
+        "shortName": "zh-CN-Yunfan:DragonHDLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunfan Dragon HD Latest",
+            "LocalName": "Yunfan Dragon HD Latest",
+            "ShortName": "zh-CN-Yunfan:DragonHDLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "699",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunfan:DragonHDLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "5276c50e-0e6b-43b1-9037-d6e422301bd0"
+    },
+    {
+        "name": "zh-CN-Xiaoyue:DragonHDOmniLatestNeural",
+        "shortName": "zh-CN-Xiaoyue:DragonHDOmniLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Xiaoyue Dragon HD Omni Latest",
+            "LocalName": "Xiaoyue Dragon HD Omni Latest",
+            "ShortName": "zh-CN-Xiaoyue:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "700",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoyue:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "4c98f1ab-8737-47eb-a88e-04b5fc2f6819"
+    },
+    {
+        "name": "zh-CN-Yunqi:DragonHDOmniLatestNeural",
+        "shortName": "zh-CN-Yunqi:DragonHDOmniLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunqi Dragon HD Omni Latest",
+            "LocalName": "Yunqi Dragon HD Omni Latest",
+            "ShortName": "zh-CN-Yunqi:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "701",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunqi:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "b61b48dc-08a9-466e-9a9a-a5ca63732a6e"
+    },
+    {
+        "name": "zh-CN-Maroonallegro:DragonHDOmniLatestNeural",
+        "shortName": "zh-CN-Maroonallegro:DragonHDOmniLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Maroonallegro Dragon HD Omni Latest",
+            "LocalName": "Maroonallegro Dragon HD Omni Latest",
+            "ShortName": "zh-CN-Maroonallegro:DragonHDOmniLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "702",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Maroonallegro:DragonHDOmniLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ff04921e-fae4-4b41-8bd6-480a8e8a8c08"
+    },
+    {
+        "name": "zh-CN-Xiaochen:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaochen:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "cheerful,debating,empathetic,live-commercial,poetry-reading,sad,sorry,Default",
+            "VoiceStyleNameDefinitions": "{\"cheerful\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Xiaochen Dragon HD Flash Latest",
+            "LocalName": "Xiaochen Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaochen:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "709",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaochen:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "fdcdafc8-e830-4831-ac74-4b93baa641d6"
+    },
+    {
+        "name": "zh-CN-Xiaohan:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaohan:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "affectionate,angry,cheerful,complaining,fearful,gentle,sad,shy,strict,Default",
+            "VoiceStyleNameDefinitions": "{\"affectionate\":9,\"angry\":7,\"cheerful\":4,\"complaining\":5,\"fearful\":3,\"gentle\":11,\"sad\":8,\"shy\":1,\"strict\":6,\"Default\":0}",
+            "DisplayName": "Xiaohan Dragon HD Flash Latest",
+            "LocalName": "Xiaohan Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaohan:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "711",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaohan:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "aa341b46-deb3-4520-be14-f554215a89be"
+    },
+    {
+        "name": "zh-CN-Xiaoke:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoke:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,customer-service,cute,excited,fearful,sad,sorry,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"fearful\":3,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Xiaoke Dragon HD Flash Latest",
+            "LocalName": "Xiaoke Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoke:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "713",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoke:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "b1585adf-c56f-4a64-9502-f31064688b1c"
+    },
+    {
+        "name": "zh-CN-Xiaomo:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaomo:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Xiaomo Dragon HD Flash Latest",
+            "LocalName": "Xiaomo Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaomo:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "715",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaomo:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "8632256e-3d81-4028-8c4f-cd094a8100cf"
+    },
+    {
+        "name": "zh-CN-Xiaoqi:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoqi:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,cheerful,customer-service,excited,fearful,sad,sorry,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"fearful\":3,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Xiaoqi Dragon HD Flash Latest",
+            "LocalName": "Xiaoqi Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoqi:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "717",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoqi:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f9588885-1105-4012-981b-6c0cf032d8a6"
+    },
+    {
+        "name": "zh-CN-Xiaorou:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaorou:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Xiaorou Dragon HD Flash Latest",
+            "LocalName": "Xiaorou Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaorou:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "719",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaorou:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1384de43-4ccb-4771-b885-ba35e3f25fc4"
+    },
+    {
+        "name": "zh-CN-Xiaoshuang:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoshuang:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "chat,Default",
+            "VoiceStyleNameDefinitions": "{\"Default\":0}",
+            "DisplayName": "Xiaoshuang Dragon HD Flash Latest",
+            "LocalName": "Xiaoshuang Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoshuang:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "722",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoshuang:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "f1efb73f-5be2-4800-b77e-58ba2c4aba7f"
+    },
+    {
+        "name": "zh-CN-Xiaoyi:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoyi:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,cheerful,complaining,cute,gentle,nervous,sad,shy,strict,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"complaining\":5,\"gentle\":11,\"nervous\":3,\"sad\":8,\"shy\":1,\"strict\":6,\"Default\":0}",
+            "DisplayName": "Xiaoyi Dragon HD Flash Latest",
+            "LocalName": "Xiaoyi Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoyi:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "728",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoyi:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1fe570c1-6978-4b90-a358-fa42f17c957f"
+    },
+    {
+        "name": "zh-CN-Xiaoyou:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoyou:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "chat,angry,cheerful,poetry-reading,sad,story-telling,cute,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Xiaoyou Dragon HD Flash Latest",
+            "LocalName": "Xiaoyou Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoyou:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "729",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoyou:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ab966bf9-2bdc-4295-81bd-3e8fb7900025"
+    },
+    {
+        "name": "zh-CN-Xiaoyu:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Xiaoyu:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "debating,angry,cheerful,comforting,sad,sorry,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Xiaoyu Dragon HD Flash Latest",
+            "LocalName": "Xiaoyu Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Xiaoyu:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "732",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoyu:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "18045b51-3c4b-4985-bb99-825cebb5dd58"
+    },
+    {
+        "name": "zh-CN-Yunfan:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunfan:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunfan Dragon HD Flash Latest",
+            "LocalName": "Yunfan Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunfan:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "735",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunfan:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "2776c2e8-4b25-4fc0-868f-03cac13a1012"
+    },
+    {
+        "name": "zh-CN-Yunfeng:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunfeng:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunfeng Dragon HD Flash Latest",
+            "LocalName": "Yunfeng Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunfeng:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "737",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunfeng:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "2ef382d2-b2aa-4059-92c6-0fa82cb8007a"
+    },
+    {
+        "name": "zh-CN-Yunhan:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunhan:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,cheerful,curious,empathetic,encouraging,excited,guilty,lonely,sad,serious,sorry,whispering,surprised,tired,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"sad\":8,\"serious\":6,\"Default\":0}",
+            "DisplayName": "Yunhan Dragon HD Flash Latest",
+            "LocalName": "Yunhan Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunhan:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "739",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunhan:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "ca5ae3d3-efd7-4219-8a12-91c94e4f1872"
+    },
+    {
+        "name": "zh-CN-Yunjie:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunjie:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunjie Dragon HD Flash Latest",
+            "LocalName": "Yunjie Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunjie:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "741",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunjie:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "6a7abb45-f19e-44f5-adea-64d5a3825bf3"
+    },
+    {
+        "name": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,chat,cheerful,complaining,depressed,fearful,news,sad,shy,strict,voice-assistant,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"cheerful\":4,\"complaining\":5,\"depressed\":10,\"fearful\":3,\"sad\":8,\"shy\":1,\"strict\":6,\"Default\":0}",
+            "DisplayName": "Yunxi Dragon HD Flash Latest",
+            "LocalName": "Yunxi Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "743",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "5660f022-24a2-495c-8cfb-d32198da1073"
+    },
+    {
+        "name": "zh-CN-Yunxia:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunxia:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "affectionate,angry,comforting,cheerful,encouraging,excited,fearful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"affectionate\":9,\"angry\":7,\"cheerful\":4,\"fearful\":3,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Yunxia Dragon HD Flash Latest",
+            "LocalName": "Yunxia Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunxia:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "744",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunxia:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "e624d4e0-6400-4743-97e9-99e083994f53"
+    },
+    {
+        "name": "zh-CN-Yunye:DragonHDFlashLatestNeural",
+        "shortName": "zh-CN-Yunye:DragonHDFlashLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunye Dragon HD Flash Latest",
+            "LocalName": "Yunye Dragon HD Flash Latest",
+            "ShortName": "zh-CN-Yunye:DragonHDFlashLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "",
+            "OrderInVoiceListApi": "747",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunye:DragonHDFlashLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicGA",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "7613df3b-17c9-4e57-8a07-925787b819da"
+    },
+    {
+        "name": "zh-CN-Bo:MAI-Voice-2-Flash",
+        "shortName": "zh-CN-Bo:MAI-Voice-2-Flash",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Bo MAI-Voice-2-Flash",
+            "LocalName": "Bo MAI-Voice-2-Flash",
+            "ShortName": "zh-CN-Bo:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "751",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Bo:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "79da7fcc-ccd2-4a4b-ae07-c7c22fdcdaae"
+    },
+    {
+        "name": "zh-CN-Lan:MAI-Voice-2-Flash",
+        "shortName": "zh-CN-Lan:MAI-Voice-2-Flash",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,disgusted,embarrassed,excited,fearful,happy,joyful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Lan MAI-Voice-2-Flash",
+            "LocalName": "Lan MAI-Voice-2-Flash",
+            "ShortName": "zh-CN-Lan:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "752",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Lan:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "55ed71c8-9821-437e-b1fe-5dbe2ef859f5"
+    },
+    {
+        "name": "zh-CN-Mei:MAI-Voice-2-Flash",
+        "shortName": "zh-CN-Mei:MAI-Voice-2-Flash",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Mei MAI-Voice-2-Flash",
+            "LocalName": "Mei MAI-Voice-2-Flash",
+            "ShortName": "zh-CN-Mei:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "753",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Mei:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "2412e690-108c-404d-944c-6faebe3aea0b"
+    },
+    {
+        "name": "zh-CN-Wei:MAI-Voice-2-Flash",
+        "shortName": "zh-CN-Wei:MAI-Voice-2-Flash",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Wei MAI-Voice-2-Flash",
+            "LocalName": "Wei MAI-Voice-2-Flash",
+            "ShortName": "zh-CN-Wei:MAI-Voice-2-Flash",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "754",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Wei:MAI-Voice-2-Flash",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "08325496-67d8-4fb1-90ea-df44d5f6d901"
+    },
+    {
+        "name": "zh-CN-Xiaoqi:DragonLatestNeural",
+        "shortName": "zh-CN-Xiaoqi:DragonLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Xiaoqi Dragon Latest",
+            "LocalName": "Xiaoqi Dragon Latest",
+            "ShortName": "zh-CN-Xiaoqi:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "755",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Xiaoqi:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "b746f3e3-4cc1-4788-841c-767307470835"
+    },
+    {
+        "name": "zh-CN-Yunfan:DragonLatestNeural",
+        "shortName": "zh-CN-Yunfan:DragonLatestNeural",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "",
+            "VoiceStyleNameDefinitions": "{}",
+            "DisplayName": "Yunfan Dragon Latest",
+            "LocalName": "Yunfan Dragon Latest",
+            "ShortName": "zh-CN-Yunfan:DragonLatestNeural",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "Neural",
+            "SecondaryLocales": "af-ZA,am-ET,ar-EG,ar-SA,az-AZ,bg-BG,bn-BD,bn-IN,bs-BA,ca-ES,cs-CZ,cy-GB,da-DK,de-AT,de-CH,de-DE,el-GR,en-AU,en-CA,en-GB,en-IE,en-IN,en-US,es-ES,es-MX,et-EE,eu-ES,fa-IR,fi-FI,fil-PH,fr-BE,fr-CA,fr-CH,fr-FR,ga-IE,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,hy-AM,id-ID,is-IS,it-IT,ja-JP,jv-ID,ka-GE,kk-KZ,km-KH,kn-IN,ko-KR,lo-LA,lt-LT,lv-LV,mk-MK,ml-IN,mn-MN,ms-MY,mt-MT,my-MM,nb-NO,ne-NP,nl-BE,nl-NL,pl-PL,ps-AF,pt-BR,pt-PT,ro-RO,ru-RU,si-LK,sk-SK,sl-SI,so-SO,sq-AL,sr-RS,su-ID,sv-SE,sw-KE,ta-IN,te-IN,th-TH,tr-TR,uk-UA,ur-PK,uz-UZ,vi-VN,zh-CN,zh-HK,zh-TW,zu-ZA",
+            "OrderInVoiceListApi": "756",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Yunfan:DragonLatestNeural",
+            "VoiceModelKind": "NeuralTts",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "22bf312a-5238-4631-bd95-6654b7ab9fe3"
+    },
+    {
+        "name": "zh-CN-Bo:MAI-Voice-2",
+        "shortName": "zh-CN-Bo:MAI-Voice-2",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Bo MAI-Voice-2",
+            "LocalName": "Bo MAI-Voice-2",
+            "ShortName": "zh-CN-Bo:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "757",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Bo:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "c784e745-8459-4270-946c-250d0c4ebef6"
+    },
+    {
+        "name": "zh-CN-Lan:MAI-Voice-2",
+        "shortName": "zh-CN-Lan:MAI-Voice-2",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,disgusted,embarrassed,excited,fearful,happy,joyful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Lan MAI-Voice-2",
+            "LocalName": "Lan MAI-Voice-2",
+            "ShortName": "zh-CN-Lan:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "758",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Lan:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "74e24890-85e7-4605-850a-7526c71d1e92"
+    },
+    {
+        "name": "zh-CN-Mei:MAI-Voice-2",
+        "shortName": "zh-CN-Mei:MAI-Voice-2",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Female",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,determined,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,relieved,sad,shouting,softvoice,surprised,whispering,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Mei MAI-Voice-2",
+            "LocalName": "Mei MAI-Voice-2",
+            "ShortName": "zh-CN-Mei:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "759",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Mei:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "5350c33d-8e74-49d6-b1ea-5d02829e1032"
+    },
+    {
+        "name": "zh-CN-Wei:MAI-Voice-2",
+        "shortName": "zh-CN-Wei:MAI-Voice-2",
+        "locale": "zh-CN",
+        "properties": {
+            "Gender": "Male",
+            "VoiceRoleNames": "",
+            "VoiceRoleNameDefinitions": "{}",
+            "VoiceStyleNames": "angry,confused,disgusted,embarrassed,excited,fearful,happy,hopeful,jealous,joyful,regretful,sad,surprised,Default",
+            "VoiceStyleNameDefinitions": "{\"angry\":7,\"embarrassed\":1,\"fearful\":3,\"happy\":4,\"sad\":8,\"Default\":0}",
+            "DisplayName": "Wei MAI-Voice-2",
+            "LocalName": "Wei MAI-Voice-2",
+            "ShortName": "zh-CN-Wei:MAI-Voice-2",
+            "SampleRateHertz": "24000",
+            "FrontendVoiceType": "NeuralHD",
+            "SecondaryLocales": "de-DE,en-AU,en-US,es-ES,es-MX,fr-FR,hi-IN,hu-HU,it-IT,ko-KR,nl-NL,pt-BR,pt-PT,ro-RO,ru-RU,th-TH,tr-TR",
+            "OrderInVoiceListApi": "760",
+            "LocaleDescription": "Chinese (Mainland)",
+            "PreviewSentence": "通过提供能和用户自然交流的应用程序和服务，以改善其可访问性和可用性。",
+            "DisplayVoiceName": "zh-CN-Wei:MAI-Voice-2",
+            "VoiceModelKind": "Sps",
+            "ReleaseScope": "PublicPreview",
+            "locale": "zh-CN",
+            "localeZH": ""
+        },
+        "categories": [],
+        "masterpieces": [],
+        "samples": {
+            "languageSamples": [],
+            "roleSamples": [],
+            "styleSamples": []
+        },
+        "voiceType": "StandardVoice",
+        "id": "1a16b252-7ec7-4db3-927d-4c419dc529f9"
     }
 ];

@@ -5,7 +5,7 @@ Fork en español de [LokerL/tts-vue](https://github.com/LokerL/tts-vue): herrami
 **Lo que cambia este fork:**
 - Interfaz en **español** por defecto + inglés y chino.
 - Voz por defecto **Colombia**: `es-CO-SalomeNeural` (femenina; alternativa masculina `es-CO-GonzaloNeural`).
-- Voces **HD** disponibles: `Dalia`/`Jorge` DragonHD (es-MX), `Ximena`/`Tristán` DragonHD (es-ES), Multilingual y MAI-Voice-2 con estilos (en vivo y en fallback offline).
+- Voces **HD** globales (211 DragonHD/Omni/Flash + MAI-Voice): filtro **Solo HD** en el menú de voz; en español Dalia/Jorge y Ximena/Tristán DragonHD, Multilingual y MAI-Voice-2 (en vivo y en fallback offline).
 - `xml:lang` dinámico según la voz (antes fijo en `en-US`).
 - **Fallback automático a Azure** ante cuota 429/403 si tienes clave configurada.
 - Modal de ayuda paso a paso para crear tu clave gratuita de Azure.

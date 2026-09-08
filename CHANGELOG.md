@@ -1,8 +1,8 @@
 # CHANGELOG del fork (dorlanpabon/tts-vue)
 
-## v1.9.15-es-co14
-- Voces HD españolas: Dalia/Jorge y Ximena/Tristán DragonHD, Multilingual
-  y MAI-Voice-2 (en lista viva y en fallback offline).
+## v1.9.15-es-co15
+- TODAS las HD globales (211 Dragon/MAI en fallback) + filtro Solo HD
+  en el menu de voz para cualquier idioma.
 
 ## v1.9.15-es-co12
 - Plan calidad: Electron 19→44 LTS, icono propio, NSIS + portable,

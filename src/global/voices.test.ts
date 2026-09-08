@@ -26,13 +26,13 @@ describe("voices fallback", () => {
       expect(typeof v.properties.DisplayName).toBe("string");
     }
   });
-  it("las HD/MAI espanolas cuelgan de es-MX / es-ES", () => {
-    // Sintaxis con ":" es propia de DragonHD/MAI-Voice: 4 DragonHD + 6 MAI.
-    // (Las 6 Multilingual no llevan ":" y se verifican en el test anterior.)
+  it("las HD/MAI (sintaxis con ':') son globales con locale valido", () => {
+    // Sintaxis con ":" es propia de DragonHD/MAI-Voice (verificado en lista viva).
     const hd = (voices as any[]).filter((v) => v.shortName.includes(":"));
-    expect(hd.length).toBeGreaterThanOrEqual(10);
+    expect(hd.length).toBeGreaterThanOrEqual(200);
     for (const v of hd) {
-      expect(["es-MX", "es-ES"]).toContain(v.locale);
+      expect(typeof v.locale).toBe("string");
+      expect(v.locale.length).toBeGreaterThan(0);
     }
   });
 });
