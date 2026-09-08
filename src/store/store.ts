@@ -46,6 +46,7 @@ const DEFAULT_FORM_CONFIG = {
 // 429 = cuota gratuita agotada (verificado: Retry-After ~24h).
 // 403 = endpoint gratuito denegando (issue #201 del repo original).
 // azureFailed = fallo del fallback/conexion Azure (revisar clave y region).
+// Sin dumps tecnicos crudos: solo texto legible.
 function ttsErrorMessage(err: any, fallbackKey = "messages.convertFailed"): string {
   const kind = classifyTtsError(err);
   if (kind === "rateLimited") {
@@ -55,9 +56,13 @@ function ttsErrorMessage(err: any, fallbackKey = "messages.convertFailed"): stri
     return t("messages.accessDenied");
   }
   if (kind === "azureFailed") {
-    return `${t("messages.azureAuthError")}\n${errText(err).slice(0, 300)}`;
+    return t("messages.azureAuthError");
   }
-  return `${t(fallbackKey)}\n${errText(err).slice(0, 300)}`;
+  const detail = errText(err).slice(0, 300);
+  if (detail === "" || detail.startsWith("[object")) {
+    return t(fallbackKey);
+  }
+  return `${t(fallbackKey)}\n${detail}`;
 }
 
 // Limpia prefijos tecnicos de errores IPC/SDK para mostrarlos en la UI.

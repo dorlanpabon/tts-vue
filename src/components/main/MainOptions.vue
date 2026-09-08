@@ -1,6 +1,15 @@
 <template>
   <div class="options">
     <el-form :model="formConfig" label-width="120px" label-position="top">
+      <el-form-item :label="t('options.voiceFilter')">
+        <div class="filter-row">
+          <el-radio-group v-model="voiceFilter" size="small" @change="() => applyHdFilter()">
+            <el-radio-button label="all">{{ t('options.voiceFilterAll') }}</el-radio-button>
+            <el-radio-button label="hd">HD</el-radio-button>
+          </el-radio-group>
+          <span v-if="voiceFilter === 'hd'" class="hd-count">{{ voiceSelectList.length }}</span>
+        </div>
+      </el-form-item>
       <el-form-item :label="t('options.api')">
         <el-select
           v-model="formConfig.api"
@@ -53,11 +62,6 @@
             </div>
           </el-option>
         </el-select>
-        <div class="hd-row">
-          <span>{{ t('options.hdOnly') }}</span>
-          <el-switch v-model="hdOnly" size="small" @change="() => applyHdFilter()" />
-          <span v-if="hdOnly" class="hd-count">{{ voiceSelectList.length }}</span>
-        </div>
       </el-form-item>
       <el-form-item :label="t('options.speakingStyle')">
         <el-select
@@ -288,13 +292,14 @@ const languageSelectChange = (value: string) => {
 
 // Filtro "Solo HD" (Dragon* y MAI-Voice-*). Al activarlo con una voz no-HD,
 // salta a la primera HD disponible del idioma.
-const hdOnly = ref(false);
+const voiceFilter = ref("all");
 const applyHdFilter = (locale?: string) => {
   const all = oc.findVoicesByLocaleName(locale || formConfig.value.languageSelect);
-  voiceSelectList.value = hdOnly.value
+  const onlyHd = voiceFilter.value === "hd";
+  voiceSelectList.value = onlyHd
     ? all.filter((v: any) => isHdVoice(v.ShortName))
     : all;
-  if (hdOnly.value && !isHdVoice(formConfig.value.voiceSelect)) {
+  if (onlyHd && !isHdVoice(formConfig.value.voiceSelect)) {
     const first = voiceSelectList.value[0];
     formConfig.value.voiceSelect = first ? first.ShortName : "";
     voiceSelectChange(formConfig.value.voiceSelect);
@@ -462,15 +467,24 @@ const startBtn = () => {
   transform: scaleX(1.4) scaleY(1.5);
   opacity: 0;
 }
-.hd-row {
+.filter-row {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-top: 6px;
-  font-size: 12px;
-  color: #606266;
+  gap: 10px;
+}
+.filter-row .el-radio-group {
+  width: 100%;
+  display: flex;
+}
+.filter-row .el-radio-button {
+  flex: 1;
+}
+.filter-row .el-radio-button__inner {
+  width: 100%;
 }
 .hd-count {
   color: #909399;
+  font-size: 12px;
+  white-space: nowrap;
 }
 </style>

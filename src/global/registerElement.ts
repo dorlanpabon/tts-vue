@@ -18,6 +18,8 @@ import {
   ElDialog,
   ElDivider,
   ElLink,
+  ElRadioGroup,
+  ElRadioButton,
   ElSwitch,
   ElPopover,
   ElDropdown,
@@ -58,6 +60,8 @@ const components = [
   ElDialog,
   ElSwitch,
   ElLink,
+  ElRadioGroup,
+  ElRadioButton,
   ElPopover,
   ElDivider,
 

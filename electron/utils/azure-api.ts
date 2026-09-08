@@ -24,6 +24,7 @@ const azureApi = (ssml: string, key: string, region: string) => {
                 logger.info("Error synthesizing. " + err);
                 speechSynthesizer.close();
                 speechSynthesizer = null;
+                reject(err);
             }
         );
     }
