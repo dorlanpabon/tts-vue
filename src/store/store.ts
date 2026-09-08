@@ -7,6 +7,7 @@ import { ElMessage, ElMessageBox } from "element-plus";
 import { h } from "vue";
 import i18n from "@/assets/i18n/i18n";
 import { buildSsml } from "@/global/ssml";
+import { getSecret, setSecret } from "@/global/secrets";
 import { classifyTtsError, errText, isQuotaError } from "@/global/ttsErrors";
 const { t } = i18n.global;
 const fs = require("fs");
@@ -154,18 +155,27 @@ export const useTtsStore = defineStore("ttsStore", {
         titleStyle: store.get("titleStyle"),
         api: store.get("api"),
         formatType: store.get("formatType"),
-        speechKey: store.get("speechKey"),
+        speechKey: getSecret("speechKey"),
         serviceRegion: store.get("serviceRegion"),
         disclaimers: store.get("disclaimers"),
         retryCount: store.get("retryCount"),
         retryInterval: store.get("retryInterval"),
-        openAIKey: store.get("openAIKey"),
+        openAIKey: getSecret("openAIKey"),
         gptModel: store.get("gptModel"),
         aiProvider: store.get("aiProvider"),
         aiBaseUrl: store.get("aiBaseUrl"),
+        darkMode: store.get("darkMode", false),
       },
       isLoading: false,
       quotaHelpVisible: false,
+      apiHealth: <any>{
+        speech: null,
+        edge: null,
+        openrouter: null,
+        zen: null,
+      },
+      healthChecking: false,
+      history: <any>[],
       currMp3Buffer: Buffer.alloc(0),
       currMp3Url: "",
       audioPlayer: null,
@@ -216,10 +226,10 @@ export const useTtsStore = defineStore("ttsStore", {
       store.set("autoplay", this.config.autoplay);
     },
     setSpeechKey() {
-      store.set("speechKey", this.config.speechKey);
+      setSecret("speechKey", this.config.speechKey);
     },
     setOpenAIKey() {
-      store.set("openAIKey", this.config.openAIKey);
+      setSecret("openAIKey", this.config.openAIKey);
     },
     setGPTModel() {
       store.set("gptModel", this.config.gptModel);
@@ -234,6 +244,14 @@ export const useTtsStore = defineStore("ttsStore", {
     },
     setAiBaseUrl() {
       store.set("aiBaseUrl", this.config.aiBaseUrl);
+    },
+    updateDarkMode() {
+      store.set("darkMode", this.config.darkMode);
+      try {
+        document.documentElement.classList.toggle("dark", !!this.config.darkMode);
+      } catch (e) {
+        // entorno sin DOM
+      }
     },
     setServiceRegion() {
       store.set("serviceRegion", this.config.serviceRegion);
@@ -427,6 +445,7 @@ export const useTtsStore = defineStore("ttsStore", {
             });
         }
         if (resFlag) {
+          this.addHistory(this.inputs.inputValue);
           ElMessage({
             message: this.config.autoplay
               ? t("messages.successPlaying")
@@ -483,6 +502,7 @@ export const useTtsStore = defineStore("ttsStore", {
             }
             fs.writeFileSync(filePath, buffer);
             this.setDoneStatus(item.filePath);
+            this.addHistory(datastr);
             doneCount++;
           } catch (error) {
             console.error(error);
@@ -622,6 +642,50 @@ export const useTtsStore = defineStore("ttsStore", {
     },
     showItemInFolder(filePath: string) {
       ipcRenderer.send("showItemInFolder", filePath);
+    },
+    // Semáforo de APIs sin gastar cuota (ver electron/utils/health.ts).
+    async refreshHealth() {
+      this.healthChecking = true;
+      try {
+        const report: any = await ipcRenderer.invoke("health");
+        this.apiHealth = report;
+      } catch (err) {
+        console.error(err);
+      }
+      this.healthChecking = false;
+    },
+    // Historial local (max 30): texto capado para reusar.
+    loadHistory() {
+      try {
+        const h = store.get("history");
+        this.history = Array.isArray(h) ? h : [];
+      } catch (e) {
+        this.history = [];
+      }
+    },
+    addHistory(text: string) {
+      try {
+        const entry = {
+          time: Date.now(),
+          text: String(text || "").slice(0, 2000),
+          chars: String(text || "").length,
+          voice: this.formConfig.voiceSelect,
+        };
+        this.history.unshift(entry);
+        this.history = this.history.slice(0, 30);
+        store.set("history", this.history);
+      } catch (e) {
+        console.error(e);
+      }
+    },
+    reuseHistory(item: any) {
+      this.inputs.inputValue = item.text;
+      this.setSSMLValue();
+      this.page.asideIndex = "1";
+    },
+    clearHistory() {
+      this.history = [];
+      store.set("history", []);
     },
     // Modal de ayuda de cuota (paso a paso con hipervinculos): aparece SIEMPRE
     // que el fallo es por 429/403. Sin interruptor.

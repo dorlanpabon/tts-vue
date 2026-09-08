@@ -133,8 +133,7 @@
       <ConfigPage></ConfigPage>
     </div>
     <div class="main-config-page" v-if="page.asideIndex == '4'">
-      <iframe class="doc-frame" src="https://loker-page.lgwawork.com/home.html">
-      </iframe>
+      <GuiaLocal />
     </div>
   </div>
 </template>
@@ -144,6 +143,7 @@ import { useI18n } from 'vue-i18n';
 import i18n from '@/assets/i18n/i18n';
 import MainOptions from "./MainOptions.vue";
 import ConfigPage from "../configpage/ConfigPage.vue";
+import GuiaLocal from "../aside/GuiaLocal.vue";
 import { ElButton, ElDialog } from 'element-plus'
 
 import { ref, watch } from "vue";

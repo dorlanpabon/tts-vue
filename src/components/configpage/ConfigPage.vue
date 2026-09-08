@@ -149,6 +149,25 @@
             @change="updateTitleStyle"
           />
         </el-form-item>
+        <el-form-item :label="t('configPage.darkMode')">
+          <el-switch
+            v-model="config.darkMode"
+            :active-text="t('configPage.yes')"
+            :inactive-text="t('configPage.no')"
+            inline-prompt
+            @change="updateDarkMode"
+          />
+        </el-form-item>
+        <el-form-item :label="t('health.title')">
+          <div class="health-rows">
+            <div v-for="row in healthRows" :key="row.key" class="health-row">
+              <span class="health-name">{{ row.name }}</span>
+              <el-tag :type="row.tag" size="small">{{ row.status }}</el-tag>
+              <span class="health-detail">{{ row.detail }}</span>
+            </div>
+            <el-button size="small" :loading="healthChecking" @click="refreshHealth">{{ t('health.refresh') }}</el-button>
+          </div>
+        </el-form-item>
         <el-form-item :label="t('configPage.auditionText')">
           <el-input v-model="config.audition" size="small" class="input-path">
             <template #append>
@@ -203,6 +222,30 @@
             </el-table-column>
           </el-table>
         </el-form-item>
+        <el-form-item :label="t('history.title')">
+          <el-table
+            :data="history"
+            style="width: 100%"
+            height="180"
+            :empty-text="t('history.empty')"
+          >
+            <el-table-column :label="t('history.time')" width="150">
+              <template #default="scope">
+                {{ new Date(scope.row.time).toLocaleString() }}
+              </template>
+            </el-table-column>
+            <el-table-column prop="voice" :label="t('history.voice')" show-overflow-tooltip />
+            <el-table-column prop="chars" :label="t('history.chars')" width="90" />
+            <el-table-column :label="t('configPage.action')" width="110">
+              <template #default="scope">
+                <el-button size="small" @click="reuseHistoryItem(scope.row)">{{ t('history.reuse') }}</el-button>
+              </template>
+            </el-table-column>
+          </el-table>
+          <div style="margin-top: 4px;">
+            <el-button size="small" type="danger" @click="clearHistoryAll">{{ t('history.clear') }}</el-button>
+          </div>
+        </el-form-item>
         <el-form-item class="btns">
           <el-button type="primary" @click="ipcRenderer.send('reload')"
             ><el-icon><Refresh /></el-icon>{{ t('configPage.refreshConfig') }}</el-button
@@ -237,6 +280,7 @@ import Donate from "./Donate.vue";
 import { useI18n } from 'vue-i18n';
 import i18n from "@/assets/i18n/i18n";
 import { AI_PROVIDER_BASE_URLS } from "@/types/prompGPT";
+import { OPENROUTER_FREE_MODELS, ZEN_FREE_MODELS } from "@/global/aiModels";
 import { computed } from "vue";
 const { t } = useI18n();  
 
@@ -246,7 +290,41 @@ const Store = require("electron-store");
 const store = new Store();
 
 const ttsStore = useTtsStore();
-const { config } = storeToRefs(ttsStore);
+const { config, apiHealth, healthChecking, history } = storeToRefs(ttsStore);
+
+const healthRows = computed(() => {
+  const defs = [
+    { key: 'speech', name: 'Microsoft' },
+    { key: 'edge', name: 'Edge' },
+    { key: 'openrouter', name: 'OpenRouter' },
+    { key: 'zen', name: 'OpenCode Zen' },
+  ];
+  return defs.map((d) => {
+    const h: any = (apiHealth.value as any)[d.key];
+    if (!h) {
+      return { ...d, tag: 'info', status: t('health.checking'), detail: '' };
+    }
+    return {
+      ...d,
+      tag: h.ok ? 'success' : 'danger',
+      status: h.ok ? t('health.ok') : t('health.fail'),
+      detail: h.ms != null ? `${h.detail} · ${h.ms}ms` : h.detail,
+    };
+  });
+});
+
+const refreshHealth = () => {
+  ttsStore.refreshHealth();
+};
+
+const reuseHistoryItem = (row: any) => {
+  ttsStore.reuseHistory(row);
+  successMessage();
+};
+
+const clearHistoryAll = () => {
+  ttsStore.clearHistory();
+};
 
 
 const languages = [
@@ -269,30 +347,16 @@ const aiBaseUrlPlaceholder = computed(() => {
   return AI_PROVIDER_BASE_URLS[config.value.aiProvider] || AI_PROVIDER_BASE_URLS.openai;
 });
 
-// Modelos OpenAI vigentes + gratuitos de OpenRouter (verificados $0/$0 vía API).
-// El desplegable permite crear/escribir otros (rotan los :free).
+// Modelos OpenAI vigentes + gratuitos verificados (ver src/global/aiModels.ts).
+// El desplegable permite crear/escribir otros (los :free rotan).
 const gptModelGroups = [
   {
     label: 'OpenCode Zen (gratis)',
-    items: [
-      { label: 'MiMo V2.5 (gratis)', value: 'mimo-v2.5-free'},
-      { label: 'Ling 3.0 Flash Fin (gratis)', value: 'ling-3.0-flash-fin-free'},
-      { label: 'Nemotron 3 Ultra (gratis)', value: 'nemotron-3-ultra-free'},
-      { label: 'Nemotron 3.5 Lightning (gratis)', value: 'nemotron-3.5-lightning-free'},
-    ],
+    items: ZEN_FREE_MODELS.map((m) => ({ label: m.label, value: m.id })),
   },
   {
     label: 'OpenRouter (gratis)',
-    items: [
-      { label: 'Gemma 4 31B (gratis)', value: 'google/gemma-4-31b-it:free'},
-      { label: 'Nemotron 3 Super (gratis)', value: 'nvidia/nemotron-3-super-120b-a12b:free'},
-      { label: 'Nemotron 3 Ultra (gratis)', value: 'nvidia/nemotron-3-ultra-550b-a55b:free'},
-      { label: 'Nemotron 3.5 Lightning (gratis)', value: 'nvidia/nemotron-3.5-lightning:free'},
-      { label: 'MiniMax M3 (gratis)', value: 'minimax/minimax-m3:free'},
-      { label: 'MiniMax M2.7 (gratis)', value: 'minimax/minimax-m2.7:free'},
-      { label: 'Inkling (gratis)', value: 'thinkingmachines/inkling:free'},
-      { label: 'Inkling Small (gratis)', value: 'thinkingmachines/inkling-small:free'},
-    ],
+    items: OPENROUTER_FREE_MODELS.map((m) => ({ label: m.label, value: m.id })),
   },
   {
     label: 'OpenAI',
@@ -380,6 +444,11 @@ const updateNotificationChange = () => {
 
 const updateTitleStyle = () => {
   ttsStore.updateTitleStyle();
+  successMessage();
+};
+
+const updateDarkMode = () => {
+  ttsStore.updateDarkMode();
   successMessage();
 };
 
@@ -498,6 +567,25 @@ const setRetryInterval = () => {
 }
 .ai-hint:hover {
   text-decoration: underline;
+}
+.health-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+.health-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+.health-name {
+  min-width: 90px;
+  font-weight: 500;
+}
+.health-detail {
+  color: #909399;
 }
 .btns {
   width: 100%;

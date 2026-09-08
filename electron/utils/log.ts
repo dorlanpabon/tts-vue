@@ -2,7 +2,7 @@ import logger from "electron-log";
 import { app } from "electron";
 
 logger.transports.file.level = "debug";
-logger.transports.file.maxSize = 1002430; // 10M
+logger.transports.file.maxSize = 5 * 1024 * 1024; // 5 MB por archivo, rota a .old.log
 logger.transports.file.format =
   "[{y}-{m}-{d} {h}:{i}:{s}.{ms}] [{level}]{scope} {text}";
 const date = new Date();

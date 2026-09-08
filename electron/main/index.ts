@@ -1,9 +1,10 @@
-import { app, BrowserWindow, shell, ipcMain, dialog } from "electron";
+import { app, BrowserWindow, shell, ipcMain, dialog, globalShortcut } from "electron";
 import { release } from "os";
 import { join } from "path";
 import api from "../utils/api";
 import edgeApi from "../utils/edge-api";
 import azureApi from "../utils/azure-api";
+import healthCheck from "../utils/health";
 import logger from "../utils/log";
 import { gptApi } from "../utils/gpt-api";
 import { autoUpdater } from "electron-updater";
@@ -107,6 +108,20 @@ app.whenReady().then(() => {
   });
 });
 
+app.whenReady().then(() => {
+  // F9: mostrar/traer la ventana al frente.
+  globalShortcut.register("F9", () => {
+    if (win) {
+      if (win.isMinimized()) win.restore();
+      win.focus();
+    }
+  });
+});
+
+app.on("will-quit", () => {
+  globalShortcut.unregisterAll();
+});
+
 app.on("window-all-closed", () => {
   win = null;
   if (process.platform !== "darwin") app.quit();
@@ -207,6 +222,10 @@ ipcMain.handle("edgeApi", async (event, ssml) => {
 ipcMain.handle("azureApi", async (event, ssml, key, region) => {
   const res = azureApi(ssml, key, region)
   return res;
+});
+
+ipcMain.handle("health", async () => {
+  return healthCheck();
 });
 //  const result = await ipcRenderer.invoke("promptGPT", promptGPT, model, key);
 ipcMain.handle("promptGPT", async (event, promptGPT, model, key, baseURL) => {

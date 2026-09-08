@@ -11,6 +11,8 @@ const ttsStore = useTtsStore();
 ttsStore.genFormConfig();
 ttsStore.setSSMLValue();
 ttsStore.showDisclaimers();
+ttsStore.loadHistory();
+ttsStore.refreshHealth();
 </script>
 
 <template>
@@ -77,5 +79,28 @@ body {
 }
 .el-button {
   -webkit-app-region: no-drag;
+}
+/* Modo oscuro: paneles propios (Element Plus usa sus css-vars con .dark) */
+.dark .app {
+  background-color: #0a0a0a;
+  border-color: #4c4c4c;
+}
+.dark .header {
+  background-color: #141414;
+}
+.dark .aside,
+.dark .options,
+.dark .footer,
+.dark .main-config-page,
+.dark .fork-card {
+  background-color: #141414;
+  border-color: #4c4c4c;
+  color: #e5e5e5;
+}
+.dark .q-ex {
+  background-color: #2a2a2a;
+}
+.dark .health-detail {
+  color: #a8abb2;
 }
 </style>

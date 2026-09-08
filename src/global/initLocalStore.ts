@@ -2,6 +2,7 @@
 // const { t } = useI18n();  
 import i18n from '@/assets/i18n/i18n';
 import { voices } from './voices';
+import { hasSecret } from './secrets';
 const Store = require("electron-store");
 const store = new Store();
 const { ipcRenderer } = require("electron");
@@ -109,12 +110,18 @@ export default async function initStore() {
   if (!store.has("retryInterval")) {
     store.set("retryInterval", 3);
   }
+  if (!store.has("history")) {
+    store.set("history", []);
+  }
   // Proveedor IA: respeta a usuarios con clave OpenAI; nuevos van a OpenRouter (gratis).
   if (!store.has("aiProvider")) {
-    store.set("aiProvider", store.get("openAIKey") ? "openai" : "openrouter");
+    store.set("aiProvider", hasSecret("openAIKey") ? "openai" : "openrouter");
   }
   if (!store.has("aiBaseUrl")) {
     store.set("aiBaseUrl", "");
+  }
+  if (!store.has("darkMode")) {
+    store.set("darkMode", false);
   }
   // Modelo por defecto: gratis de OpenRouter para nuevos, o gpt-4o-mini en OpenAI.
   if (!store.has("gptModel")) {

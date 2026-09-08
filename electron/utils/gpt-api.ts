@@ -1,43 +1,6 @@
 import OpenAI from 'openai';
 import logger from "../utils/log";
-
-// Modelos :free (verificados $0) para reintento automatico cuando el
-// elegido falla por el lado del proveedor. Mismo orden que el desplegable.
-const FREE_FALLBACK_MODELS = [
-    "google/gemma-4-31b-it:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "nvidia/nemotron-3.5-lightning:free",
-    "minimax/minimax-m3:free",
-    "minimax/minimax-m2.7:free",
-    "thinkingmachines/inkling:free",
-    "thinkingmachines/inkling-small:free",
-];
-
-// Gratis de OpenCode Zen (chat/completions, verificados Free/Free en docs).
-// Requieren API key de opencode.ai/auth.
-const ZEN_FREE_FALLBACK_MODELS = [
-    "mimo-v2.5-free",
-    "ling-3.0-flash-fin-free",
-    "nemotron-3-ultra-free",
-    "nemotron-3.5-lightning-free",
-];
-
-// true si el fallo es del proveedor (nunca de la clave): 404 modelo rotado,
-// 429 limite, 402, 5xx, "Provider returned error", saturacion. 401 no entra.
-function isProviderSideError(error: any): boolean {
-    const s = String((error && (error as any).message) || error);
-    if (/(^|[^0-9])401([^0-9]|$)/.test(s) || /unauthorized|authentication/i.test(s)) {
-        return false;
-    }
-    return (
-        /(^|[^0-9])404([^0-9]|$)/.test(s) ||
-        /(^|[^0-9])429([^0-9]|$)/.test(s) ||
-        /(^|[^0-9])402([^0-9]|$)/.test(s) ||
-        /(^|[^0-9])5[0-9]{2}([^0-9]|$)/.test(s) ||
-        /provider returned error|overloaded|capacity|no endpoints|rate.?limit|payment|credits|insufficient/i.test(s)
-    );
-}
+import { pickFreeFallback } from "../../src/global/aiModels";
 
 async function complete(openai: any, model: string, promptGPT: string) {
     const chatCompletion = await openai.chat.completions.create({
@@ -65,18 +28,8 @@ const gptApi = async (promptGPT: string, model: string, key: string, baseURL?: s
     try {
         return await complete(openai, model, promptGPT);
     } catch (firstError) {
-        // Solo modelos gratis (sufijos :free de OpenRouter y -free de Zen)
-        // y solo en su proveedor: un reintento con otro gratis.
-        // Jamas se rotan modelos de pago (sorpresa en factura).
-        const isZen = resolvedBaseURL.includes("opencode.ai/zen");
-        const isOpenRouter = resolvedBaseURL.includes("openrouter");
-        const canFallback =
-            /[:-]free$/.test(model || "") &&
-            (isZen || isOpenRouter) &&
-            isProviderSideError(firstError);
-        if (!canFallback) throw firstError;
-        const pool = isZen ? ZEN_FREE_FALLBACK_MODELS : FREE_FALLBACK_MODELS;
-        const next = pool.find((m) => m !== model);
+        // Un reintento con otro gratis (nunca modelos de pago).
+        const next = pickFreeFallback(model, resolvedBaseURL, firstError);
         if (!next) throw firstError;
         logger.info(`free model ${model} failed, fallback to ${next}`);
         return await complete(openai, next, promptGPT);
