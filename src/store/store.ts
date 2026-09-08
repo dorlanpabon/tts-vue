@@ -10,7 +10,7 @@ const { t } = i18n.global;
 const fs = require("fs");
 const path = require("path");
 const Store = require("electron-store");
-const { ipcRenderer, shell } = require("electron");
+const { ipcRenderer } = require("electron");
 const ffmpeg = require("fluent-ffmpeg");
 const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const { Readable } = require('stream');
@@ -82,7 +82,7 @@ function gptErrorMessage(err: any): string {
 }
 
 // Guia oficial de inicio rapido de Text-to-Speech, en el idioma de la UI.
-function azureGuideUrl(): string {
+export function azureGuideUrl(): string {
   const loc = String((i18n.global.locale as any).value || "es");
   if (loc.startsWith("zh")) {
     return "https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/get-started-text-to-speech";
@@ -132,7 +132,7 @@ export const useTtsStore = defineStore("ttsStore", {
         aiBaseUrl: store.get("aiBaseUrl"),
       },
       isLoading: false,
-      quotaDialogOpen: false,
+      quotaHelpVisible: false,
       currMp3Buffer: Buffer.alloc(0),
       currMp3Url: "",
       audioPlayer: null,
@@ -669,26 +669,11 @@ export const useTtsStore = defineStore("ttsStore", {
     showItemInFolder(filePath: string) {
       ipcRenderer.send("showItemInFolder", filePath);
     },
-    // Modal de ayuda de cuota (con guia de Azure): aparece SIEMPRE que el
-    // fallo es por 429/403. Sin interruptor. Evita duplicados en lote.
+    // Modal de ayuda de cuota (paso a paso con hipervinculos): aparece SIEMPRE
+    // que el fallo es por 429/403. Sin interruptor.
     showQuotaHelpOrMessage(err: any, fallbackKey = "messages.convertFailed") {
       if (isQuotaError(err)) {
-        if (this.quotaDialogOpen) return;
-        this.quotaDialogOpen = true;
-        ElMessageBox.confirm(
-          t("messages.quotaHelpText"),
-          t("messages.quotaHelpTitle"),
-          {
-            confirmButtonText: t("messages.openAzureGuide"),
-            cancelButtonText: t("buttons.cancel"),
-            type: "warning",
-          }
-        ).then(() => {
-          this.quotaDialogOpen = false;
-          shell.openExternal(azureGuideUrl());
-        }).catch(() => {
-          this.quotaDialogOpen = false;
-        });
+        this.quotaHelpVisible = true;
       } else {
         ElMessage({
           message: ttsErrorMessage(err, fallbackKey),

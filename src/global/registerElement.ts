@@ -17,6 +17,7 @@ import {
   ElUpload,
   ElDialog,
   ElDivider,
+  ElLink,
   ElSwitch,
   ElPopover,
   ElDropdown,
@@ -56,6 +57,7 @@ const components = [
   ElUpload,
   ElDialog,
   ElSwitch,
+  ElLink,
   ElPopover,
   ElDivider,
 

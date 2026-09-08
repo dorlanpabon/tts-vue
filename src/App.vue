@@ -6,6 +6,7 @@ import Header from "./components/header/Header.vue";
 import Aside from "./components/aside/Aside.vue";
 import Main from "./components/main/Main.vue";
 import Footer from "./components/footer/Footer.vue";
+import QuotaHelpDialog from "./components/quota/QuotaHelpDialog.vue";
 const ttsStore = useTtsStore();
 ttsStore.genFormConfig();
 ttsStore.setSSMLValue();
@@ -24,6 +25,7 @@ ttsStore.showDisclaimers();
         </el-container>
       </el-container>
     </el-container>
+    <QuotaHelpDialog />
   </div>
 </template>
 
