@@ -139,8 +139,8 @@ const messages = {
       Narrator: "Narrator"
     },
     main: {
-      titleGenerateTextGPT: "Generate Text with GPT",
-      descriptionGenerateTextGPT: "Generate text with GPT-3 or GPT-4, the most powerful AI model in the world.",
+      titleGenerateTextGPT: "Generate Text with AI",
+      descriptionGenerateTextGPT: "Generate text with AI using the provider and model set in Settings (free models available).",
       placeholderGPT: "Please enter the prompt text",
       action: "Action",
       textTab: "Text",
@@ -206,6 +206,8 @@ const messages = {
       transcodeFailed: "Transcoding failed: ",
       gptSuccess: "Response received!",
       gptFailed: "GPT request failed",
+      gptNoKey: "Missing key: set it in Settings → AI API Key (free at openrouter.ai/keys).",
+      gptBadKey: "Key rejected (401): check it in Settings → AI API Key.",
       quotaHelpTitle: "Free quota exhausted",
       quotaHelpText: "Microsoft's free API is rate-limited (429/403, resets every ~24h) and Edge refuses the connection. The reliable path is your own Azure Speech key (free F0 tier: 500,000 chars/month). Create it for free, paste it in Settings → SpeechKey + ServiceRegion and switch Interface to Azure Speech API.",
       openAzureGuide: "Open Azure guide"
@@ -522,8 +524,8 @@ const messages = {
       Narrator: "Narrador"
     },
     main: {
-      titleGenerateTextGPT: "Genera Texto con GPT",
-      descriptionGenerateTextGPT: "Genera texto con GPT-3 o GPT-4, el modelo de IA más potente del mundo.",
+      titleGenerateTextGPT: "Generar Texto con IA",
+      descriptionGenerateTextGPT: "Genera texto con IA usando el proveedor y modelo configurados en Ajustes (hay modelos gratis).",
       placeholderGPT: "Por favor ingrese el texto de la sugerencia",
       action: "Acción",
       textTab: "Texto",
@@ -589,6 +591,8 @@ const messages = {
       transcodeFailed: "Falló la transcodificación: ",
       gptSuccess: "¡Respuesta recibida!",
       gptFailed: "Falló la petición a GPT",
+      gptNoKey: "Falta la clave: configúrala en Ajustes → Clave API IA (gratis en openrouter.ai/keys).",
+      gptBadKey: "Clave rechazada (401): revísala en Ajustes → Clave API IA.",
       quotaHelpTitle: "Cuota gratuita agotada",
       quotaHelpText: "La API gratuita de Microsoft está limitada (429/403, se renueva cada ~24 h) y Edge rechaza la conexión. La vía fiable es tu propia clave de Azure Speech (nivel gratuito F0: 500.000 caracteres/mes). Créala gratis, pégala en Ajustes → SpeechKey + ServiceRegion y cambia la Interfaz a Azure Speech API.",
       openAzureGuide: "Abrir guía de Azure"
@@ -906,7 +910,7 @@ const messages = {
     },
     main: {
       titleGenerateTextGPT: "生成文本GPT",
-      descriptionGenerateTextGPT: "使用GPT-3或GPT-4，世界上最强大的AI模型，生成文本。",
+      descriptionGenerateTextGPT: "使用“设置”中配置的提供商和模型生成文本（有免费模型）。",
       placeholderGPT: "请输入提示文本",
       action: "操作",
       textTab: "文本",
@@ -972,6 +976,8 @@ const messages = {
       transcodeFailed: "转码失败：",
       gptSuccess: "Response Success!",
       gptFailed: "GPT 请求失败",
+      gptNoKey: "缺少密钥：请在设置 → AI API Key 中配置（可在 openrouter.ai/keys 免费获取）。",
+      gptBadKey: "密钥被拒绝 (401)：请检查设置 → AI API Key。",
       quotaHelpTitle: "免费配额已用完",
       quotaHelpText: "微软免费接口限流（429/403，约24小时恢复），Edge 连接被拒绝。可靠方案是使用自己的 Azure Speech 密钥（免费 F0：每月50万字符）。免费创建后填入设置 → SpeechKey + ServiceRegion，并将接口切换为 Azure Speech API。",
       openAzureGuide: "打开 Azure 指南"

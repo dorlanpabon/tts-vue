@@ -65,6 +65,22 @@ function isQuotaError(err: any): boolean {
   return isQuotaError429(err) || isQuotaError403(err);
 }
 
+// Limpia prefijos tecnicos de errores IPC/SDK para mostrarlos en la UI.
+function cleanGptError(err: any): string {
+  return String((err && (err as any).message) || err)
+    .replace(/^Error invoking remote method '[^']+':\s*/, "")
+    .replace(/^Error:\s*/, "");
+}
+
+// Mensaje localizado para fallos de IA (sin texto tecnico crudo).
+function gptErrorMessage(err: any): string {
+  const s = String((err && (err as any).message) || err);
+  if (/(^|[^0-9])401([^0-9]|$)/.test(s) || /unauthorized|authentication/i.test(s)) {
+    return t("messages.gptBadKey");
+  }
+  return `${t("messages.gptFailed")}\n${cleanGptError(err)}`;
+}
+
 // Guia oficial de inicio rapido de Text-to-Speech, en el idioma de la UI.
 function azureGuideUrl(): string {
   const loc = String((i18n.global.locale as any).value || "es");
@@ -238,6 +254,16 @@ export const useTtsStore = defineStore("ttsStore", {
         this.config.aiBaseUrl ||
         AI_PROVIDER_BASE_URLS[this.config.aiProvider] ||
         AI_PROVIDER_BASE_URLS.openai;
+      // Sin clave (salvo endpoint local) no se llama: mensaje claro en vez
+      // del 401 crudo ("Missing Authentication header").
+      if (this.config.aiProvider !== "custom" && !this.config.openAIKey) {
+        ElMessage({
+          message: t("messages.gptNoKey"),
+          type: "warning",
+          duration: 5000,
+        });
+        return;
+      }
       await getDataGPT(
         {
           promptGPT: promptGPT,
@@ -262,9 +288,9 @@ export const useTtsStore = defineStore("ttsStore", {
         .catch((err: any) => {
           console.error(err);
           ElMessage({
-            message: ttsErrorMessage(err, "messages.gptFailed"),
+            message: gptErrorMessage(err),
             type: "error",
-            duration: 3000,
+            duration: 5000,
           });
         });
     },

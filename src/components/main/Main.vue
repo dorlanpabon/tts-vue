@@ -35,12 +35,12 @@
     </el-dialog> -->
   
     <el-dialog v-model="dialogVisible" :title="t('main.titleGenerateTextGPT')" width="440px" draggable style="padding: 0px !important;">
-      <div style="padding: 0 10px;">
-        <el-tag type="info" size="small">{{ config.aiProvider }} · {{ config.gptModel }}</el-tag>
+      <div class="gpt-head">
+        <el-tag type="info" size="small" class="gpt-tag">{{ config.aiProvider }} · {{ config.gptModel }}</el-tag>
+        <p class="gpt-desc">{{ t('main.descriptionGenerateTextGPT') }}</p>
       </div>
-      <span>{{ t('main.descriptionGenerateTextGPT') }}</span>
-      <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 10px; gap: 8px;">
-        <el-input v-model="modalInput" :placeholder="t('main.placeholderGPT')" @keyup.enter="sendToChatGPT"></el-input>
+      <div class="gpt-row">
+        <el-input v-model="modalInput" type="textarea" :autosize="{ minRows: 2, maxRows: 5 }" :placeholder="t('main.placeholderGPT')" @keyup.enter="sendToChatGPT"></el-input>
         <el-button type="primary" :loading="gptLoading" @click="sendToChatGPT"><el-icon><ChatLineSquare /></el-icon></el-button>
       </div>
     </el-dialog>
@@ -310,6 +310,29 @@ const openInFolder = (val: any) => {
   width: 100%;
   height: 100%;
   border: medium none;
+}
+.gpt-head {
+  padding: 0 12px;
+}
+.gpt-tag {
+  max-width: 100%;
+  white-space: normal;
+  height: auto;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.gpt-desc {
+  margin: 0 0 4px 0;
+  font-size: 13px;
+  color: #606266;
+  line-height: 1.5;
+}
+.gpt-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 10px 12px 12px 12px;
+  gap: 8px;
 }
 
 .my-header {
